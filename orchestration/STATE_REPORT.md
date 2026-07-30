@@ -1,8 +1,8 @@
 # STATE_REPORT
 
 **Date:** 2026-07-31  
-**Main (pre-PR):** `7b25119` · **v0.6.2** (Phase 5 WS2 complete)  
-**This PR:** Phase 5 **WS3 Hardware & Chipset Ecosystem** → **v0.6.3** when merged  
+**Main (pre-PR):** `aaa36ab` · **v0.6.3** (Phase 5 WS3 complete)  
+**This PR:** Phase 5 **WS4 Comparative Analysis** → **v0.6.4** when merged  
 
 ## Phase status
 
@@ -12,7 +12,7 @@
 | 2 | Nearly complete (Art. 12/47 residual) |
 | 3 | Complete |
 | 4 | Complete (v0.6.0) |
-| 5 | **In progress** (WS1–WS2 complete; WS3 this PR) |
+| 5 | **In progress** (WS1–WS3 complete; WS4 this PR) |
 | 6–10 | Pending |
 
 ## Phase 5
@@ -21,27 +21,29 @@
 |----|--------|
 | 1 Manufacturers (OEM policies) | **Complete** (v0.6.1, PR #26) |
 | 2 Android Ecosystem | **Complete** (v0.6.2, PR #27) |
-| 3 Hardware & Chipset Ecosystem | **Complete (this PR)** |
-| 4+ | Not started |
+| 3 Hardware & Chipset Ecosystem | **Complete** (v0.6.3, PR #28) |
+| 4 Comparative Analysis | **Complete (this PR)** |
+| 5+ | Not started |
 
-## Knowledge graph (WS3)
+## Knowledge graph (WS4)
 
 | Node | Location |
 |------|----------|
-| Hardware ecosystem notes | `research/hardware-ecosystem/*.md` |
-| Domain index | `research/hardware-ecosystem/README.md` |
+| Comparative analysis notes | `research/comparative-analysis/*.md` |
+| Domain index | `research/comparative-analysis/README.md` |
 | Research index | `research/README.md` |
-| Matrices / reports | `research/hardware-ecosystem/HARDWARE_*` etc. |
-| Workstream report | `PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md` |
-| Gate++ | `orchestration/PHASE_05_WS3_GATE_REPORT.md` |
-| Cross-links | `research/android-ecosystem/` · `research/manufacturers/` |
+| Matrices / reports | `research/comparative-analysis/COMPARATIVE_*` |
+| Workstream report | `PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md` |
+| Gate++ | `orchestration/PHASE_05_WS4_GATE_REPORT.md` |
+| Inputs (read-only) | `research/manufacturers/` · `research/android-ecosystem/` · `research/hardware-ecosystem/` |
+| Prior WS reports | `PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md` · `PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md` · `PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md` |
 
 ## Gate++
 
-**PASS** — see `orchestration/PHASE_05_WS3_GATE_REPORT.md`
+**PASS** — see `orchestration/PHASE_05_WS4_GATE_REPORT.md`
 
 ## Next after merge + auth
 
-Further Phase 5 work only with new authorisation. **Do not auto-start WS4.**
+Further Phase 5 work only with new authorisation. **Do not auto-start WS5.**
 
 ---

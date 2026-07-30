@@ -146,9 +146,9 @@
 
 ## Phase 5 — Manufacturers & Technical Baseline
 
-**Status:** **In progress** — WS1 complete (v0.6.1); WS2 complete (v0.6.2); WS3 hardware ecosystem (v0.6.3 when merged); further WS not auto-started  
+**Status:** **In progress** — WS1 complete (v0.6.1); WS2 complete (v0.6.2); WS3 complete (v0.6.3); WS4 comparative analysis (v0.6.4 when merged); further WS not auto-started  
 
-**Objective:** Evidence-grade OEM policy dossier + technical lifecycle literacy.  
+**Objective:** Evidence-grade OEM policy dossier + technical lifecycle literacy + descriptive comparative synthesis.  
 
 **Spec:** [`PHASE_05_SPECIFICATION.md`](PHASE_05_SPECIFICATION.md)
 
@@ -156,7 +156,8 @@
 
 - **WS1 (complete):** OEM published policies — Google, Samsung, Apple, Nothing, Motorola, OnePlus, Xiaomi, realme, vivo, Oppo, Honor, Sony, Nokia/HMD, ASUS, Lenovo  
 - **WS2 (complete):** Android ecosystem — AOSP, Mainline, Play System Updates, ASB, CDD/CTS/VTS, GMS, Treble, GKI, OTA architecture, Verified Boot, Play Integrity  
-- **WS3 (this package):** Hardware & chipset — LTS, ACK, GKI, KMI, BSP, firmware, TEE, Qualcomm/MediaTek/Tensor/Exynos/UNISOC  
+- **WS3 (complete):** Hardware & chipset — LTS, ACK, GKI, KMI, BSP, firmware, TEE, Qualcomm/MediaTek/Tensor/Exynos/UNISOC  
+- **WS4 (this package):** Comparative analysis of WS1–WS3 only — **no new research**  
 - OS vs security update distinction  
 - Capture date protocol  
 - Residual: iOS observational model / further technical notes as later authorised  
@@ -166,6 +167,7 @@
 - OEM comparison matrices under `research/manufacturers/`  
 - Android ecosystem matrices under `research/android-ecosystem/`  
 - Hardware ecosystem matrices under `research/hardware-ecosystem/`  
+- Comparative matrices under `research/comparative-analysis/`  
 - Uncertainty log for SKU-level variance  
 
 **Depends on:** Phase 1  

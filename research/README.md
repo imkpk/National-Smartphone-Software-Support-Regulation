@@ -25,6 +25,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `manufacturers/` | OEM software support policies | 5 — **WS1 complete** |
 | `android-ecosystem/` | AOSP / Mainline / ASB / CDD / GKI / OTA architecture | 5 — **WS2 complete** |
 | `hardware-ecosystem/` | LTS / ACK / GKI / KMI / BSP / SoC / firmware / TEE | 5 — **WS3 complete** |
+| `comparative-analysis/` | Descriptive synthesis of WS1–WS3 (no new research) | 5 — **WS4 complete** |
 | `technical/` | Further technical baseline (residual) | 5 — pending |
 | `cybersecurity/` | Cyber risk pathways | 6 — pending |
 | `environment/` | E-waste / environment | 6 — pending |
@@ -50,7 +51,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 
 ## Phase status
 
-**Phase 4 Complete (v0.6.0).** Phase 5 **in progress**: WS1 manufacturers ([`manufacturers/`](manufacturers/)); WS2 Android ecosystem ([`android-ecosystem/`](android-ecosystem/)); WS3 hardware ecosystem ([`hardware-ecosystem/`](hardware-ecosystem/)); further residual pending. Spec: [`../PHASE_05_SPECIFICATION.md`](../PHASE_05_SPECIFICATION.md). Reports: [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md) · [`../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md) · [`../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md).
+**Phase 4 Complete (v0.6.0).** Phase 5 **in progress**: WS1 manufacturers ([`manufacturers/`](manufacturers/)); WS2 Android ecosystem ([`android-ecosystem/`](android-ecosystem/)); WS3 hardware ecosystem ([`hardware-ecosystem/`](hardware-ecosystem/)); WS4 comparative analysis ([`comparative-analysis/`](comparative-analysis/)); further residual pending. Spec: [`../PHASE_05_SPECIFICATION.md`](../PHASE_05_SPECIFICATION.md). Reports: [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md) · [`../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md) · [`../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md) · [`../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md).
 
 ---
-*Updated Phase 5 WS3 2026-07-31*
+*Updated Phase 5 WS4 2026-07-31*

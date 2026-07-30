@@ -13,7 +13,26 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Further Phase 5 workstreams after WS3 — not auto-started  
+- Further Phase 5 workstreams after WS4 — not auto-started  
+
+---
+
+## [0.6.4] — 2026-07-31
+
+### Added — Phase 5 Workstream 4: Comparative Analysis
+
+- `research/comparative-analysis/` — synthesis notes (WS1–WS3 evidence only; **no new research**)  
+- Manufacturer / Android / chipset / software-update / security / OS / platform-dependency / lifecycle / terminology / evidence cross-reference matrices  
+- COMPARATIVE_* coverage, source, citation, validation, consistency, cross-reference reports  
+- Negative finding: no single unified multi-year support floor across product, platform, and hardware layers  
+- `PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md`  
+- Gate++: `orchestration/PHASE_05_WS4_GATE_REPORT.md` → **PASS**  
+
+### Changed
+
+- `PHASE_05_SPECIFICATION.md` — WS4 defined; WS1–WS3 marked complete  
+- README / TASKS / ROADMAP / research/README / STATE_REPORT for WS4  
+- Phase 5 **not** complete; WS5 **not** started  
 
 ---
 
