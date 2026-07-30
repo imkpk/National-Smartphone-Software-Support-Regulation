@@ -5,7 +5,7 @@
 **Rules:** [`VALIDATION.md`](VALIDATION.md) · [`CITATION_POLICY.md`](CITATION_POLICY.md)
 
 > Check a box in the phase file only when the work is complete and validation rules are satisfied.  
-> **Phase 3 WS1 (SC) + WS2 (HC) + WS3 (Regulators) complete.** Phase 3 formal close still open. Phase 4+ not started.
+> **Phase 3 WS1–WS4 complete** (SC, HC, regulators, committees/Law Commission). Phase 3 formal close still open. Phase 4+ not started.
 
 ---
 
@@ -28,7 +28,7 @@
 | 0 | [`tasks/phase-00.md`](tasks/phase-00.md) | Complete | 30 | 0 | 30 |
 | 1 | [`tasks/phase-01.md`](tasks/phase-01.md) | Complete (framework) | 55 | 0 | 55 |
 | 2 | [`tasks/phase-02.md`](tasks/phase-02.md) | **Nearly complete** (statutes done; Art. 12/47 residual) | 47 | 2 | 49 |
-| 3 | [`tasks/phase-03.md`](tasks/phase-03.md) | **In progress** (WS1–WS3 done; formal close open) | 34 | 0 | 34 |
+| 3 | [`tasks/phase-03.md`](tasks/phase-03.md) | **In progress** (WS1–WS4 done; formal close open) | 34 | 0 | 34 |
 | 4 | [`tasks/phase-04.md`](tasks/phase-04.md) | Pending | 0 | 24 | 24 |
 | 5 | [`tasks/phase-05.md`](tasks/phase-05.md) | Pending | 0 | 68 | 68 |
 | 6 | [`tasks/phase-06.md`](tasks/phase-06.md) | Pending | 0 | 24 | 24 |
@@ -43,8 +43,8 @@
 ## What to work on next
 
 1. Do **not** start Phase 9 without PM approval in `CHANGELOG.md`.  
-2. **Phase 3 WS1–WS3 done** — SC, HC, regulators (`research/judgments/`, `research/regulators/`).  
-3. Next (when authorised): Phase 3 formal close and/or Phase 4+ (OEM, comparative, etc.) — **not auto-started**.  
+2. **Phase 3 WS1–WS4 done** — SC, HC, regulators, committees/Law Commission (`research/judgments/`, `research/regulators/`, `research/committees/`).  
+3. Next (when authorised): Phase 3 formal close and/or further workstreams / Phase 4+ — **not auto-started**.  
 4. Phase 2 residual: Art. 12 optional / Art. 47 remove-from-scope.  
 5. Forum remains **open**.  
 6. List open tasks:
