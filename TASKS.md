@@ -5,7 +5,7 @@
 **Rules:** [`VALIDATION.md`](VALIDATION.md) · [`CITATION_POLICY.md`](CITATION_POLICY.md)
 
 > Check a box in the phase file only when the work is complete and validation rules are satisfied.  
-> **Phase 3 Complete. Phase 4 Complete (v0.6.0).** WS1–WS8 closed. Phase 5 requires new authorization. See `PHASE_04_COMPLETION_REPORT.md` · `REPOSITORY_OS.md`.
+> **Phase 4 Complete (v0.6.0).** Phase 5 **in progress** (WS1 Manufacturers when 0.6.1 merges). See `PHASE_05_SPECIFICATION.md` · `REPOSITORY_OS.md`.
 
 ---
 
@@ -30,13 +30,13 @@
 | 2 | [`tasks/phase-02.md`](tasks/phase-02.md) | **Nearly complete** (statutes done; Art. 12/47 residual) | 47 | 2 | 49 |
 | 3 | [`tasks/phase-03.md`](tasks/phase-03.md) | **Complete** | 34 | 0 | 34 |
 | 4 | [`tasks/phase-04.md`](tasks/phase-04.md) | **Complete** | 16 | 8 | 24 |
-| 5 | [`tasks/phase-05.md`](tasks/phase-05.md) | Pending | 0 | 68 | 68 |
+| 5 | [`tasks/phase-05.md`](tasks/phase-05.md) | **In progress** (WS1 manufacturers complete) | 51 | 17 | 68 |
 | 6 | [`tasks/phase-06.md`](tasks/phase-06.md) | Pending | 0 | 24 | 24 |
 | 7 | [`tasks/phase-07.md`](tasks/phase-07.md) | Pending | 0 | 32 | 32 |
 | 8 | [`tasks/phase-08.md`](tasks/phase-08.md) | Pending | 0 | 15 | 15 |
 | 9 | [`tasks/phase-09.md`](tasks/phase-09.md) | Pending (hard gate) | 0 | 24 | 24 |
 | 10 | [`tasks/phase-10.md`](tasks/phase-10.md) | Pending (+ cross-cutting) | 0 | 33 | 33 |
-| | | **Totals** | **182** | **206** | **388** |
+| | | **Totals** | **233** | **155** | **388** |
 
 ---
 
@@ -45,7 +45,7 @@
 1. Do **not** start Phase 9 without PM approval in `CHANGELOG.md`.  
 2. **Phase 3 Complete** — `PHASE_03_COMPLETION_REPORT.md`.  
 3. **Phase 4 Complete** — `PHASE_04_COMPLETION_REPORT.md` (v0.6.0).  
-4. Next (when authorised): **Phase 5** (Manufacturers & Technical Baseline) — **not auto-started**.  
+4. **Phase 5 WS1 complete** (when 0.6.1 merges) — `research/manufacturers/`. Further Phase 5 WS (technical baseline) — **not auto-started**.  
 5. Phase 2 residual: Art. 12 optional / Art. 47 remove-from-scope.  
 6. Forum remains **open**.  
 7. List open tasks:

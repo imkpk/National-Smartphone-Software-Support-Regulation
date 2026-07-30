@@ -13,7 +13,24 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Phase 5 Manufacturers & Technical Baseline — requires new authorization  
+- Further Phase 5 workstreams — not auto-started  
+
+---
+
+## [0.6.1] — 2026-07-31
+
+### Added — Phase 5 Workstream 1: Manufacturers & Technical Baseline
+
+- `PHASE_05_SPECIFICATION.md`  
+- `research/manufacturers/` — 15 OEM notes (official documentation only)  
+- Coverage / comparison / lifecycle matrices; MANUFACTURER_* reports  
+- Negative finding: uneven multi-year matrices; no industry-wide matrix  
+- `PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`  
+
+### Changed
+
+- README / TASKS / ROADMAP / research/README for Phase 5 start  
+- Phase 5 **not** complete; WS2 **not** started  
 
 ---
 

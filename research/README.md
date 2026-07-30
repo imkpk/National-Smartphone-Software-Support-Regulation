@@ -22,7 +22,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `phase4-gap-analysis/` | Phase 4 gap synthesis | 4 — **complete** |
 | `exclusions/` | Not Relevant entity log (REPOSITORY_OS §6) | cross-cutting |
 | `government/` | Broader government index (legacy path) | 4 — scaffold; see `policy/`, `institutions/` |
-| `manufacturers/` | OEM software support | 5 — **pending** |
+| `manufacturers/` | OEM software support policies | 5 — **WS1 complete** |
 | `technical/` | Technical baseline | 5 — pending |
 | `cybersecurity/` | Cyber risk pathways | 6 — pending |
 | `environment/` | E-waste / environment | 6 — pending |
@@ -48,7 +48,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 
 ## Phase status
 
-**Phase 3 Complete. Phase 4 Complete (v0.6.0).** See [`../PHASE_04_COMPLETION_REPORT.md`](../PHASE_04_COMPLETION_REPORT.md). Phase 5 requires new authorization.
+**Phase 4 Complete (v0.6.0).** Phase 5 **in progress**: WS1 manufacturers complete ([`manufacturers/`](manufacturers/)); technical baseline pending. Spec: [`../PHASE_05_SPECIFICATION.md`](../PHASE_05_SPECIFICATION.md). Report: [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md).
 
 ---
-*Updated Phase 3 close 2026-07-30*
+*Updated Phase 5 WS1 2026-07-31*

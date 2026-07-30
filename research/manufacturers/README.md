@@ -1,29 +1,43 @@
-# Manufacturer Policies
+# Manufacturers & Technical Baseline — Phase 5 Workstream 1
 
-**Domain path:** `research/manufacturers/`  
-**Phase for substantive content:** 2+ (this README is Phase 1 scaffolding)  
-**Status:** Index only — no substantive research yet
-
-## Purpose
-
-Official OEM software support pages; URL + access date mandatory.
+**Status:** Workstream 1 complete (OEM published policies inventory)  
+**Phase 5 overall:** In progress  
+**OS:** `REPOSITORY_OS.md` · `PHASE_05_SPECIFICATION.md`
 
 ## Rules
 
-- Bind to root [`VALIDATION.md`](../../VALIDATION.md) and [`CITATION_POLICY.md`](../../CITATION_POLICY.md).
-- Use templates from [`templates/`](../../templates/).
-- Label claims: FACT | LAW | ANALYSIS | NORM | OPEN.
-- Prefer primary / official sources.
+- **Official manufacturer documentation only.**  
+- Descriptive — not Indian law; not recommendations.  
+- Repository Relevance on every note.  
+- Model/region variance must be recorded as limitations.
 
-## Contents
+## Manufacturer notes
 
-| File | Status |
-|------|--------|
-| *(none yet)* | — |
+| Brand | File |
+|-------|------|
+| Google (Pixel) | [google-pixel.md](google-pixel.md) |
+| Samsung (Galaxy) | [samsung-galaxy.md](samsung-galaxy.md) |
+| Apple (iPhone) | [apple-iphone.md](apple-iphone.md) |
+| Xiaomi / Redmi / POCO | [xiaomi.md](xiaomi.md) |
+| Motorola | [motorola.md](motorola.md) |
+| Nothing | [nothing.md](nothing.md) |
+| OnePlus | [oneplus.md](oneplus.md) |
+| OPPO | [oppo.md](oppo.md) |
+| Vivo | [vivo.md](vivo.md) |
+| Realme | [realme.md](realme.md) |
+| HMD / Nokia | [hmd-nokia.md](hmd-nokia.md) |
+| Sony Xperia | [sony-xperia.md](sony-xperia.md) |
+| Honor | [honor.md](honor.md) |
+| ASUS | [asus.md](asus.md) |
+| Lenovo | [lenovo.md](lenovo.md) |
+| Negative finding | [negative-finding-oem-unified-multi-year-matrix.md](negative-finding-oem-unified-multi-year-matrix.md) |
 
-## Related agents
+## Reports
 
-See [`AGENTS.md`](../../AGENTS.md).
-
----
-*Phase 1 domain index*
+| Report | File |
+|--------|------|
+| Coverage matrix | [MANUFACTURER_COVERAGE_MATRIX.md](MANUFACTURER_COVERAGE_MATRIX.md) |
+| Comparison matrix | [MANUFACTURER_COMPARISON_MATRIX.md](MANUFACTURER_COMPARISON_MATRIX.md) |
+| Lifecycle matrix | [MANUFACTURER_LIFECYCLE_MATRIX.md](MANUFACTURER_LIFECYCLE_MATRIX.md) |
+| Source / citation / validation | MANUFACTURER_*_REPORT.md |
+| Workstream report | [`../../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md) |
