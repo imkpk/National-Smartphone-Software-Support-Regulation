@@ -13,7 +13,24 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Phase 4 WS7–WS8 (audit, close) — not auto-started  
+- Phase 4 WS8 Completion — not auto-started  
+
+---
+
+## [0.5.8] — 2026-07-31
+
+### Added — Phase 4 Workstream 7: Repository Audit
+
+- `PHASE_4_AUDIT.md` — integrity audit of WS1–WS6  
+- `AUDIT_SUMMARY.md`, `AUDIT_CHECKLIST.md`, `REPOSITORY_HEALTH_REPORT.md`  
+- `VALIDATION_SUMMARY.md`, `LINK_VALIDATION_REPORT.md`, `CROSS_REFERENCE_REPORT.md`, `DOCUMENTATION_CONSISTENCY_REPORT.md`  
+- Result: **PASS WITH MINOR ISSUES** (no Critical/Major)  
+
+### Changed
+
+- TASKS / phase-04 / README / STATE_REPORT for audit  
+- Phase 4 **not** marked complete; WS8 **not** started  
+- No research rewritten  
 
 ---
 
