@@ -1,29 +1,21 @@
-# Consumer Law
+# Consumer Law Research
 
-**Domain path:** `research/consumer-law/`  
-**Phase for substantive content:** 2+ (this README is Phase 1 scaffolding)  
-**Status:** Index only — no substantive research yet
+**Phase:** 2 (interface notes)  
+**Status:** Initial notes complete 2026-07-30  
 
 ## Purpose
 
-CPA 2019 interface with software support / disclosure.
+Bridge CPA 2019 / e-commerce rules to the software-support problem without litigation strategy.
 
-## Rules
+## Files
 
-- Bind to root [`VALIDATION.md`](../../VALIDATION.md) and [`CITATION_POLICY.md`](../../CITATION_POLICY.md).
-- Use templates from [`templates/`](../../templates/).
-- Label claims: FACT | LAW | ANALYSIS | NORM | OPEN.
-- Prefer primary / official sources.
-
-## Contents
-
-| File | Status |
+| File | Topic |
 |------|--------|
-| *(none yet)* | — |
+| [consumer-remedies-vs-systemic-pil.md](consumer-remedies-vs-systemic-pil.md) | Individual vs systemic tools |
+| [unfair-contract-and-support-opacity.md](unfair-contract-and-support-opacity.md) | Opacity / UTP angles |
+| [ecommerce-disclosure-interface.md](ecommerce-disclosure-interface.md) | E-commerce Rules interface |
+| [open-issues-list.md](open-issues-list.md) | OPEN catalogue |
 
-## Related agents
+## Primary statute notes
 
-See [`AGENTS.md`](../../AGENTS.md).
-
----
-*Phase 1 domain index*
+See [`../statutes/cpa-2019.md`](../statutes/cpa-2019.md) and [`../statutes/cpa-ecommerce-rules-2020.md`](../statutes/cpa-ecommerce-rules-2020.md).

@@ -3,8 +3,8 @@
 **Project:** National-Smartphone-Software-Support-Regulation  
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
-**Progress:** 16 done · 33 open · 49 total  
-**Workstream status:** Constitution complete; statutes outstanding (full Phase 2 not closed).  
+**Progress:** 47 done · 2 open · 49 total  
+**Workstream status:** Constitution + statutes workstreams done; Art. 12 & 47 still open; full Phase 2 close pending PM residual decision.  
 
 > Check boxes only when complete and validation rules are satisfied.
 
@@ -36,40 +36,40 @@
 
 ### Statutes & rules inventory
 
-- [ ] **T104** Inventory Consumer Protection Act, 2019 structure
-- [ ] **T105** Research CPA 2019 consumer rights provisions
-- [ ] **T106** Research CPA 2019 unfair trade practice definition
-- [ ] **T107** Research CPA 2019 product liability chapter
-- [ ] **T108** Research CPA 2019 CCPA powers
-- [ ] **T109** Research CPA 2019 misleading advertisement provisions
-- [ ] **T110** Inventory Information Technology Act, 2000 structure
-- [ ] **T111** Research IT Act provisions relevant to CERT-In
-- [ ] **T112** Research IT Act intermediary vs OEM distinction (scope note)
-- [ ] **T113** Collect public CERT-In directions list (metadata only until verified)
-- [ ] **T114** Inventory Environment (Protection) Act, 1986 key powers
-- [ ] **T115** Research EPA rule-making powers relevant to e-waste
-- [ ] **T116** Inventory E-Waste (Management) Rules, 2022
-- [ ] **T117** Research E-Waste Rules EPR producer obligations
-- [ ] **T118** Research E-Waste Rules schedules for mobile phones
-- [ ] **T119** Inventory Bureau of Indian Standards Act, 2016
-- [ ] **T120** Research BIS standards-making and QCO pathway
-- [ ] **T121** Inventory Legal Metrology Act, 2009
-- [ ] **T122** Research Legal Metrology packaged commodities declarations framework
-- [ ] **T123** Inventory Right to Information Act, 2005 for evidence gathering
-- [ ] **T124** Search for any existing IS related to software support longevity
-- [ ] **T125** Search India Code for smartphone software update mandates
-- [ ] **T126** Document negative finding protocol if no mandate exists
-- [ ] **T127** Build statutes coverage matrix
-- [ ] **T128** Create citation cards for each Act (official URL)
-- [ ] **T129** Statute Agent peer review pass
+- [x] **T104** Inventory Consumer Protection Act, 2019 structure
+- [x] **T105** Research CPA 2019 consumer rights provisions
+- [x] **T106** Research CPA 2019 unfair trade practice definition
+- [x] **T107** Research CPA 2019 product liability chapter
+- [x] **T108** Research CPA 2019 CCPA powers
+- [x] **T109** Research CPA 2019 misleading advertisement provisions
+- [x] **T110** Inventory Information Technology Act, 2000 structure
+- [x] **T111** Research IT Act provisions relevant to CERT-In
+- [x] **T112** Research IT Act intermediary vs OEM distinction (scope note)
+- [x] **T113** Collect public CERT-In directions list (metadata only until verified)
+- [x] **T114** Inventory Environment (Protection) Act, 1986 key powers
+- [x] **T115** Research EPA rule-making powers relevant to e-waste
+- [x] **T116** Inventory E-Waste (Management) Rules, 2022
+- [x] **T117** Research E-Waste Rules EPR producer obligations
+- [x] **T118** Research E-Waste Rules schedules for mobile phones
+- [x] **T119** Inventory Bureau of Indian Standards Act, 2016
+- [x] **T120** Research BIS standards-making and QCO pathway
+- [x] **T121** Inventory Legal Metrology Act, 2009
+- [x] **T122** Research Legal Metrology packaged commodities declarations framework
+- [x] **T123** Inventory Right to Information Act, 2005 for evidence gathering
+- [x] **T124** Search for any existing IS related to software support longevity
+- [x] **T125** Search India Code for smartphone software update mandates
+- [x] **T126** Document negative finding protocol if no mandate exists
+- [x] **T127** Build statutes coverage matrix
+- [x] **T128** Create citation cards for each Act (official URL)
+- [x] **T129** Statute Agent peer review pass
 
 ### Consumer-law deep dive folder
 
-- [ ] **T130** Map consumer remedies vs systemic PIL remedies
-- [ ] **T131** Research unfair contract terms angles for support opacity (careful)
-- [ ] **T132** Research e-commerce disclosure norms interface
-- [ ] **T133** Draft consumer-law OPEN issues list
-- [ ] **T134** Link consumer-law notes to CPA statute notes
+- [x] **T130** Map consumer remedies vs systemic PIL remedies
+- [x] **T131** Research unfair contract terms angles for support opacity (careful)
+- [x] **T132** Research e-commerce disclosure norms interface
+- [x] **T133** Draft consumer-law OPEN issues list
+- [x] **T134** Link consumer-law notes to CPA statute notes
 
 ---
 ## Definition of Done
@@ -104,4 +104,15 @@ esearch/constitution/).
 - Statutes T104–T134 remain open — **not claimed complete**.
 - Full Phase 2 DoD **not** satisfied until statutes workstream finishes.
 - Do **not** auto-start Phase 3.
+
+### Statutes workstream status (2026-07-30)
+
+- Statutory notes completed under 
+esearch/statutes/ (see PHASE_02_STATUTES_REPORT.md).
+- Consumer-law interface notes under 
+esearch/consumer-law/.
+- Tasks T104–T134 checked.
+- T093 (Art. 47) and T098 (Art. 12) remain open.
+- Negative finding: no dedicated OS/security-year mandate identified.
+- **Do not auto-start Phase 3.**
 

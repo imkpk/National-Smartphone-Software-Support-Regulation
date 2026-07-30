@@ -11,10 +11,32 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ### Planned
 
-- Phase 2 **statutes** inventory and consumer-law notes (outstanding)  
-- Full Phase 2 close only after statutes DoD  
+- Optional residual Phase 2 notes: Art. 12, Art. 47  
+- Formal Phase 2 close decision by PM after residual OPEN handling  
 - Forum analysis memo (Art. 32 vs 226) — still open  
 - Phase 3 judgments corpus — **not started** (do not auto-start)  
+
+---
+
+## [0.3.2] — 2026-07-30
+
+### Added — Phase 2: Statutes Research
+
+- Statutory notes: CPA 2019, E-Commerce Rules 2020, IT Act 2000, CERT-In inventory, EPA 1986, E-Waste Rules 2022, BIS Act 2016, Legal Metrology Act 2009, RTI Act 2005  
+- Negative finding: no dedicated smartphone OS/security-year mandate identified  
+- Coverage matrix, citation cards, source/citation/validation reports  
+- Consumer-law interface notes under `research/consumer-law/`  
+- `PHASE_02_STATUTES_REPORT.md`  
+
+### Changed
+
+- `research/statutes/README.md`, `TASKS.md`, `tasks/phase-02.md`, `README.md` progress  
+- Constitution research **not modified**  
+
+### Explicitly not done
+
+- Phase 3 not started  
+- No PIL / litigation drafting  
 
 ---
 

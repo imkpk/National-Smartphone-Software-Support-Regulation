@@ -2,8 +2,8 @@
 
 **Open-source legal research repository on minimum smartphone software support standards in India**
 
-[![Status](https://img.shields.io/badge/status-Phase%202%20Constitution%20done-blue)]()
-[![Research](https://img.shields.io/badge/research-constitution%20complete%20%7C%20statutes%20pending-yellow)]()
+[![Status](https://img.shields.io/badge/status-Phase%202%20statutes%20done-blue)]()
+[![Research](https://img.shields.io/badge/research-constitution%20%2B%20statutes%20done-success)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Validation](https://img.shields.io/badge/validation-VALIDATION.md%20SoT-red)](VALIDATION.md)
 [![Forum](https://img.shields.io/badge/forum-open%20(Art.32%20vs%20226)-orange)](research/forum/)
@@ -42,7 +42,7 @@ India is among the world’s largest smartphone markets. Smartphones are essenti
 
 Despite this dependence, many devices—especially high-volume budget and mid-range models—historically receive limited OS and security support relative to hardware life. That creates cybersecurity exposure, consumer information asymmetry, premature electronic waste, and regulatory asymmetry relative to jurisdictions adopting product longevity rules.
 
-As of **Phase 2 (constitution workstream)**, the research framework is in place and **constitutional provision notes** are published under [`research/constitution/`](research/constitution/). **Statutory research is still pending.** **No forum (Supreme Court Art. 32 vs High Court Art. 226) is pre-selected.** Notes are neutral mappings—not litigation advice or settled “right to software updates” claims.
+As of **Phase 2 (constitution + statutes workstreams)**, constitutional notes are under [`research/constitution/`](research/constitution/) and statutory notes under [`research/statutes/`](research/statutes/). **No dedicated multi-year OS/security-update mandate was identified** in the statutory search protocol. **No forum (Art. 32 vs Art. 226) is pre-selected.** Notes are neutral—not litigation advice.
 
 ## Objectives
 
@@ -121,7 +121,7 @@ This repository is for **research, education, and public-interest preparation**.
 |-------|------|--------|
 | 0 | Repository foundation | **Complete** |
 | 1 | Research infrastructure | **Complete (framework)** |
-| 2 | Constitutional & statutory map | **In progress** — constitution **done**; statutes **outstanding** |
+| 2 | Constitutional & statutory map | **Nearly complete** — constitution + statutes **done**; Art. 12/47 residual |
 | 3–8 | Judgments, policy, OEM, cyber/env/econ, comparative, evidence | Pending |
 | 9 | Litigation drafting | Pending (hard gate) |
 | 10 | Hardening & release | Pending |
@@ -133,15 +133,15 @@ See [`ROADMAP.md`](ROADMAP.md) and [`TASKS.md`](TASKS.md).
 - [x] Phase 0 foundation  
 - [x] Phase 1 framework (templates, validation assets, scripts)  
 - [x] Architecture cleanup + Definition of Done / quality gates  
-- [x] **Phase 2 constitution workstream** — Articles 14, 19(1)(a), 19(1)(g), 21, 21A, 38, 39, 48A, 51A(g), 32, 226 under [`research/constitution/`](research/constitution/)  
-- [x] Constitution coverage matrix, FR/DPSP map, validation/citation reports ([`PHASE_02_COMPLETION_REPORT.md`](PHASE_02_COMPLETION_REPORT.md))  
+- [x] **Phase 2 constitution workstream** — [`research/constitution/`](research/constitution/)  
+- [x] **Phase 2 statutes workstream** — CPA, e-commerce Rules, IT Act, CERT-In inventory, EPA, E-Waste Rules, BIS, Legal Metrology, RTI + negative finding ([`research/statutes/`](research/statutes/), [`PHASE_02_STATUTES_REPORT.md`](PHASE_02_STATUTES_REPORT.md))  
+- [x] Consumer-law interface notes — [`research/consumer-law/`](research/consumer-law/)  
 - [x] Forum path reserved — **decision not made**  
-- [ ] Phase 2 statutes inventory (CPA, IT Act, EPA, e-waste, BIS, etc.) — **next**  
-- [ ] Phase 2 consumer-law deep dive (after/with statutes)  
-- [ ] Phase 3+ judgments / policy / OEM research  
+- [ ] Residual Phase 2: Art. 12 / Art. 47 (optional) or formal Phase 2 close  
+- [ ] Phase 3+ judgments / policy / OEM research — **not started**  
 - [ ] PIL drafting (Phase 9 only)  
 
-**Task counts:** see [`TASKS.md`](TASKS.md) (Phase 2: constitution tasks checked; T104+ statutes still open). **Do not** treat full Phase 2 as closed. **Do not** auto-start Phase 3.
+**Task counts:** see [`TASKS.md`](TASKS.md). **Do not auto-start Phase 3.**
 
 ### Tooling
 
@@ -153,4 +153,4 @@ python scripts/new_research_note.py --domain statutes --slug my-note --title "Ti
 
 ---
 
-*Phase 2 constitution workstream complete on `main`. Full Phase 2 (statutes) still open. Forum open. No PIL drafting.*
+*Phase 2 constitution + statutes workstreams complete on `main`. Residual Art. 12/47 optional. Phase 3 not started. Forum open. No PIL drafting.*
