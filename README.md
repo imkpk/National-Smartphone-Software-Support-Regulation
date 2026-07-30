@@ -2,8 +2,9 @@
 
 **Open-source legal research repository on minimum smartphone software support standards in India**
 
-[![Status](https://img.shields.io/badge/status-Phase%203%20audit%20PASS%20(minor)-blue)]()
-[![Research](https://img.shields.io/badge/research-WS1%E2%80%93WS6%20%2B%20audit%20done-success)]()
+[![Status](https://img.shields.io/badge/status-Phase%203%20Complete-success)]()
+[![Version](https://img.shields.io/badge/version-0.5.0-blue)]()
+[![Research](https://img.shields.io/badge/research-Phase%203%20closed-success)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Validation](https://img.shields.io/badge/validation-VALIDATION.md%20SoT-red)](VALIDATION.md)
 [![Forum](https://img.shields.io/badge/forum-open%20(Art.32%20vs%20226)-orange)](research/forum/)
@@ -42,7 +43,7 @@ India is among the world’s largest smartphone markets. Smartphones are essenti
 
 Despite this dependence, many devices—especially high-volume budget and mid-range models—historically receive limited OS and security support relative to hardware life. That creates cybersecurity exposure, consumer information asymmetry, premature electronic waste, and regulatory asymmetry relative to jurisdictions adopting product longevity rules.
 
-As of **Phase 2 (constitution + statutes workstreams)**, constitutional notes are under [`research/constitution/`](research/constitution/) and statutory notes under [`research/statutes/`](research/statutes/). **No dedicated multi-year OS/security-update mandate was identified** in the statutory search protocol. **No forum (Art. 32 vs Art. 226) is pre-selected.** Notes are neutral—not litigation advice.
+As of **Phase 3 Complete (v0.5.0)**, the repository holds constitutional and statutory notes (Phase 2), a judgments corpus (SC + HC), regulator and parliamentary inventories, persuasive comparative materials, and a gap analysis (Phase 3). **No dedicated multi-year OS/security-update mandate was identified** for India across the statutory, judicial, regulatory, and parliamentary materials reviewed; the EU provides a persuasive product-regulation contrast. **No forum (Art. 32 vs Art. 226) is pre-selected.** Notes are neutral—not litigation advice. Completion report: [`PHASE_03_COMPLETION_REPORT.md`](PHASE_03_COMPLETION_REPORT.md).
 
 ## Objectives
 

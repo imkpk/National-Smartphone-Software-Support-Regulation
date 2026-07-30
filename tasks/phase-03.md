@@ -4,6 +4,7 @@
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
 **Progress:** 34 done · 0 open · 34 total  
+**Phase status:** **Complete** (2026-07-30) — see [`../PHASE_03_COMPLETION_REPORT.md`](../PHASE_03_COMPLETION_REPORT.md)
 
 > Check boxes only when complete and validation rules are satisfied.
 
@@ -68,29 +69,26 @@
 
 Phase 3 is complete only when **all** of the following are true (in addition to repository-wide DoD):
 
-- [ ] Supreme Court brief set for prioritised doctrines exists with official citations (or PROVISIONAL clearly marked).
-- [ ] High Court persuasive set (if any) marked as HC and cited.
-- [ ] Doctrine index (locus, Art. 21, environment principles, admin law as planned) exists.
-- [ ] No fabricated case names or reporter citations.
-- [ ] Pin-cites verified or explicitly PROVISIONAL.
-- [ ] 
-esearch/judgments README lists artefacts; master index present.
-- [ ] Validation + citation SoTs satisfied; research-gate applied.
-- [ ] Task checkboxes + TASKS.md dashboard updated; CHANGELOG entry.
-- [ ] Citation Validation + QA review recorded.
-- [ ] **Completion approval:** PM marks Complete; **does not auto-start the next phase**.
+- [x] Supreme Court brief set for prioritised doctrines exists with official citations (or PROVISIONAL clearly marked).
+- [x] High Court persuasive set (if any) marked as HC and cited.
+- [x] Doctrine index (locus, Art. 21, environment principles, admin law as planned) exists.
+- [x] No fabricated case names or reporter citations.
+- [x] Pin-cites verified or explicitly PROVISIONAL.
+- [x] `research/judgments` README lists artefacts; master index present (coverage matrices serve as master index).
+- [x] Validation + citation SoTs satisfied; research-gate applied.
+- [x] Task checkboxes + TASKS.md dashboard updated; CHANGELOG entry.
+- [x] Citation Validation + QA review recorded (workstream validation/citation reports + Phase 3 Audit).
+- [x] **Completion approval:** Phase 3 marked Complete via `PHASE_03_COMPLETION_REPORT.md`; **does not auto-start the next phase**.
 
 ### Workstream 1 status (2026-07-30) — Supreme Court
 
 - SC briefs T135–T160 marked done (22 judgment files + matrices/reports).
-- High Court tasks T161–T168 remain **open**.
-- Phase 3 **not** complete.
+- High Court tasks T161–T168 completed under Workstream 2 (stale “open” wording removed at Phase 3 close).
 - Negative finding: no SC OEM multi-year software-support duty case identified.
 
 ### Workstream 2 status (2026-07-30) — High Courts
 
 - T161–T168 marked done (HC briefs + inclusion criteria + search notes + validation).
-- Phase 3 **not** marked complete.
 - Negative finding: no HC OEM multi-year software-support duty case identified.
 - See PHASE_03_HC_WORKSTREAM_REPORT.md.
 
@@ -99,17 +97,13 @@ esearch/judgments README lists artefacts; master index present.
 - Authority notes: MeitY, DoT, CERT-In, CCPA, BIS, CPCB under `research/regulators/`.
 - Negative finding: no regulatory multi-year OS/security-support mandate identified.
 - Reports: REGULATOR_* + PHASE_03_REGULATOR_WORKSTREAM_REPORT.md.
-- **Defect fix:** `meity.md` and `dot.md` were empty (0 bytes) after PR #10; bodies restored and re-validated.
-- Phase 3 **not** marked complete.
-- Do **not** auto-start parliamentary/comparative/manufacturer workstreams.
+- **Defect fix:** `meity.md` and `dot.md` were empty (0 bytes) after PR #10; bodies restored and re-validated (PR #11).
 
 ### Workstream 4 status (2026-07-30) — Parliamentary Committees & Law Commission
 
 - Notes under `research/committees/parliament/` (6) and `research/committees/law-commission/` (1 inventory).
 - Negative finding: no Parliament/Law Commission recommendation of multi-year OS/security-support mandate.
 - Reports: COMMITTEE_* + PHASE_03_COMMITTEE_WORKSTREAM_REPORT.md.
-- Phase 3 **not** marked complete.
-- Do **not** auto-start comparative / manufacturer / economics / gap workstreams.
 
 ### Workstream 5 status (2026-07-30) — Comparative Jurisdictions
 
@@ -117,9 +111,6 @@ esearch/judgments README lists artefacts; master index present.
 - EU: Regulation (EU) 2023/1670 (binding multi-year OS-update availability rules; persuasive only for India).
 - Negative finding: no equivalent multi-year OS product mandate identified for non-EU jurisdictions in the set (AU has consumer guarantees, not fixed OS years).
 - Reports: COMPARATIVE_* + PHASE_03_COMPARATIVE_WORKSTREAM_REPORT.md.
-- Orchestration: `orchestration/STATE_REPORT.md`, `WORKSTREAM_PLAN.md`, `GATE_REPORT.md`.
-- Phase 3 **not** marked complete.
-- Do **not** auto-start WS6 gap analysis / audit / Phase 4.
 
 ### Workstream 6 status (2026-07-30) — Gap Analysis
 
@@ -128,13 +119,15 @@ esearch/judgments README lists artefacts; master index present.
 - Indian layers: multi-year OS/security-support mandate **not identified** (consistent with prior negative findings).
 - Comparative: EU instrument exists (persuasive only).
 - Reports: GAP_ANALYSIS_* + PHASE_03_GAP_ANALYSIS_REPORT.md.
-- Phase 3 **not** marked complete.
-- Do **not** auto-start Phase 3 Audit / Completion Report / Phase 4.
 
 ### Phase 3 Audit status (2026-07-30)
 
 - Audit artefacts: `PHASE_3_AUDIT.md`, `AUDIT_CHECKLIST.md`, `REPOSITORY_CONSISTENCY_REPORT.md`, `AUDIT_SUMMARY.md`.
 - Result: **PASS WITH MINOR ISSUES** (no Critical/Major defects).
-- Minor issues recorded (stale WS1 status line; corrupted DoD bullet formatting; ROADMAP lag; orchestration stale; optional GAP citation report).
-- Phase 3 **not** marked complete.
-- Do **not** auto-start Completion Report / Phase 4 without authorization.
+
+### Phase 3 formal close (2026-07-30)
+
+- **Phase 3 Complete.** See `PHASE_03_COMPLETION_REPORT.md`, `PHASE_3_FINAL_CHECKLIST.md`, `PHASE_3_RELEASE_NOTES.md`, `PHASE_3_FINAL_VALIDATION.md`.
+- Administrative fixes applied at close (DoD checkboxes; WS1 stale HC line; corrupted DoD bullet; ROADMAP Phase 3 note; orchestration STATE refresh).
+- Documented research limitations preserved (PROVISIONAL pins, residual OPEN, later-phase scaffolds).
+- **Do not auto-start Phase 4** without explicit human authorization.

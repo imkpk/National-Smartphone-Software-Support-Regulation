@@ -9,12 +9,12 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `constitution/` | Constitution of India | 2 — **complete** |
 | `statutes/` | Central statutes & rules | 2 — **complete (workstream)** |
 | `consumer-law/` | CPA interface notes | 2 — **initial notes** |
-| `judgments/` | SC & HC case law | 3 — **SC WS1 + HC WS2 complete** |
-| `regulators/` | MeitY, DoT, CERT-In, CCPA, BIS, CPCB | 3 — **WS3 complete** |
-| `committees/` | Parliamentary committees & Law Commission | 3 — **WS4 complete** |
-| `international/` | Comparative jurisdictions (persuasive only) | 3 — **WS5 complete** |
-| `gap-analysis/` | Cross-layer gap synthesis | 3 — **WS6 complete** |
-| `government/` | Policies & institutions (broader) | 4 — pending |
+| `judgments/` | SC & HC case law | 3 — **complete** (WS1–WS2) |
+| `regulators/` | MeitY, DoT, CERT-In, CCPA, BIS, CPCB | 3 — **complete** (WS3) |
+| `committees/` | Parliamentary committees & Law Commission | 3 — **complete** (WS4) |
+| `international/` | Comparative jurisdictions (persuasive only) | 3 — **complete** (WS5) |
+| `gap-analysis/` | Cross-layer gap synthesis | 3 — **complete** (WS6) |
+| `government/` | Policies & institutions (broader) | 4 — **pending** (not started) |
 | `manufacturers/` | OEM software support | 5 — pending |
 | `technical/` | Technical baseline | 5 — pending |
 | `cybersecurity/` | Cyber risk pathways | 6 — pending |
@@ -38,4 +38,10 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 - **Forum remains open** until `research/forum/` analysis is complete and counsel reviews.
 
 ---
-*Phase 1*
+
+## Phase status
+
+**Phase 3 Complete (v0.5.0).** See [`../PHASE_03_COMPLETION_REPORT.md`](../PHASE_03_COMPLETION_REPORT.md). Phase 4 requires new authorization.
+
+---
+*Updated Phase 3 close 2026-07-30*

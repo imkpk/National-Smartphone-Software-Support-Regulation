@@ -11,10 +11,33 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ### Planned
 
-- Formal Phase 2 close (Art. 12 optional / Art. 47 remove)  
-- Phase 3 formal close (after authorization; remediate minor audit issues as needed)  
+- Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Phase 4+ OEM / evidence — not started  
+- Phase 4+ (requires new authorization) — not started  
+
+---
+
+## [0.5.0] — 2026-07-30
+
+### Added — Phase 3 formal completion
+
+- `PHASE_03_COMPLETION_REPORT.md`  
+- `PHASE_3_FINAL_CHECKLIST.md`  
+- `PHASE_3_RELEASE_NOTES.md`  
+- `PHASE_3_FINAL_VALIDATION.md`  
+
+### Changed
+
+- Phase 3 marked **Complete** (WS1–WS6 + audit + close)  
+- Administrative fixes: DoD checkboxes; WS1 stale status; DoD bullet repair; ROADMAP Phase 3 note; orchestration STATE  
+- README / TASKS / research/README progress  
+- Version **0.5.0**  
+
+### Explicitly not done
+
+- Phase 4  
+- New legal research / litigation / legislation recommendations  
+- Removal of PROVISIONAL / OPEN research limitations  
 
 ---
 
