@@ -9,17 +9,15 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `constitution/` | Constitution of India | 2 — **complete** |
 | `statutes/` | Central statutes & rules | 2 — **complete (workstream)** |
 | `consumer-law/` | CPA interface notes | 2 — **initial notes** |
-| `statutes/` | Central statutes & rules | 2 |
-| `judgments/` | SC & HC case law | 3 |
-| `government/` | Policies & institutions | 4 |
-| `manufacturers/` | OEM software support | 5 |
-| `technical/` | Technical baseline | 5 |
-| `cybersecurity/` | Cyber risk pathways | 6 |
-| `environment/` | E-waste / environment | 6 |
-| `economics/` | Economics / lifecycle | 6 |
-| `consumer-law/` | Consumer protection deep dive | 2–6 |
-| `international/` | Comparative law | 7 |
-| `forum/` | Art. 32 vs Art. 226 analysis | before litigation |
+| `judgments/` | SC & HC case law | 3 — pending |
+| `government/` | Policies & institutions | 4 — pending |
+| `manufacturers/` | OEM software support | 5 — pending |
+| `technical/` | Technical baseline | 5 — pending |
+| `cybersecurity/` | Cyber risk pathways | 6 — pending |
+| `environment/` | E-waste / environment | 6 — pending |
+| `economics/` | Economics / lifecycle | 6 — pending |
+| `international/` | Comparative law | 7 — pending |
+| `forum/` | Art. 32 vs Art. 226 analysis | open / pending |
 
 ## Workflow
 
