@@ -5,7 +5,7 @@
 **Rules:** [`VALIDATION.md`](VALIDATION.md) · [`CITATION_POLICY.md`](CITATION_POLICY.md)
 
 > Check a box in the phase file only when the work is complete and validation rules are satisfied.  
-> **Phase 2 constitution + statutes workstreams complete.** Residual open: Art. 12 & 47 (T098/T093). Full Phase 2 formal close pending residual decision. **Phase 3 not started.**
+> Phase 2 research largely done (scope residual Art. 12/47). **Phase 3 Workstream 1 (Supreme Court) complete.** HC research open. **Phase 3 not fully complete.**
 
 ---
 
@@ -28,7 +28,7 @@
 | 0 | [`tasks/phase-00.md`](tasks/phase-00.md) | Complete | 30 | 0 | 30 |
 | 1 | [`tasks/phase-01.md`](tasks/phase-01.md) | Complete (framework) | 55 | 0 | 55 |
 | 2 | [`tasks/phase-02.md`](tasks/phase-02.md) | **Nearly complete** (statutes done; Art. 12/47 residual) | 47 | 2 | 49 |
-| 3 | [`tasks/phase-03.md`](tasks/phase-03.md) | Pending | 0 | 34 | 34 |
+| 3 | [`tasks/phase-03.md`](tasks/phase-03.md) | **In progress** (SC Workstream 1 done; HC open) | 26 | 8 | 34 |
 | 4 | [`tasks/phase-04.md`](tasks/phase-04.md) | Pending | 0 | 24 | 24 |
 | 5 | [`tasks/phase-05.md`](tasks/phase-05.md) | Pending | 0 | 68 | 68 |
 | 6 | [`tasks/phase-06.md`](tasks/phase-06.md) | Pending | 0 | 24 | 24 |
@@ -36,17 +36,17 @@
 | 8 | [`tasks/phase-08.md`](tasks/phase-08.md) | Pending | 0 | 15 | 15 |
 | 9 | [`tasks/phase-09.md`](tasks/phase-09.md) | Pending (hard gate) | 0 | 24 | 24 |
 | 10 | [`tasks/phase-10.md`](tasks/phase-10.md) | Pending (+ cross-cutting) | 0 | 33 | 33 |
-| | | **Totals** | **132** | **256** | **388** |
+| | | **Totals** | **158** | **230** | **388** |
 
 ---
 
 ## What to work on next
 
 1. Do **not** start Phase 9 without PM approval in `CHANGELOG.md`.  
-2. **Phase 2 constitution + statutes workstreams complete** (`research/constitution/`, `research/statutes/`).  
-3. Residual Phase 2 (optional): Art. 12 (T098), Art. 47 (T093) — or document as OPEN and formal close.  
-4. **Do not auto-start Phase 3** until full Phase 2 Definition of Done / PM close.  
-5. Forum remains **open** (Art. 32 vs Art. 226).  
+2. **Phase 3 WS1 done** — Supreme Court briefs in `research/judgments/supreme-court/`.  
+3. Next Phase 3 (when authorised): High Court workstream (T161–T168).  
+4. Phase 2 residual: Art. 12 optional / Art. 47 remove-from-scope per `PHASE_02_SCOPE_VERIFICATION.md`.  
+5. Forum remains **open**.  
 6. List open tasks:
 
 ```bash

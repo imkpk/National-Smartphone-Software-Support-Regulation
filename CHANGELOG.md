@@ -11,10 +11,32 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ### Planned
 
-- Optional residual Phase 2 notes: Art. 12, Art. 47  
-- Formal Phase 2 close decision by PM after residual OPEN handling  
-- Forum analysis memo (Art. 32 vs 226) — still open  
-- Phase 3 judgments corpus — **not started** (do not auto-start)  
+- Formal Phase 2 close (Art. 12 optional / Art. 47 remove per scope verification)  
+- Phase 3 High Court workstream  
+- Forum analysis memo — still open  
+
+---
+
+## [0.4.0] — 2026-07-30
+
+### Added — Phase 3 Workstream 1: Supreme Court Judgments
+
+- 22 SC judgment briefs under `research/judgments/supreme-court/`  
+- Coverage matrix, source/citation/validation reports  
+- Negative finding: no SC duty for minimum OEM software-support years  
+- PIL maintainability checklist; environment doctrine application memo  
+- `PHASE_03_SC_WORKSTREAM_REPORT.md`  
+
+### Changed
+
+- `tasks/phase-03.md` — T135–T160 done; HC tasks open  
+- `TASKS.md` / `README.md` progress — Phase 3 in progress (WS1 only)  
+
+### Explicitly not done
+
+- High Court research  
+- Full Phase 3 complete  
+- Litigation drafting  
 
 ---
 

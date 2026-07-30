@@ -1,29 +1,30 @@
-# Judgments Corpus
+# Judgments Research
 
-**Domain path:** `research/judgments/`  
-**Phase for substantive content:** 2+ (this README is Phase 1 scaffolding)  
-**Status:** Index only — no substantive research yet
+**Phase:** 3  
+**Workstream 1:** Supreme Court — **complete (research digests)**  
+**Workstream 2+:** High Courts — **not started**
 
-## Purpose
+## Supreme Court (Workstream 1)
 
-Supreme Court and High Court briefs with official citations only.
+Folder: [`supreme-court/`](supreme-court/) — **22** judgment briefs.
+
+| Report | Path |
+|--------|------|
+| Coverage matrix | [SUPREME_COURT_COVERAGE_MATRIX.md](SUPREME_COURT_COVERAGE_MATRIX.md) |
+| Source report | [SUPREME_COURT_SOURCE_REPORT.md](SUPREME_COURT_SOURCE_REPORT.md) |
+| Citation report | [SUPREME_COURT_CITATION_REPORT.md](SUPREME_COURT_CITATION_REPORT.md) |
+| Validation report | [SUPREME_COURT_VALIDATION_REPORT.md](SUPREME_COURT_VALIDATION_REPORT.md) |
+| Negative finding | [negative-finding-no-sc-software-support-duty.md](negative-finding-no-sc-software-support-duty.md) |
+| PIL checklist | [pil-maintainability-checklist-sc.md](pil-maintainability-checklist-sc.md) |
+| Environment doctrine memo | [environment-doctrine-application-memo.md](environment-doctrine-application-memo.md) |
+| Workstream report | [`../../PHASE_03_SC_WORKSTREAM_REPORT.md`](../../PHASE_03_SC_WORKSTREAM_REPORT.md) |
 
 ## Rules
 
-- Bind to root [`VALIDATION.md`](../../VALIDATION.md) and [`CITATION_POLICY.md`](../../CITATION_POLICY.md).
-- Use templates from [`templates/`](../../templates/).
-- Label claims: FACT | LAW | ANALYSIS | NORM | OPEN.
-- Prefer primary / official sources.
+- All pin-cites **PROVISIONAL** until full-text verification.  
+- No litigation advice.  
+- No claim of SC-mandated OEM update years (see negative finding).
 
-## Contents
+## High Courts
 
-| File | Status |
-|------|--------|
-| *(none yet)* | — |
-
-## Related agents
-
-See [`AGENTS.md`](../../AGENTS.md).
-
----
-*Phase 1 domain index*
+Not part of Workstream 1. See `tasks/phase-03.md` T161–T168.

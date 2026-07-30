@@ -9,7 +9,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `constitution/` | Constitution of India | 2 — **complete** |
 | `statutes/` | Central statutes & rules | 2 — **complete (workstream)** |
 | `consumer-law/` | CPA interface notes | 2 — **initial notes** |
-| `judgments/` | SC & HC case law | 3 — pending |
+| `judgments/` | SC & HC case law | 3 — **SC WS1 complete**; HC pending |
 | `government/` | Policies & institutions | 4 — pending |
 | `manufacturers/` | OEM software support | 5 — pending |
 | `technical/` | Technical baseline | 5 — pending |
