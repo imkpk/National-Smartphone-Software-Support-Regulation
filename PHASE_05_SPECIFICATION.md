@@ -31,8 +31,9 @@ Document **published manufacturer software/security update lifecycle commitments
 |----|-------|------|--------|
 | 1 | Manufacturers & Technical Baseline (OEM policies) | `research/manufacturers/` | **Complete** (v0.6.1, PR #26) |
 | 2 | Android Ecosystem | `research/android-ecosystem/` | **Complete** (v0.6.2, PR #27) |
-| 3 | Hardware & Chipset Ecosystem | `research/hardware-ecosystem/` | **This workstream** (v0.6.3) |
-| 4+ | Further technical baseline (as later specified) | TBD | Not started |
+| 3 | Hardware & Chipset Ecosystem | `research/hardware-ecosystem/` | **Complete** (v0.6.3, PR #28) |
+| 4 | Comparative Analysis | `research/comparative-analysis/` | **This workstream** (v0.6.4) |
+| 5+ | Further Phase 5 (as later specified) | TBD | Not started |
 
 ---
 
@@ -48,45 +49,49 @@ Official Google / AOSP Android platform & update infrastructure documentation.
 
 ---
 
-## 6. WS3 scope
+## 6. WS3 scope (complete)
 
-Official documentation covering hardware/chipset stack enabling updates:
-
-- Linux Kernel LTS · Android Common Kernel · GKI · KMI  
-- Vendor boot · BSP / vendor software · firmware lifecycle  
-- Bootloader · Secure Boot · Verified Boot · TEE  
-- Qualcomm · MediaTek · Google Tensor · Samsung Exynos · UNISOC  
-- Vendor security patches · kernel maintenance  
-
-Exclude blogs, forums, Wikipedia, news, community docs as sole authority.
+Official documentation covering hardware/chipset stack enabling updates (LTS, ACK, GKI, KMI, BSP, firmware, TEE, SoC vendors).
 
 ---
 
-## 7. Expected WS3 outputs
+## 7. WS4 scope
 
-- `research/hardware-ecosystem/` notes  
-- Coverage / architecture / chipset / kernel lifecycle / firmware responsibility matrices  
-- Source / citation / validation / cross-reference reports  
-- Negative findings  
-- `PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`  
+**Descriptive comparison only** of findings from WS1–WS3. **No new research.**
+
+Compare (from existing repository evidence): manufacturer update commitments; Android platform, chipset, kernel, firmware, security, and OS update responsibilities; update delivery mechanisms; Project Mainline / Play System Updates; Android Enterprise; Treble; GKI; CTS; CDD; vendor vs OEM responsibilities; hardware and software dependencies.
+
+### Expected WS4 outputs
+
+- `research/comparative-analysis/` notes and matrices  
+- Coverage / citation / validation / consistency / cross-reference reports  
+- Negative finding (cross-layer)  
+- `PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md`  
 - Documentation updates  
 
+### WS4 exclusions
+
+- Additional web research or new evidence captures  
+- Rankings, compliance evaluation, legislation/regulation recommendations  
+- Re-writing WS1–WS3 primary notes  
+- Multiple workstreams per PR  
+- Auto-start of WS5  
+
 ---
 
-## 8. Exclusions
+## 8. Exclusions (phase-wide)
 
 - New Indian government research (Phase 4 closed)  
-- Re-writing WS1 OEM notes or WS2 Android notes  
-- Litigation / recommendations / vendor rankings  
+- Litigation / policy advocacy  
 - Multiple workstreams per PR  
-- Auto-start of WS4  
+- Auto-start of the next workstream after merge  
 
 ---
 
 ## 9. Completion of Phase 5
 
-Phase 5 completes only after all planned Phase 5 workstreams + audit + close (later). **WS1–WS3 alone do not close Phase 5.**
+Phase 5 completes only after all planned Phase 5 workstreams + audit + close (later). **WS1–WS4 alone do not close Phase 5.**
 
 ---
 
-*Phase 5 specification — updated WS3*
+*Phase 5 specification — updated WS4*

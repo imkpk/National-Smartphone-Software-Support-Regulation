@@ -36,6 +36,9 @@ National-Smartphone-Software-Support-Regulation/
 │   ├── judgments/
 │   ├── government/
 │   ├── manufacturers/
+│   ├── android-ecosystem/
+│   ├── hardware-ecosystem/
+│   ├── comparative-analysis/
 │   ├── cybersecurity/
 │   ├── environment/
 │   ├── international/

@@ -7,6 +7,7 @@
 **WS1 status:** Complete — [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md)  
 **WS2 status:** Complete — [`../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md)  
 **WS3 status:** Complete (hardware ecosystem, 2026-07-31) — [`../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md)  
+**WS4 status:** Complete (comparative analysis, 2026-07-31) — [`../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md)  
 **Phase 5 overall:** In progress (iOS observational model T256; residual T260; residual brands remain)
 
 > Check boxes only when complete and validation rules are satisfied.
@@ -140,5 +141,17 @@ Phase 5 is complete only when **all** of the following are true (in addition to 
 - Negative finding: no universal multi-year chipset/firmware consumer floor in public official docs.
 - Cross-links to WS1 manufacturers and WS2 Android ecosystem preserved (not rewritten).
 - Residual: MediaTek/UNISOC public multi-year matrices sparse (OPEN); partner BSP gated.
-- Phase 5 **not** complete; **WS4 not started**.
+- Phase 5 **not** complete; **WS4 not started** (historical WS3 note).
+
+---
+
+## Workstream 4 status (2026-07-31) — Comparative Analysis
+
+- Synthesis-only notes under `research/comparative-analysis/` (WS1–WS3 evidence; **no new research**).
+- Matrices: manufacturer, Android responsibility, chipset responsibility, software/security/OS update flow, platform dependency, lifecycle, terminology, evidence cross-reference, coverage.
+- Reports: source, citation, validation, consistency, cross-reference; Gate++ PASS.
+- Negative finding: no single unified multi-year support floor across product, platform, and hardware layers.
+- Cross-links to WS1–WS3 preserved (primary notes not rewritten).
+- Residual: T256 iOS model, T260 cross-read, residual brands, T252 PDF archive.
+- Phase 5 **not** complete; **WS5 not started**.
 
