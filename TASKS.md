@@ -4,7 +4,7 @@
 **Rule:** Check boxes only when the task is truly complete and VALIDATION.md is satisfied where applicable.  
 **Count target:** ≥ 300 granular tasks  
 
-> Phase 0 tasks may be checked as foundation lands. Research/litigation tasks remain unchecked until those phases start.
+> Phase 0–1 framework tasks may be checked when complete. **Substantive research (Phase 2+) remains unchecked until started.**
 
 ---
 
@@ -38,79 +38,80 @@
 - [x] **T022** Add validation_blocker issue template
 - [x] **T023** Add structure-check workflow placeholder
 - [x] **T024** Verify folder tree matches PROJECT_SPECIFICATION
-- [ ] **T025** Initialize git repository (operator)
-- [ ] **T026** Create GitHub remote National-Smartphone-Software-Support-Regulation (operator)
-- [ ] **T027** Push initial commit to main (operator)
-- [ ] **T028** Protect main branch with PR review recommendation (operator)
-- [ ] **T029** Add topics/tags on GitHub (operator)
-- [ ] **T030** Confirm Phase 0 exit criteria documented in ROADMAP
+- [x] **T025** Initialize git repository (operator)
+- [x] **T026** Create GitHub remote National-Smartphone-Software-Support-Regulation (operator)
+- [x] **T027** Push initial commit to main (operator)
+- [x] **T028** Protect main branch with PR review recommendation (operator)
+- [x] **T029** Add topics/tags on GitHub (operator)
+- [x] **T030** Confirm Phase 0 exit criteria documented in ROADMAP
 
 ## Phase 1 — Research Infrastructure
 
+**Status:** Complete (framework). Substantive legal research not started.
 
 ### Templates
 
-- [ ] **T031** Draft template: constitutional provision note
-- [ ] **T032** Draft template: statute/section note
-- [ ] **T033** Draft template: judgment brief
-- [ ] **T034** Draft template: government policy memo
-- [ ] **T035** Draft template: OEM policy capture
-- [ ] **T036** Draft template: cybersecurity note
-- [ ] **T037** Draft template: environment/e-waste note
-- [ ] **T038** Draft template: comparative law jurisdiction note
-- [ ] **T039** Draft template: economics model note
-- [ ] **T040** Draft template: technical explainer
-- [ ] **T041** Draft template: consumer-law issue note
-- [ ] **T042** Draft template: evidence table schema
-- [ ] **T043** Draft template: timeline event schema
-- [ ] **T044** Draft template: annexure index row
-- [ ] **T045** Draft template: RTI application
-- [ ] **T046** Draft template: validation report
-- [ ] **T047** Draft template: litigation assertion→source map
-- [ ] **T048** Add YAML front-matter convention for research notes
-- [ ] **T049** Document status tag vocabulary in templates/README
-- [ ] **T050** Add sample filled template (synthetic, non-legal) for style only
+- [x] **T031** Draft template: constitutional provision note
+- [x] **T032** Draft template: statute/section note
+- [x] **T033** Draft template: judgment brief
+- [x] **T034** Draft template: government policy memo
+- [x] **T035** Draft template: OEM policy capture
+- [x] **T036** Draft template: cybersecurity note
+- [x] **T037** Draft template: environment/e-waste note
+- [x] **T038** Draft template: comparative law jurisdiction note
+- [x] **T039** Draft template: economics model note
+- [x] **T040** Draft template: technical explainer
+- [x] **T041** Draft template: consumer-law issue note
+- [x] **T042** Draft template: evidence table schema
+- [x] **T043** Draft template: timeline event schema
+- [x] **T044** Draft template: annexure index row
+- [x] **T045** Draft template: RTI application
+- [x] **T046** Draft template: validation report
+- [x] **T047** Draft template: litigation assertion→source map
+- [x] **T048** Add YAML front-matter convention for research notes
+- [x] **T049** Document status tag vocabulary in templates/README
+- [x] **T050** Add sample filled template (synthetic, non-legal) for style only
 
 ### Schemas & validation assets
 
-- [ ] **T051** Create validation/citation-schema.json (or YAML)
-- [ ] **T052** Create validation/source-tier-definitions.md
-- [ ] **T053** Create validation/research-gate-checklist.md
-- [ ] **T054** Create validation/litigation-gate-checklist.md
-- [ ] **T055** Create validation/banned-patterns.md (hallucination red flags)
-- [ ] **T056** Create scripts/check_structure.py
-- [ ] **T057** Create scripts/list_open_tasks.py (optional parser for TASKS.md)
-- [ ] **T058** Create scripts/new_research_note.py scaffolding helper
-- [ ] **T059** Add scripts/README.md usage docs
-- [ ] **T060** Add requirements.txt or pyproject.toml stub
-- [ ] **T061** Add .env.example if APIs later needed (no secrets)
-- [ ] **T062** Create logs/.gitkeep policy note in docs/logging.md
-- [ ] **T063** Create docs/repository-tour.md
-- [ ] **T064** Create docs/how-to-cite.md
-- [ ] **T065** Create docs/phase-gates.md
-- [ ] **T066** Create prompts/README.md for agent prompt library
-- [ ] **T067** Add stub prompts for each core agent under prompts/agents/
-- [ ] **T068** Create automation/README.md describing future orchestrator
-- [ ] **T069** Wire CI structure-check to real script when ready
-- [ ] **T070** Document contribution example PR in docs/examples.md
+- [x] **T051** Create validation/citation-schema.json (or YAML)
+- [x] **T052** Create validation/source-tier-definitions.md
+- [x] **T053** Create validation/research-gate-checklist.md
+- [x] **T054** Create validation/litigation-gate-checklist.md
+- [x] **T055** Create validation/banned-patterns.md (hallucination red flags)
+- [x] **T056** Create scripts/check_structure.py
+- [x] **T057** Create scripts/list_open_tasks.py (optional parser for TASKS.md)
+- [x] **T058** Create scripts/new_research_note.py scaffolding helper
+- [x] **T059** Add scripts/README.md usage docs
+- [x] **T060** Add requirements.txt or pyproject.toml stub
+- [x] **T061** Add .env.example if APIs later needed (no secrets)
+- [x] **T062** Create logs/.gitkeep policy note in docs/logging.md
+- [x] **T063** Create docs/repository-tour.md
+- [x] **T064** Create docs/how-to-cite.md
+- [x] **T065** Create docs/phase-gates.md
+- [x] **T066** Create prompts/README.md for agent prompt library
+- [x] **T067** Add stub prompts for each core agent under prompts/agents/
+- [x] **T068** Create automation/README.md describing future orchestrator
+- [x] **T069** Wire CI structure-check to real script when ready
+- [x] **T070** Document contribution example PR in docs/examples.md
 
 ### Indexes
 
-- [ ] **T071** Add research/README.md domain index
-- [ ] **T072** Add research/constitution/README.md
-- [ ] **T073** Add research/statutes/README.md
-- [ ] **T074** Add research/judgments/README.md
-- [ ] **T075** Add research/government/README.md
-- [ ] **T076** Add research/manufacturers/README.md
-- [ ] **T077** Add research/cybersecurity/README.md
-- [ ] **T078** Add research/environment/README.md
-- [ ] **T079** Add research/international/README.md
-- [ ] **T080** Add research/economics/README.md
-- [ ] **T081** Add research/technical/README.md
-- [ ] **T082** Add research/consumer-law/README.md
-- [ ] **T083** Add evidence/README.md
-- [ ] **T084** Add litigation/README.md with NOT STARTED banner
-- [ ] **T085** Add docs/glossary.md (empty structure)
+- [x] **T071** Add research/README.md domain index
+- [x] **T072** Add research/constitution/README.md
+- [x] **T073** Add research/statutes/README.md
+- [x] **T074** Add research/judgments/README.md
+- [x] **T075** Add research/government/README.md
+- [x] **T076** Add research/manufacturers/README.md
+- [x] **T077** Add research/cybersecurity/README.md
+- [x] **T078** Add research/environment/README.md
+- [x] **T079** Add research/international/README.md
+- [x] **T080** Add research/economics/README.md
+- [x] **T081** Add research/technical/README.md
+- [x] **T082** Add research/consumer-law/README.md
+- [x] **T083** Add evidence/README.md
+- [x] **T084** Add litigation/README.md with NOT STARTED banner
+- [x] **T085** Add docs/glossary.md (empty structure)
 
 ## Phase 2 — Constitutional & Statutory Map
 

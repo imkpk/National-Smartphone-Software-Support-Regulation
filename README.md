@@ -2,10 +2,11 @@
 
 **Open-source legal research repository on minimum smartphone software support standards in India**
 
-[![Status](https://img.shields.io/badge/status-Phase%200%20Foundation-blue)]()
+[![Status](https://img.shields.io/badge/status-Phase%201%20Framework%20Complete-blue)]()
 [![Research](https://img.shields.io/badge/legal%20research-not%20started-lightgrey)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Validation](https://img.shields.io/badge/hallucinations-forbidden-red)](VALIDATION.md)
+[![Forum](https://img.shields.io/badge/forum-open%20(Art.32%20vs%20226)-orange)](research/forum/)
 
 ---
 
@@ -34,7 +35,7 @@ Despite this dependence, many devices—especially high-volume budget and mid-ra
 - **Premature electronic waste** while hardware remains functional  
 - **Regulatory asymmetry** relative to jurisdictions adopting product longevity rules (e.g., EU Ecodesign for smartphones)
 
-As of repository foundation (Phase 0), **no research conclusions are asserted**. This repository exists to investigate the problem with academic and forensic discipline before any litigation package is finalised.
+As of **Phase 1 (research framework)**, infrastructure for rigorous work is in place, but **no substantive legal research conclusions are asserted** and **no forum (Supreme Court Art. 32 vs High Court Art. 226) is pre-selected**. This repository exists to investigate the problem with academic and forensic discipline before any litigation package is finalised.
 
 ## Objectives
 
@@ -60,12 +61,16 @@ National-Smartphone-Software-Support-Regulation/
 ├── TASKS.md                  # 300+ granular checkbox tasks
 ├── AGENTS.md                 # Multi-agent architecture
 ├── VALIDATION.md             # Anti-hallucination & quality rules
-├── MASTER_PROMPT.md          # Placeholder for autonomous orchestration
+├── MASTER_PROMPT.md          # Orchestration contract for Phase 2+ (supervised)
+├── CITATION_POLICY.md
+├── LEGAL_STRATEGY.md         # Working strategy; forum OPEN
+├── REPOSITORY_STRUCTURE.md
+├── RESEARCH_GUIDELINES.md
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── .gitignore
-├── .github/                  # Issues, templates, CI placeholders
+├── .github/                  # Issues, templates, CI
 ├── docs/                     # Human-facing documentation
 ├── research/                 # Domain research (primary work product)
 │   ├── constitution/
@@ -78,6 +83,8 @@ National-Smartphone-Software-Support-Regulation/
 │   ├── international/
 │   ├── economics/
 │   ├── technical/
+│   ├── consumer-law/
+│   └── forum/                # Art. 32 vs 226 analysis (later)
 │   └── consumer-law/
 ├── evidence/                 # Charts, tables, timelines, annexures
 ├── litigation/               # PIL drafts (empty until authorised phases)
@@ -127,8 +134,8 @@ This repository is for **research, education, and public-interest preparation**.
 
 | Phase | Name | Status |
 |-------|------|--------|
-| 0 | Repository foundation | **In progress / this release** |
-| 1 | Research infrastructure & templates | Pending |
+| 0 | Repository foundation | **Complete** |
+| 1 | Research infrastructure & templates | **Complete (framework)** |
 | 2 | Indian constitutional & statutory map | Pending |
 | 3 | Judgments corpus | Pending |
 | 4 | Government policy & institutional map | Pending |
@@ -136,7 +143,7 @@ This repository is for **research, education, and public-interest preparation**.
 | 6 | Cybersecurity, environment, economics | Pending |
 | 7 | Comparative international law | Pending |
 | 8 | Evidence pack & annexure factory | Pending |
-| 9 | Litigation drafting (PIL package) | Pending |
+| 9 | Litigation drafting (PIL package) | Pending (hard gate) |
 | 10 | Validation, automation, public release hardening | Pending |
 
 See [`ROADMAP.md`](ROADMAP.md) and [`TASKS.md`](TASKS.md).
@@ -147,12 +154,23 @@ See [`ROADMAP.md`](ROADMAP.md) and [`TASKS.md`](TASKS.md).
 - [x] Directory structure for research, evidence, litigation, automation  
 - [x] Governance documents (spec, roadmap, tasks, agents, validation)  
 - [x] Contribution / conduct / license / changelog  
-- [ ] Legal research (explicitly **not started** in Phase 0)  
-- [ ] PIL drafting (explicitly **not started** in Phase 0)  
-- [ ] Judgment research (explicitly **not started** in Phase 0)  
+- [x] Phase 1 templates, validation assets, domain indexes, scripts, agent prompt stubs  
+- [x] Master orchestration prompt (supervised Phase 2+ ready)  
+- [x] Forum path reserved (`research/forum/`) — **decision not made**  
+- [ ] Substantive legal research (Phase 2+)  
+- [ ] Judgment digests  
+- [ ] PIL drafting (Phase 9 only)  
+
+### Quick start (Phase 1 tooling)
+
+```bash
+python scripts/check_structure.py
+python scripts/list_open_tasks.py
+python scripts/new_research_note.py --domain statutes --slug my-note --title "Title"
+```
 
 ---
 
 **Maintainer standard:** Treat every file as if it may be scrutinised by a High Court, the Supreme Court, peer reviewers, and the public simultaneously.
 
-*Phase 0 — Foundation only.*
+*Phase 1 — Research framework complete. Substantive research not started.*

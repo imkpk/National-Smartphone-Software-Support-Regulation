@@ -1,0 +1,2 @@
+# Phase 1: standard library only for scripts/check_structure.py and helpers.
+# Add pinned dependencies here when export/lint tooling lands (Phase 8–10).

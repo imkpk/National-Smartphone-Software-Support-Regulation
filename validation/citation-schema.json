@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/imkpk/National-Smartphone-Software-Support-Regulation/validation/citation-schema.json",
+  "title": "ResearchNoteFrontMatter",
+  "description": "Schema for research note metadata. Phase 1 contract; enforcement optional until linter lands.",
+  "type": "object",
+  "required": ["title", "domain", "status", "last_updated"],
+  "properties": {
+    "title": { "type": "string", "minLength": 1 },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "constitution",
+        "statutes",
+        "judgments",
+        "government",
+        "manufacturers",
+        "cybersecurity",
+        "environment",
+        "international",
+        "economics",
+        "technical",
+        "consumer-law",
+        "forum",
+        "evidence",
+        "other"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PROVISIONAL",
+        "VERIFIED",
+        "SECONDARY",
+        "UNVERIFIED",
+        "DISPUTED",
+        "OUTDATED"
+      ]
+    },
+    "last_updated": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "agent": { "type": "string" },
+    "phase": { "type": ["integer", "string"] },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "citation_or_url"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "constitution",
+              "statute",
+              "judgment",
+              "policy",
+              "oem",
+              "report",
+              "web",
+              "other"
+            ]
+          },
+          "citation_or_url": { "type": "string" },
+          "access_date": { "type": "string" },
+          "tier": {
+            "type": "string",
+            "enum": ["T0", "T1", "T2", "T3", "T4"]
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

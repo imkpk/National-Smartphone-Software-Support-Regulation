@@ -1,4 +1,3 @@
-# Placeholder workflow — enable when scripts/check_structure.py exists (Phase 1+)
 name: structure-check
 
 on:
@@ -9,16 +8,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  placeholder:
+  structure:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Phase 0 notice
-        run: |
-          echo "Structure check script not yet implemented (Phase 1)."
-          echo "Repository foundation present."
-          test -f README.md
-          test -f VALIDATION.md
-          test -d research
-          test -d litigation
-          test -d evidence
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run structure check
+        run: python scripts/check_structure.py
