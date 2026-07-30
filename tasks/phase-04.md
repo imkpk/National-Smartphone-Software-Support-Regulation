@@ -4,7 +4,7 @@
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
 **Progress:** 15 done · 9 open · 24 total  
-**Phase status:** **In progress** — WS1–WS5 (Programmes) when merged; next WS6 Gap Analysis  
+**Phase status:** **In progress** — WS1–WS6 (Gap) when merged; next WS7 Audit  
 **Specs:** [`../REPOSITORY_OS.md`](../REPOSITORY_OS.md) · [`../PHASE_04_SPECIFICATION.md`](../PHASE_04_SPECIFICATION.md)  
 
 > Check boxes only when complete and validation rules are satisfied.
@@ -78,8 +78,15 @@
 - Notes under `research/programs/` (Digital India, Cyber Surakshit Bharat, PLI electronics, e-waste EPR, NeGD, search log).
 - Negative finding: no multi-year OS-support government programme identified.
 - Reports: PROGRAMME_* + PHASE_04_PROGRAMMES_WORKSTREAM_REPORT.md.
+- **Merged** PR #22.
+
+### Workstream 6 status (2026-07-31) — Gap Analysis
+
+- Synthesis under `research/phase4-gap-analysis/` (WS1–WS5 only; no new research; no recommendations).
+- Integrated finding: no multi-year OS floor identified across Phase 4 layers.
+- Reports: GAP_* + PHASE_04_GAP_ANALYSIS_WORKSTREAM_REPORT.md.
 - Phase 4 **not** complete.
-- Do **not** auto-start WS6 gap analysis without authorization.
+- Do **not** auto-start WS7 Audit without authorization.
 
 ---
 ## Definition of Done

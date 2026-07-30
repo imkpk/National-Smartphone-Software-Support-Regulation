@@ -13,7 +13,23 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Phase 4 WS6+ (gap, audit, close) — not auto-started  
+- Phase 4 WS7–WS8 (audit, close) — not auto-started  
+
+---
+
+## [0.5.7] — 2026-07-31
+
+### Added — Phase 4 Workstream 6: Gap Analysis
+
+- `research/phase4-gap-analysis/` — layer gaps + overall + cross-cutting  
+- GAP_* matrices/reports; synthesis of WS1–WS5 only  
+- `PHASE_04_GAP_ANALYSIS_WORKSTREAM_REPORT.md`  
+- No new research; no recommendations  
+
+### Changed
+
+- TASKS / phase-04 / README / orchestration for WS6  
+- Phase 4 **not** complete; WS7 **not** started  
 
 ---
 
