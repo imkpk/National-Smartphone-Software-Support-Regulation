@@ -23,7 +23,6 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `exclusions/` | Not Relevant entity log (REPOSITORY_OS §6) | cross-cutting |
 | `government/` | Broader government index (legacy path) | 4 — scaffold; see `policy/`, `institutions/` |
 | `manufacturers/` | OEM software support | 5 — **pending** |
-| `manufacturers/` | OEM software support | 5 — pending |
 | `technical/` | Technical baseline | 5 — pending |
 | `cybersecurity/` | Cyber risk pathways | 6 — pending |
 | `environment/` | E-waste / environment | 6 — pending |
