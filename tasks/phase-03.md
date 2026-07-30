@@ -110,3 +110,13 @@ esearch/judgments README lists artefacts; master index present.
 - Reports: COMMITTEE_* + PHASE_03_COMMITTEE_WORKSTREAM_REPORT.md.
 - Phase 3 **not** marked complete.
 - Do **not** auto-start comparative / manufacturer / economics / gap workstreams.
+
+### Workstream 5 status (2026-07-30) — Comparative Jurisdictions
+
+- Notes under `research/international/` (EU, UK, US federal, Australia, Canada, Japan, South Korea).
+- EU: Regulation (EU) 2023/1670 (binding multi-year OS-update availability rules; persuasive only for India).
+- Negative finding: no equivalent multi-year OS product mandate identified for non-EU jurisdictions in the set (AU has consumer guarantees, not fixed OS years).
+- Reports: COMPARATIVE_* + PHASE_03_COMPARATIVE_WORKSTREAM_REPORT.md.
+- Orchestration: `orchestration/STATE_REPORT.md`, `WORKSTREAM_PLAN.md`, `GATE_REPORT.md`.
+- Phase 3 **not** marked complete.
+- Do **not** auto-start WS6 gap analysis / audit / Phase 4.

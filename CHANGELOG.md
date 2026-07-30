@@ -12,9 +12,31 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 ### Planned
 
 - Formal Phase 2 close (Art. 12 optional / Art. 47 remove)  
-- Formal Phase 3 close  
+- Phase 3 WS6 gap analysis → audit → formal close  
 - Forum analysis memo — still open  
-- Phase 4+ OEM / comparative / evidence — not started  
+- Phase 4+ OEM / evidence — not started  
+
+---
+
+## [0.4.5] — 2026-07-30
+
+### Added — Phase 3 Workstream 5: Comparative Jurisdictions
+
+- `research/international/` jurisdiction notes: EU, UK, US federal, Australia, Canada, Japan, South Korea  
+- EU: Commission Regulation (EU) 2023/1670 (ecodesign; multi-year OS-update availability rules)  
+- Negative finding for non-EU jurisdictions in set (no equivalent multi-year OS product mandate identified; AU consumer guarantees noted)  
+- COMPARATIVE_* reports; `PHASE_03_COMPARATIVE_WORKSTREAM_REPORT.md`  
+- Orchestration: `orchestration/STATE_REPORT.md`, `WORKSTREAM_PLAN.md`, `GATE_REPORT.md`  
+
+### Changed
+
+- TASKS / phase-03 / README progress for WS5 only  
+- Phase 3 **not** marked complete  
+
+### Explicitly not done
+
+- Gap analysis (WS6) / Phase 3 audit / formal close  
+- OEM / economics / litigation  
 
 ---
 
