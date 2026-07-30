@@ -3,8 +3,8 @@
 **Project:** National-Smartphone-Software-Support-Regulation  
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
-**Progress:** 5 done · 19 open · 24 total (WS1 policy batch; residual tasks remain)  
-**Phase status:** **In progress** — Workstream 1 (Government Policies) complete when merged  
+**Progress:** 15 done · 9 open · 24 total  
+**Phase status:** **In progress** — WS1 Policies + WS2 Institutions (when merged)  
 
 > Check boxes only when complete and validation rules are satisfied.
 
@@ -15,16 +15,16 @@
 
 ### Institutions
 
-- [ ] **T169** Profile MeitY mandate and org touchpoints
-- [ ] **T170** Profile Department of Telecommunications mandate
-- [ ] **T171** Profile Department of Consumer Affairs / CCPA
-- [ ] **T172** Profile MoEFCC mandate
-- [ ] **T173** Profile CPCB role in e-waste
-- [ ] **T174** Profile BIS standards role
-- [ ] **T175** Profile CERT-In role
-- [ ] **T176** Profile TRAI relevance check (include or exclude with reasons)
-- [ ] **T177** Profile RBI/NPCI as stakeholder (not necessarily respondents)
-- [ ] **T178** Build institutional RACI matrix
+- [x] **T169** Profile MeitY mandate and org touchpoints
+- [x] **T170** Profile Department of Telecommunications mandate
+- [x] **T171** Profile Department of Consumer Affairs / CCPA
+- [x] **T172** Profile MoEFCC mandate
+- [x] **T173** Profile CPCB role in e-waste
+- [x] **T174** Profile BIS standards role
+- [x] **T175** Profile CERT-In role
+- [x] **T176** Profile TRAI relevance check (include or exclude with reasons)
+- [x] **T177** Profile RBI/NPCI as stakeholder (not necessarily respondents)
+- [x] **T178** Build institutional RACI matrix
 
 ### Policies & schemes
 
@@ -48,8 +48,15 @@
 - Notes under `research/policy/` (NCSP 2013, NPE 2019, Digital India, NDCP 2018, repair/longevity search).
 - Negative finding: no multi-year OS/security-support duty in policies reviewed.
 - Reports: POLICY_* + PHASE_04_POLICY_WORKSTREAM_REPORT.md.
+- **Merged** PR #17.
+
+### Workstream 2 status (2026-07-31) — Government Institutions
+
+- Notes under `research/institutions/` (MeitY, DoT, DCA/CCPA, MoEFCC, CPCB, BIS, CERT-In, TRAI, RBI/NPCI, RACI).
+- Negative finding: no multi-year OS duty in institutional mandates reviewed.
+- Reports: INSTITUTION_* + PHASE_04_INSTITUTIONS_WORKSTREAM_REPORT.md.
 - Phase 4 **not** complete.
-- Do **not** auto-start WS2 institutions without authorization.
+- Do **not** auto-start WS3 standards without authorization.
 
 ---
 ## Definition of Done
