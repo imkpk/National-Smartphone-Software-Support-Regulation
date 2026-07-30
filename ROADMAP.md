@@ -146,9 +146,11 @@
 
 ## Phase 5 — Manufacturers & Technical Baseline
 
-**Status:** **Next phase** — not started; requires explicit authorisation  
+**Status:** **In progress** — WS1 manufacturers package when merged (v0.6.1); further WS not auto-started  
 
-**Objective:** Evidence-grade OEM policy dossier + technical lifecycle literacy.
+**Objective:** Evidence-grade OEM policy dossier + technical lifecycle literacy.  
+
+**Spec:** [`PHASE_05_SPECIFICATION.md`](PHASE_05_SPECIFICATION.md)
 
 **Workstreams**
 
