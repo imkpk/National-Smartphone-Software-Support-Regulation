@@ -8,6 +8,7 @@
 **WS2 status:** Complete — [`../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md)  
 **WS3 status:** Complete (hardware ecosystem, 2026-07-31) — [`../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md)  
 **WS4 status:** Complete (comparative analysis, 2026-07-31) — [`../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md)  
+**WS5 status:** Complete (gap analysis, 2026-07-31) — [`../PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md)  
 **Phase 5 overall:** In progress (iOS observational model T256; residual T260; residual brands remain)
 
 > Check boxes only when complete and validation rules are satisfied.
@@ -153,5 +154,17 @@ Phase 5 is complete only when **all** of the following are true (in addition to 
 - Negative finding: no single unified multi-year support floor across product, platform, and hardware layers.
 - Cross-links to WS1–WS3 preserved (primary notes not rewritten).
 - Residual: T256 iOS model, T260 cross-read, residual brands, T252 PDF archive.
-- Phase 5 **not** complete; **WS5 not started**.
+- Phase 5 **not** complete; **WS5 not started** (historical WS4 note).
+
+---
+
+## Workstream 5 status (2026-07-31) — Gap Analysis
+
+- Synthesis-only notes under `research/phase5-gap-analysis/` (WS1–WS4 evidence; **no new research**).
+- Matrices: gap, evidence, coverage, responsibility, documentation, lifecycle, dependency.
+- Reports: source, citation, validation, consistency, cross-reference, coverage, negative findings; Gate++ PASS.
+- Negative findings summary consolidates WS1–WS4 absences (no unified multi-year floor; residual documentation OPENs).
+- Cross-links to WS1–WS4 preserved (primary notes not rewritten).
+- Residual: T256 iOS model, T260 cross-read, residual brands, T252 PDF archive.
+- Phase 5 **not** complete; **WS6 not started**.
 
