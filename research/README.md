@@ -17,6 +17,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `policy/` | Government policies / programmes (framing) | 4 — **WS1 complete** |
 | `institutions/` | Government institutions + RACI | 4 — **WS2 complete** |
 | `standards/` | Standards & technical guidance | 4 — **WS3 complete** |
+| `consultations/` | Public consultations / drafts | 4 — **WS4 complete** |
 | `exclusions/` | Not Relevant entity log (REPOSITORY_OS §6) | cross-cutting |
 | `government/` | Broader government index (legacy path) | 4 — scaffold; see `policy/`, `institutions/` |
 | `manufacturers/` | OEM software support | 5 — pending |
@@ -45,7 +46,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 
 ## Phase status
 
-**Phase 3 Complete.** Phase 4: [`policy/`](policy/) · [`institutions/`](institutions/) · [`standards/`](standards/). Later WS require authorization after each merge.
+**Phase 3 Complete.** Phase 4: [`policy/`](policy/) · [`institutions/`](institutions/) · [`standards/`](standards/) · [`consultations/`](consultations/). Later WS require authorization after each merge.
 
 ---
 *Updated Phase 3 close 2026-07-30*

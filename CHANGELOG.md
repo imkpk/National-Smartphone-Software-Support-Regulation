@@ -13,7 +13,23 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Phase 4 WS4+ (consultations, programmes, gap, audit, close) — not auto-started  
+- Phase 4 WS5+ (programmes, gap, audit, close) — not auto-started  
+
+---
+
+## [0.5.5] — 2026-07-31
+
+### Added — Phase 4 Workstream 4: Public Consultations
+
+- `research/consultations/` — MeitY DPDP draft-rules consultation; India AI Governance Guidelines consultation; BIS draft-comment process; search log  
+- Negative finding: no official multi-year OS-support consultation identified  
+- CONSULTATION_* reports and analytical matrices  
+- `PHASE_04_CONSULTATIONS_WORKSTREAM_REPORT.md`  
+
+### Changed
+
+- TASKS / phase-04 / README / orchestration for WS4  
+- Phase 4 **not** complete; WS5 **not** started  
 
 ---
 
