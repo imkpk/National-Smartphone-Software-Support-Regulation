@@ -146,7 +146,7 @@
 
 ## Phase 5 — Manufacturers & Technical Baseline
 
-**Status:** **In progress** — WS1–WS5 complete (v0.6.1–0.6.5); WS6 repository audit (v0.6.6 when merged); further WS not auto-started  
+**Status:** **Complete** (v0.7.0) — see [`PHASE_05_COMPLETION_REPORT.md`](PHASE_05_COMPLETION_REPORT.md)
 
 **Objective:** Evidence-grade OEM policy dossier + technical lifecycle literacy + comparative synthesis + gap inventory + integrity audit.  
 
@@ -154,31 +154,32 @@
 
 **Workstreams**
 
-- **WS1 (complete):** OEM published policies — Google, Samsung, Apple, Nothing, Motorola, OnePlus, Xiaomi, realme, vivo, Oppo, Honor, Sony, Nokia/HMD, ASUS, Lenovo  
-- **WS2 (complete):** Android ecosystem — AOSP, Mainline, Play System Updates, ASB, CDD/CTS/VTS, GMS, Treble, GKI, OTA architecture, Verified Boot, Play Integrity  
-- **WS3 (complete):** Hardware & chipset — LTS, ACK, GKI, KMI, BSP, firmware, TEE, Qualcomm/MediaTek/Tensor/Exynos/UNISOC  
-- **WS4 (complete):** Comparative analysis of WS1–WS3 only — **no new research**  
-- **WS5 (complete):** Gap analysis of WS1–WS4 only — **no new research**  
-- **WS6 (this package):** Repository audit of WS1–WS5 — **no new research**  
-- OS vs security update distinction  
-- Capture date protocol  
-- Residual: iOS observational model / further technical notes as later authorised  
+- **WS1 (complete):** OEM published policies  
+- **WS2 (complete):** Android ecosystem  
+- **WS3 (complete):** Hardware & chipset  
+- **WS4 (complete):** Comparative analysis — **no new research**  
+- **WS5 (complete):** Gap analysis — **no new research**  
+- **WS6 (complete):** Repository audit — Gate++ PASS WITH MINOR ISSUES  
+- **WS7 (complete):** Formal completion (v0.7.0)  
 
 **Exit criteria**
 
-- OEM comparison matrices under `research/manufacturers/`  
-- Android ecosystem matrices under `research/android-ecosystem/`  
-- Hardware ecosystem matrices under `research/hardware-ecosystem/`  
-- Comparative matrices under `research/comparative-analysis/`  
-- Gap matrices under `research/phase5-gap-analysis/`  
-- Audit package under `audit/phase5/`  
-- Uncertainty log for SKU-level variance  
+- [x] OEM comparison matrices under `research/manufacturers/`  
+- [x] Android ecosystem matrices under `research/android-ecosystem/`  
+- [x] Hardware ecosystem matrices under `research/hardware-ecosystem/`  
+- [x] Comparative matrices under `research/comparative-analysis/`  
+- [x] Gap matrices under `research/phase5-gap-analysis/`  
+- [x] Audit package under `audit/phase5/`  
+- [x] Uncertainty log for SKU-level variance  
+- [x] Formal completion package  
 
-**Depends on:** Phase 1  
+**Depends on:** Phase 1 · Phase 4  
 
 ---
 
 ## Phase 6 — Cybersecurity, Environment, Economics
+
+**Status:** **Next — Ready** (not started; requires authorisation after Phase 5 merge)
 
 **Objective:** Multidisciplinary evidence packs.
 

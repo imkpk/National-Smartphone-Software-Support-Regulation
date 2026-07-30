@@ -3,14 +3,15 @@
 **Project:** National-Smartphone-Software-Support-Regulation  
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
-**Progress:** 57 done · 11 open · 68 total  
+**Progress:** 58 done · 10 open · 68 total  
 **WS1 status:** Complete — [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md)  
 **WS2 status:** Complete — [`../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md)  
-**WS3 status:** Complete (hardware ecosystem, 2026-07-31) — [`../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md)  
-**WS4 status:** Complete (comparative analysis, 2026-07-31) — [`../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md)  
-**WS5 status:** Complete (gap analysis, 2026-07-31) — [`../PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md)  
-**WS6 status:** Complete (repository audit, 2026-07-31) — [`../audit/phase5/PHASE_05_AUDIT_SUMMARY.md`](../audit/phase5/PHASE_05_AUDIT_SUMMARY.md) · Gate++ **PASS WITH MINOR ISSUES**  
-**Phase 5 overall:** In progress (iOS observational model T256; residual T260; residual brands remain; not closed)
+**WS3 status:** Complete — [`../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md)  
+**WS4 status:** Complete — [`../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md)  
+**WS5 status:** Complete — [`../PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md)  
+**WS6 status:** Complete — [`../audit/phase5/PHASE_05_AUDIT_SUMMARY.md`](../audit/phase5/PHASE_05_AUDIT_SUMMARY.md) · Gate++ **PASS WITH MINOR ISSUES**  
+**WS7 status:** Complete (formal completion, 2026-07-31) — [`../PHASE_05_COMPLETION_REPORT.md`](../PHASE_05_COMPLETION_REPORT.md)  
+**Phase 5 overall:** **COMPLETE** (v0.7.0). Residual OPENs (brands, annexures, iOS model, cyber cross-read) documented; non-blocking for inventory close.
 
 > Check boxes only when complete and validation rules are satisfied.
 
@@ -108,7 +109,7 @@ Phase 5 is complete only when **all** of the following are true (in addition to 
 - [x] Validation + citation requirements met for all captures. *(WS1 + WS2 packages)*
 - [x] Indexes, task checkboxes, TASKS.md dashboard, CHANGELOG updated. *(WS1 + WS2)*
 - [x] Citation Validation + QA review recorded. *(MANUFACTURER_* + ANDROID_* reports)*
-- [ ] **Phase 5 completion approval:** PM marks Phase 5 Complete after remaining workstreams; **does not auto-start the next phase**.
+- [x] **Phase 5 completion approval:** PM marks Phase 5 Complete after remaining workstreams; **does not auto-start the next phase**. *(v0.7.0 — PHASE_05_COMPLETION_REPORT.md; Phase 6 not started)*
 
 
 ---
@@ -177,5 +178,15 @@ Phase 5 is complete only when **all** of the following are true (in addition to 
 - Gate++: **PASS WITH MINOR ISSUES** — `orchestration/PHASE_05_WS6_GATE_REPORT.md`.
 - No new research; WS1–WS5 conclusions not rewritten.
 - Residuals confirmed OPEN: T238–T246, T252, T256, T260; Phase 5 completion checkbox open.
-- Phase 5 **not** complete; **WS7 not started**.
+- Phase 5 **not** complete; **WS7 not started** (historical WS6 note).
+
+---
+
+## Workstream 7 status (2026-07-31) — Formal Completion
+
+- Completion package: `PHASE_05_COMPLETION_REPORT.md` · `PHASE_05_RELEASE_SUMMARY.md` · `PHASE_05_PHASE_TRANSITION_REPORT.md`.
+- Completion Gate++: **PASS** — `orchestration/PHASE_05_COMPLETION_GATE.md` (trusts WS6 audit; no re-audit).
+- Version **0.7.0**; Phase 5 **COMPLETE**; repository **Ready for Phase 6**.
+- Residuals remain OPEN but non-blocking for inventory close (documented in audit residual report).
+- **Phase 6 not started.**
 
