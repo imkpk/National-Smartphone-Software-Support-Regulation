@@ -3,9 +3,10 @@
 **Project:** National-Smartphone-Software-Support-Regulation  
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
-**Progress:** 51 done · 17 open · 68 total  
-**WS1 status:** Complete (OEM published policies inventory, 2026-07-31) — see [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md)  
-**Phase 5 overall:** In progress (technical baseline T254–T260 and residual brands remain)
+**Progress:** 55 done · 13 open · 68 total  
+**WS1 status:** Complete — [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md)  
+**WS2 status:** Complete (Android ecosystem, 2026-07-31) — [`../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md)  
+**Phase 5 overall:** In progress (iOS observational model / residual technical T256–T260 and residual brands remain)
 
 > Check boxes only when complete and validation rules are satisfied.
 
@@ -80,12 +81,12 @@
 
 ### Technical research
 
-- [ ] **T254** Write technical note: Android security bulletin cadence
-- [ ] **T255** Write technical note: AOSP vs OEM delivery pipeline
+- [x] **T254** Write technical note: Android security bulletin cadence *(WS2 — android-security-bulletins.md / monthly-security-updates.md)*
+- [x] **T255** Write technical note: AOSP vs OEM delivery pipeline *(WS2 — aosp.md / google-vs-oem-responsibilities.md / update matrices)*
 - [ ] **T256** Write technical note: iOS update support observational model
 - [ ] **T257** Write technical note: firmware/baseband update relevance
-- [ ] **T258** Write technical note: app-level updates cannot replace OS patches
-- [ ] **T259** Write glossary of CVE, patch level, OTAs
+- [x] **T258** Write technical note: app-level updates cannot replace OS patches *(WS2 — update-distribution-architecture.md / OTA notes)*
+- [x] **T259** Write glossary of CVE, patch level, OTAs *(WS2 — security-patch-levels.md / bulletins / OTA; residual expand later)*
 - [ ] **T260** Technical Agent + Cybersecurity cross-read
 
 ---
@@ -97,12 +98,12 @@ Phase 5 is complete only when **all** of the following are true (in addition to 
 
 - [x] OEM captures for planned brands exist with URL + access datetime + series scope. *(WS1 — 15 OEMs; residual brands OPEN)*
 - [x] Cross-OEM comparison table v1 exists under `research/manufacturers/` (comparison / coverage / lifecycle matrices).
-- [ ] Technical baseline notes (OS vs security update pipeline) exist under `research/technical/`.
+- [x] Technical baseline notes (OS vs security update pipeline) exist — `research/android-ecosystem/` (WS2); residual under `research/technical/` optional.
 - [x] Uncertainty log for SKU variance exists. *(OPEN questions per OEM note + residual OPEN in matrices)*
 - [x] No brand-wide support claims without evidence; no defamation.
-- [x] Validation + citation requirements met for all captures. *(WS1 package)*
-- [x] Indexes, task checkboxes, TASKS.md dashboard, CHANGELOG updated. *(WS1)*
-- [x] Citation Validation + QA review recorded. *(MANUFACTURER_VALIDATION_REPORT / CITATION_REPORT)*
+- [x] Validation + citation requirements met for all captures. *(WS1 + WS2 packages)*
+- [x] Indexes, task checkboxes, TASKS.md dashboard, CHANGELOG updated. *(WS1 + WS2)*
+- [x] Citation Validation + QA review recorded. *(MANUFACTURER_* + ANDROID_* reports)*
 - [ ] **Phase 5 completion approval:** PM marks Phase 5 Complete after remaining workstreams; **does not auto-start the next phase**.
 
 
@@ -116,5 +117,16 @@ Phase 5 is complete only when **all** of the following are true (in addition to 
 - POCO covered under Xiaomi family note; iQOO/Tecno/Infinix and other India-volume discovery residual.
 - Technical baseline notes (T254–T260) **not** part of WS1 — remain open.
 - PDF annexure archive (T252) residual OPEN.
-- Phase 5 **not** complete; WS2 **not** started.
+- Phase 5 **not** complete; WS2 **not** started (historical WS1 note).
+
+---
+
+## Workstream 2 status (2026-07-31) — Android Ecosystem
+
+- 23 topic notes + negative finding under `research/android-ecosystem/` (official Google/AOSP docs only).
+- Matrices: coverage, architecture, update responsibility, component; source/citation/validation/cross-ref reports.
+- Negative finding: platform docs are not a multi-year device support floor; bulletin publish ≠ universal ship.
+- Cross-links to Phase 5 WS1 manufacturer policies preserved (not rewritten).
+- Residual: T256 iOS model, T257 firmware/baseband, T260 cross-read, residual brands, T252 PDF archive.
+- Phase 5 **not** complete; **WS3 not started**.
 
