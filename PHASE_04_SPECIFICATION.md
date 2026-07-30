@@ -35,7 +35,7 @@ Descriptive research. **No advocacy. No litigation. No legislative drafting.**
 | 3 | Standards & Technical Guidance | `research/standards/` | Complete when WS3 PR merges |
 | 4 | Public Consultations | `research/consultations/` | Complete when WS4 PR merges |
 | 5 | Government Programmes | `research/programs/` | Complete when WS5 PR merges |
-| 6 | Gap Analysis | `research/phase4-gap-analysis/` | Pending |
+| 6 | Gap Analysis | `research/phase4-gap-analysis/` | Complete when WS6 PR merges |
 | 7 | Phase 4 Audit | `PHASE_4_AUDIT.md` + related | Pending |
 | 8 | Formal Completion | `PHASE_04_COMPLETION_REPORT.md` + close package | Pending |
 
