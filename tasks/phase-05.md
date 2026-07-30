@@ -3,10 +3,11 @@
 **Project:** National-Smartphone-Software-Support-Regulation  
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
-**Progress:** 55 done · 13 open · 68 total  
+**Progress:** 57 done · 11 open · 68 total  
 **WS1 status:** Complete — [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md)  
-**WS2 status:** Complete (Android ecosystem, 2026-07-31) — [`../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md)  
-**Phase 5 overall:** In progress (iOS observational model / residual technical T256–T260 and residual brands remain)
+**WS2 status:** Complete — [`../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md)  
+**WS3 status:** Complete (hardware ecosystem, 2026-07-31) — [`../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md)  
+**Phase 5 overall:** In progress (iOS observational model T256; residual T260; residual brands remain)
 
 > Check boxes only when complete and validation rules are satisfied.
 
@@ -84,7 +85,7 @@
 - [x] **T254** Write technical note: Android security bulletin cadence *(WS2 — android-security-bulletins.md / monthly-security-updates.md)*
 - [x] **T255** Write technical note: AOSP vs OEM delivery pipeline *(WS2 — aosp.md / google-vs-oem-responsibilities.md / update matrices)*
 - [ ] **T256** Write technical note: iOS update support observational model
-- [ ] **T257** Write technical note: firmware/baseband update relevance
+- [x] **T257** Write technical note: firmware/baseband update relevance *(WS3 — firmware-lifecycle.md / vendor-security-patches.md)*
 - [x] **T258** Write technical note: app-level updates cannot replace OS patches *(WS2 — update-distribution-architecture.md / OTA notes)*
 - [x] **T259** Write glossary of CVE, patch level, OTAs *(WS2 — security-patch-levels.md / bulletins / OTA; residual expand later)*
 - [ ] **T260** Technical Agent + Cybersecurity cross-read
@@ -127,6 +128,17 @@ Phase 5 is complete only when **all** of the following are true (in addition to 
 - Matrices: coverage, architecture, update responsibility, component; source/citation/validation/cross-ref reports.
 - Negative finding: platform docs are not a multi-year device support floor; bulletin publish ≠ universal ship.
 - Cross-links to Phase 5 WS1 manufacturer policies preserved (not rewritten).
-- Residual: T256 iOS model, T257 firmware/baseband, T260 cross-read, residual brands, T252 PDF archive.
-- Phase 5 **not** complete; **WS3 not started**.
+- Residual: T256 iOS model, T260 cross-read, residual brands, T252 PDF archive.
+- Phase 5 **not** complete; **WS3 not started** (historical WS2 note).
+
+---
+
+## Workstream 3 status (2026-07-31) — Hardware & Chipset Ecosystem
+
+- Notes under `research/hardware-ecosystem/` (LTS, ACK, GKI, KMI, BSP, firmware, TEE, SoC vendors).
+- Matrices: coverage, architecture, chipset support, kernel lifecycle, firmware responsibility.
+- Negative finding: no universal multi-year chipset/firmware consumer floor in public official docs.
+- Cross-links to WS1 manufacturers and WS2 Android ecosystem preserved (not rewritten).
+- Residual: MediaTek/UNISOC public multi-year matrices sparse (OPEN); partner BSP gated.
+- Phase 5 **not** complete; **WS4 not started**.
 
