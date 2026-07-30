@@ -9,7 +9,9 @@ See `CHANGELOG.md` → **[0.6.0]**
 
 ## Summary
 
-Closes Phase 4 (Government Policy & Institutions) after WS1–WS8. Audit passed with minor issues only. No Phase 5 content.
+Closes Phase 4 (Government Policy & Institutions) after WS1–WS8.  
+**Lightweight completion:** trusts PR #24 audit; does not re-audit research packages.  
+Repository left **Ready for Phase 5**. No Phase 5 content; no `PHASE_05_SPECIFICATION` created.
 
 ## Prior version
 

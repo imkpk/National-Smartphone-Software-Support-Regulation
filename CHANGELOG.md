@@ -19,9 +19,10 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ## [0.6.0] — 2026-07-31
 
-### Added — Phase 4 formal completion
+### Added — Phase 4 formal completion (lightweight)
 
 - `PHASE_04_COMPLETION_REPORT.md`  
+- `PHASE_04_COMPLETION_VERIFICATION.md` (completion checks; **not** a re-audit)  
 - `PHASE_04_RELEASE_NOTES.md`, `PHASE_04_SUMMARY.md`, `PHASE_04_STATISTICS.md`  
 - `PHASE_04_COMPLETION_CHECKLIST.md`, `VERSION_0_6_0_RELEASE.md`  
 
@@ -30,11 +31,14 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 - Phase 4 marked **Complete** (WS1–WS8)  
 - Version **0.6.0**  
 - README / TASKS / ROADMAP / research/README / STATE_REPORT synchronized  
-- Phase 5 **not** started  
+- Phase transition: **Ready for Phase 5** (not started)  
+- **Trusts PR #24 audit** — does not re-validate WS1–WS6 packages  
 
 ### Explicitly not done
 
 - Phase 5 OEM research  
+- `PHASE_05_SPECIFICATION.md`  
+- Re-audit of repository integrity (see PR #24)  
 - Litigation / legislative recommendations  
 - Removal of documented PROVISIONAL/OPEN limitations  
 

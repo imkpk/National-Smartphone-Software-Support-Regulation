@@ -1,15 +1,16 @@
 # Phase 4 Release Notes — v0.6.0
 
 **Date:** 2026-07-31  
-**Release type:** Phase 4 formal completion  
+**Release type:** Phase 4 formal completion (lightweight close)  
 
 ---
 
 ## Highlights
 
 - Phase 4 **Government Policy & Institutions** research complete (WS1–WS8)  
-- Audit: **PASS WITH MINOR ISSUES**  
+- Audit (PR #24): **PASS WITH MINOR ISSUES** — this release **trusts** the audit (does not re-audit)  
 - Version **0.6.0** marks Phase 4 closed  
+- Repository left **Ready for Phase 5** (Phase 5 not started; no `PHASE_05_SPECIFICATION` in this release)  
 - `REPOSITORY_OS.md` governs future phases  
 
 ## What landed

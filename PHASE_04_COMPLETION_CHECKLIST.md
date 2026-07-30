@@ -1,28 +1,19 @@
-# Phase 4 Completion Checklist
+# Phase 4 Completion Checklist (lightweight)
 
-**Date:** 2026-07-31  
 **Version:** 0.6.0  
-
-Legend: ✅ done · 📌 documented limitation · ⏭ deferred  
+**Trusts audit:** PR #24 / `PHASE_4_AUDIT.md`  
 
 | Item | Status |
 |------|--------|
-| WS1 Policies complete | ✅ |
-| WS2 Institutions complete | ✅ |
-| WS3 Standards complete | ✅ |
-| WS4 Consultations complete | ✅ |
-| WS5 Programmes complete | ✅ |
-| WS6 Gap Analysis complete | ✅ |
-| WS7 Audit complete (PASS WITH MINOR ISSUES) | ✅ |
-| WS8 Completion package | ✅ |
-| README Phase 4 Complete | ✅ |
-| CHANGELOG 0.6.0 | ✅ |
-| TASKS Phase 4 Complete | ✅ |
-| ROADMAP Phase 4 Complete | ✅ |
-| research/README Phase 4 folders | ✅ |
-| STATE_REPORT Phase 4 complete | ✅ |
-| Phase 5 not started | ✅ |
-| Critical defects open | ✅ none |
-| Known limitations preserved | 📌 |
+| PR #24 merged | ✅ |
+| Phase 4 Audit complete | ✅ PASS WITH MINOR ISSUES |
+| Completion package present | ✅ |
+| Documentation synchronized | ✅ |
+| Version **0.6.0** | ✅ |
+| Phase 4 marked Complete | ✅ |
+| ROADMAP / STATE: Ready for Phase 5 | ✅ |
+| `PHASE_05_SPECIFICATION` **not** created | ✅ |
+| Phase 5 **not** executed | ✅ |
+| No new research in this PR | ✅ |
 
-**Phase 4 formally complete.**
+**Phase 4 formally complete. Ready for Phase 5 (not started).**

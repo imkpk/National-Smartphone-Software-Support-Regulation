@@ -22,8 +22,13 @@ Map official Indian government policy, institutions, standards/guidance, consult
 
 `research/policy/` · `institutions/` · `standards/` · `consultations/` · `programs/` · `phase4-gap-analysis/` · `PHASE_4_AUDIT.md` · `PHASE_04_COMPLETION_REPORT.md`
 
-## Next
+## Phase transition
 
-Phase 5 — Manufacturers & Technical Baseline (**not started**)
+| From | To |
+|------|-----|
+| Phase 4 | **Completed** (v0.6.0) |
+| Phase 5 | **Ready / Next** — not started; no Phase 5 execution in this close |
+
+Phase 5 — Manufacturers & Technical Baseline requires **explicit authorisation**.
 
 ---
