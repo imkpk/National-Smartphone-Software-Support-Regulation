@@ -17,6 +17,23 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ---
 
+## [0.5.3] — 2026-07-31
+
+### Added — Repository OS architecture
+
+- **`REPOSITORY_OS.md`** — permanent orchestrator OS: boot sequence, agents, Optimistic Resume, Dependency Engine, Self-Healing Documentation, Repository Relevance, Knowledge Graph, Repository Gate++, scheduler  
+- **`PHASE_04_SPECIFICATION.md`** — Phase 4 objectives and workstreams only (no OS fork)  
+- `templates/repository_relevance_block.md`  
+- `research/exclusions/` — Not Relevant log  
+
+### Changed
+
+- `MASTER_PROMPT.md` v1.1 — defers engines to REPOSITORY_OS  
+- Self-heal: `docs/START_HERE.md`, `docs/README.md`, templates README, orchestration STATE  
+- Phase 4 **not** complete; WS3 **not** started in this release  
+
+---
+
 ## [0.5.2] — 2026-07-31
 
 ### Added — Phase 4 Workstream 2: Government Institutions

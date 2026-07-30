@@ -9,6 +9,11 @@ labels_allowed: [FACT, LAW, ANALYSIS, NORM, OPEN, SECONDARY, UNVERIFIED, DISPUTE
 ---
 # Government Policy Memo — [Title]
 
+## Repository Relevance
+
+**Why this entity belongs in the repository:**  
+**Tags:** (see `templates/repository_relevance_block.md` / REPOSITORY_OS §6)
+
 ## Issuing authority
 
 ## Document title and date

@@ -16,6 +16,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `gap-analysis/` | Cross-layer gap synthesis | 3 — **complete** (WS6) |
 | `policy/` | Government policies / programmes (framing) | 4 — **WS1 complete** |
 | `institutions/` | Government institutions + RACI | 4 — **WS2 complete** |
+| `exclusions/` | Not Relevant entity log (REPOSITORY_OS §6) | cross-cutting |
 | `government/` | Broader government index (legacy path) | 4 — scaffold; see `policy/`, `institutions/` |
 | `manufacturers/` | OEM software support | 5 — pending |
 | `technical/` | Technical baseline | 5 — pending |

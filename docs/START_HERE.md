@@ -2,25 +2,26 @@
 
 Welcome to **National-Smartphone-Software-Support-Regulation**.
 
-This repository prepares rigorous, citable research on smartphone software support regulation in India. **Substantive legal research has not started** (framework only through Phase 1). **Filing forum is not pre-selected** (Article 32 vs Article 226 remain open).
+This repository prepares rigorous, citable research on smartphone software support regulation in India. **Phase 3 is complete; Phase 4 is in progress** (see README / TASKS). **Filing forum is not pre-selected** (Article 32 vs Article 226 remain open).
 
 ---
 
-## Read in this order (only these five)
+## Read in this order
 
 | # | File | Why |
 |---|------|-----|
 | 1 | [`../README.md`](../README.md) | Vision, problem, progress |
-| 2 | [`../VALIDATION.md`](../VALIDATION.md) | **Single source of truth** for validation / anti-hallucination gates |
-| 3 | [`../CITATION_POLICY.md`](../CITATION_POLICY.md) | **Single source of truth** for how to cite |
-| 4 | [`../templates/README.md`](../templates/README.md) | How research notes are structured |
-| 5 | [`../TASKS.md`](../TASKS.md) | What to work on next (phase dashboard) |
+| 2 | [`../VALIDATION.md`](../VALIDATION.md) | **SoT** — validation / anti-hallucination |
+| 3 | [`../CITATION_POLICY.md`](../CITATION_POLICY.md) | **SoT** — how to cite |
+| 4 | [`../REPOSITORY_OS.md`](../REPOSITORY_OS.md) | **Permanent orchestrator OS** (resume, relevance, gate++) |
+| 5 | Active phase spec e.g. [`../PHASE_04_SPECIFICATION.md`](../PHASE_04_SPECIFICATION.md) | Phase workstreams only |
+| 6 | [`../TASKS.md`](../TASKS.md) | What to work on next |
 
-Optional next: [`RESEARCH_GUIDELINES.md`](../RESEARCH_GUIDELINES.md) (workflow only), [`ROADMAP.md`](../ROADMAP.md), [`AGENTS.md`](../AGENTS.md).
+Optional: [`../templates/README.md`](../templates/README.md), [`RESEARCH_GUIDELINES.md`](../RESEARCH_GUIDELINES.md), [`ROADMAP.md`](../ROADMAP.md), [`AGENTS.md`](../AGENTS.md).
 
 ---
 
-## Your first concrete action (when Phase 2 is authorised)
+## Your first concrete action
 
 ```bash
 # From repository root

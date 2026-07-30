@@ -2,8 +2,8 @@
 
 **Open-source legal research repository on minimum smartphone software support standards in India**
 
-[![Status](https://img.shields.io/badge/status-Phase%204%20WS1%E2%80%93WS2-blue)]()
-[![Version](https://img.shields.io/badge/version-0.5.2-blue)]()
+[![Status](https://img.shields.io/badge/status-Phase%204%20WS1%E2%80%93WS2%20%2B%20OS-blue)]()
+[![Version](https://img.shields.io/badge/version-0.5.3-blue)]()
 [![Research](https://img.shields.io/badge/research-P4%20policies%20%2B%20institutions-success)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Validation](https://img.shields.io/badge/validation-VALIDATION.md%20SoT-red)](VALIDATION.md)
@@ -18,10 +18,12 @@
 | Priority | Document | Role |
 |----------|----------|------|
 | 1 | [`docs/START_HERE.md`](docs/START_HERE.md) | Onboarding path |
-| 2 | [`VALIDATION.md`](VALIDATION.md) | **Single source of truth — validation & integrity gates** |
-| 3 | [`CITATION_POLICY.md`](CITATION_POLICY.md) | **Single source of truth — how to cite** |
-| 4 | [`TASKS.md`](TASKS.md) | Task dashboard → `tasks/phase-XX.md` |
-| 5 | [`ROADMAP.md`](ROADMAP.md) | Phases 0–10 |
+| 2 | [`VALIDATION.md`](VALIDATION.md) | **SoT — validation & integrity gates** |
+| 3 | [`CITATION_POLICY.md`](CITATION_POLICY.md) | **SoT — how to cite** |
+| 4 | [`REPOSITORY_OS.md`](REPOSITORY_OS.md) | **Permanent orchestrator OS** (resume, relevance, gate++) |
+| 5 | [`PHASE_04_SPECIFICATION.md`](PHASE_04_SPECIFICATION.md) | Phase 4 workstreams (phase-only) |
+| 6 | [`TASKS.md`](TASKS.md) | Task dashboard → `tasks/phase-XX.md` |
+| 7 | [`ROADMAP.md`](ROADMAP.md) | Phases 0–10 |
 
 ---
 

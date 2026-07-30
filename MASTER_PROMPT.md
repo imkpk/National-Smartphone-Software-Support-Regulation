@@ -1,10 +1,18 @@
 # Master Prompt — Autonomous Orchestration Contract
 
-**Status:** `READY FOR PHASE 2+ SUPERVISED USE` (not a licence to invent law)  
-**Version:** 1.0.0-phase1  
+**Status:** `READY FOR PHASE 4+ SUPERVISED USE` (not a licence to invent law)  
+**Version:** 1.1.0  
 **Supersedes:** Phase 0 placeholder-only description  
 
-This file is the **orchestration prompt** for later research phases. It does **not** authorise skipping validation, fabricating authorities, or drafting litigation before Phase 9.
+## Permanent OS (read first)
+
+**Stable engines, agents, gates, resume/dependency/relevance rules:**  
+→ **[`REPOSITORY_OS.md`](REPOSITORY_OS.md)** (do not fork into per-phase master prompts)
+
+**Active phase objectives/workstreams only:**  
+→ e.g. [`PHASE_04_SPECIFICATION.md`](PHASE_04_SPECIFICATION.md)
+
+This file remains the **historical orchestration contract** and non-negotiable research rules. **Runtime engines live in REPOSITORY_OS.** It does **not** authorise skipping validation, fabricating authorities, or drafting litigation before Phase 9.
 
 ---
 
