@@ -4,7 +4,7 @@
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
 **Progress:** 15 done · 9 open · 24 total  
-**Phase status:** **In progress** — WS1–WS3 (Standards) when merged; next WS4 Consultations  
+**Phase status:** **In progress** — WS1–WS4 (Consultations) when merged; next WS5 Programmes  
 **Specs:** [`../REPOSITORY_OS.md`](../REPOSITORY_OS.md) · [`../PHASE_04_SPECIFICATION.md`](../PHASE_04_SPECIFICATION.md)  
 
 > Check boxes only when complete and validation rules are satisfied.
@@ -64,8 +64,15 @@
 - Negative finding: no multi-year OS product Indian Standard identified.
 - Reports: STANDARDS_* + PHASE_04_STANDARDS_WORKSTREAM_REPORT.md.
 - Repository Relevance on all new notes.
+- **Merged** PR #20.
+
+### Workstream 4 status (2026-07-31) — Public Consultations
+
+- Notes under `research/consultations/` (MeitY DPDP draft rules; AI governance guidelines; BIS draft-comment process; search log).
+- Negative finding: no official multi-year OS-support consultation identified.
+- Reports: CONSULTATION_* + PHASE_04_CONSULTATIONS_WORKSTREAM_REPORT.md.
 - Phase 4 **not** complete.
-- Do **not** auto-start WS4 consultations without authorization.
+- Do **not** auto-start WS5 programmes without authorization.
 
 ---
 ## Definition of Done
