@@ -90,22 +90,29 @@
 
 ---
 
-## Phase 3 — Judgments Corpus
+## Phase 3 — Judgments Corpus & Extended Research Layers
 
-**Objective:** Curated, verified case law relevant to PIL maintainability, Art. 21 expansions, environment principles, consumer welfare, digital rights, administrative law.
+**Status (repository):** **Complete** — see `PHASE_03_COMPLETION_REPORT.md` (2026-07-30).
 
-**Workstreams**
+**Objective:** Curated, verified case law relevant to PIL maintainability, Art. 21 expansions, environment principles, consumer welfare, digital rights, administrative law; plus operational workstreams for regulators, parliamentary materials, persuasive comparative law, and gap synthesis.
 
-- Supreme Court core set  
-- High Court persuasive set  
-- Doctrine index (precaution, polluter pays, locus, mandamus, privacy, etc.)  
-- Pin-cite verification protocol  
+**Workstreams (as executed)**
+
+- WS1 Supreme Court core set  
+- WS2 High Court persuasive set  
+- WS3 Regulatory authorities  
+- WS4 Parliamentary committees & Law Commission  
+- WS5 Comparative jurisdictions (persuasive only; also listed historically under Phase 7)  
+- WS6 Gap analysis  
+- Phase 3 Audit + formal close  
 
 **Exit criteria**
 
-- Every case entry has official citation  
+- Every case entry has official citation (or PROVISIONAL)  
 - Ratio vs application clearly separated  
 - `UNVERIFIED` items quarantined  
+- Workstream reports, matrices, validation, and negative findings as applicable  
+- Audit PASS or PASS WITH MINOR ISSUES  
 
 **Depends on:** Phase 2 (parallelisation allowed with caution)  
 
