@@ -6,7 +6,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 
 | Folder | Domain | Substantive phase |
 |--------|--------|-------------------|
-| `constitution/` | Constitution of India | 2 |
+| `constitution/` | Constitution of India | 2 — **notes complete (workstream)** |
 | `statutes/` | Central statutes & rules | 2 |
 | `judgments/` | SC & HC case law | 3 |
 | `government/` | Policies & institutions | 4 |
