@@ -13,7 +13,26 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Further Phase 5 workstreams after WS6 — not auto-started  
+- Phase 6 (cybersecurity / environment / economics) — **not auto-started**; requires authorisation  
+
+---
+
+## [0.7.0] — 2026-07-31
+
+### Added — Phase 5 Formal Completion
+
+- `PHASE_05_COMPLETION_REPORT.md`  
+- `PHASE_05_RELEASE_SUMMARY.md`  
+- `PHASE_05_PHASE_TRANSITION_REPORT.md`  
+- Gate++: `orchestration/PHASE_05_COMPLETION_GATE.md` → **PASS** (trusts WS6 audit)  
+- Version **0.7.0** marks Phase 5 closed  
+- Repository status: **Ready for Phase 6** (Phase 6 **not** started)  
+
+### Changed
+
+- `PHASE_05_SPECIFICATION.md` — Phase 5 **Complete**; WS1–WS7 indexed  
+- README / TASKS / ROADMAP / research/README / STATE_REPORT for Phase 5 close  
+- No new research · no new analysis · no re-audit  
 
 ---
 
