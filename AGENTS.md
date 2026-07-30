@@ -1,353 +1,223 @@
 # Multi-Agent Architecture
 
 **Project:** National-Smartphone-Software-Support-Regulation  
-**Document status:** Active (design)  
-**Runtime status:** Manual / human-supervised until `MASTER_PROMPT.md` activation  
+**Document status:** Active  
+**Runtime model:** **Seven core agents** (human and/or supervised LLM)  
+**Extensibility:** Domain specialisations are **skill packs**, not separate permanent agents  
 
-This document defines specialised agents as **roles with contracts**. They may be humans, LLMs under supervision, or hybrid pairs. All agents are bound by [`VALIDATION.md`](VALIDATION.md).
+All agents are bound by [`VALIDATION.md`](VALIDATION.md) (validation SoT) and [`CITATION_POLICY.md`](CITATION_POLICY.md) (citation SoT).
 
 ---
 
-## 1. Architecture Overview
+## 1. Design principle
+
+| Prefer | Avoid |
+|--------|--------|
+| Few runtime roles with clear handoffs | 18 concurrent “agents” for a small team |
+| Domain parameter on Research Agent | One permanent agent per research folder |
+| Citation Validation as a **separate pass** | Self-certifying research without review |
 
 ```text
-                    ┌──────────────────────┐
-                    │   Chief Architect    │
-                    └──────────┬───────────┘
-                               │
-                    ┌──────────v───────────┐
-                    │  Project Manager     │
-                    └──────────┬───────────┘
-                               │
-                    ┌──────────v───────────┐
-                    │  Research Director   │
-          ┌────────┴──────────┬──────────┴────────┐
-          v                   v                   v
-   Domain Research      Evidence Agent      Drafting Agent
-   Agents (×N)                                 │
-          │                   │                v
-          └─────────┬─────────┘         litigation/**
-                    v
-         Citation Validation Agent
-                    │
-                    v
-         Quality Assurance Agent
-                    │
-                    v
-              Git Manager
+                 ┌─────────────────────────┐
+                 │ 1. Project Manager      │
+                 │    (orchestrates)       │
+                 └───────────┬─────────────┘
+                             │
+                 ┌───────────v─────────────┐
+                 │ 2. Research Agent       │
+                 │    (domain=…)           │
+                 └───────────┬─────────────┘
+                             │
+                 ┌───────────v─────────────┐
+                 │ 3. Citation Validation  │
+                 └───────────┬─────────────┘
+                             │
+          ┌──────────────────┼──────────────────┐
+          v                  v                  v
+ ┌────────────────┐ ┌────────────────┐ ┌────────────────┐
+ │ 4. Evidence    │ │ 5. Drafting    │ │ 6. QA          │
+ │    Agent       │ │    (Phase 9+)  │ │    Agent       │
+ └────────────────┘ └────────────────┘ └────────┬───────┘
+                                                 │
+                                      ┌──────────v──────────┐
+                                      │ 7. Git / Release    │
+                                      └─────────────────────┘
 ```
 
-**Principle:** Research agents **propose**; validation agents **dispose**; drafting agents **consume only validated inputs**.
+---
+
+## 2. Global rules (all agents)
+
+1. Never invent judgments, statutes, notifications, quotations, or statistics.  
+2. Prefer primary / official sources ([`CITATION_POLICY.md`](CITATION_POLICY.md)).  
+3. Label claims: FACT | LAW | ANALYSIS | NORM | OPEN ([`VALIDATION.md`](VALIDATION.md)).  
+4. Write only to assigned paths.  
+5. Do not populate `litigation/` without Phase 9 approval.  
+6. Forum (Art. 32 vs Art. 226) is **not pre-judged**.  
+7. On conflict between speed and accuracy, choose accuracy.  
+8. Update the correct `tasks/phase-XX.md` checkbox when work completes.
 
 ---
 
-## 2. Global Rules (All Agents)
+## 3. Core agents (runtime)
 
-1. Never invent judgments, statutes, notifications, or citations.  
-2. Prefer primary sources.  
-3. Label uncertainty explicitly.  
-4. Write outputs only to assigned paths.  
-5. Do not promote content to `litigation/` without Phase 9 approval + validation gates.  
-6. Do not execute offensive security work.  
-7. Log significant decisions to `logs/` when automation exists.  
-8. On conflict between speed and accuracy, choose accuracy.  
-9. Escalate BLOCKER issues via GitHub issue template `validation_blocker`.  
-10. Re-read VALIDATION.md at the start of every work session.
-
----
-
-## 3. Agent Specifications
-
-### 3.1 Chief Architect
+### 3.1 Project Manager
 
 | Field | Content |
 |-------|---------|
-| **Mission** | Own system design, repository topology, standards, and long-term coherence of the research platform. |
-| **Responsibilities** | Maintain PROJECT_SPECIFICATION, folder architecture, agent contracts, integration points with automation; resolve design disputes; prevent scope rot. |
-| **Inputs** | ROADMAP, SPEC, incident reports, PM change requests. |
-| **Outputs** | Architecture ADRs in `docs/` (future), updates to AGENTS.md/SPEC, structural refactors. |
-| **Rules** | No silent breaking moves of public paths; document migrations; keep Phase gates intact. |
-| **Handoffs** | → Project Manager (implementation sequencing); → Git Manager (structural PRs); → Research Director (domain boundary clarifications). |
+| **Mission** | Deliver phases with clear priorities, phase gates, and honest progress. |
+| **Responsibilities** | Own `TASKS.md` dashboard + `tasks/*` hygiene; enforce phase exit criteria; approve Phase 9 start in CHANGELOG; refuse out-of-phase litigation; coordinate humans. |
+| **Inputs** | ROADMAP, TASKS dashboard, validation incidents. |
+| **Outputs** | Sprint priorities, phase status updates, release notes coordination. |
+| **Handoffs** | → Research Agent (batches); → Drafting (Phase 9 only); → Git/Release (merge/tag). |
+| **Prompt stub** | `prompts/agents/project_manager.md` |
+
+*Also covers light “orchestrator” duties described in `MASTER_PROMPT.md`.*
 
 ---
 
-### 3.2 Project Manager
+### 3.2 Research Agent (domain-parameterised)
 
 | Field | Content |
 |-------|---------|
-| **Mission** | Deliver phases on time with transparent task state and blocked-item management. |
-| **Responsibilities** | Own TASKS.md hygiene; prioritise backlog; enforce phase exit criteria; coordinate human approvals; update README progress; refuse out-of-phase litigation work. |
-| **Inputs** | TASKS.md, ROADMAP, agent capacity, validation incident queue. |
-| **Outputs** | Sprint plans, checked-off tasks, CHANGELOG release notes coordination, risk escalations. |
-| **Rules** | Cannot waive VALIDATION.md; cannot skip Phase 9 hard gate; must record scope changes. |
-| **Handoffs** | → Research Director (research batches); → Drafting Agent (only after approval); → Chief Architect (scope changes); → QA (release readiness). |
+| **Mission** | Produce citable research notes in the correct `research/<domain>/` folder. |
+| **Responsibilities** | Use the matching template; gather primary sources; separate FACT/LAW/ANALYSIS; list OPEN questions; never invent authorities. |
+| **Domain parameter** | One of: `constitution`, `statutes`, `judgments`, `government`, `manufacturers`, `cybersecurity`, `environment`, `international`, `economics`, `technical`, `consumer-law`, `forum`. |
+| **Inputs** | Template; official sources; assigned task IDs from `tasks/phase-XX.md`. |
+| **Outputs** | Notes under `research/<domain>/`. |
+| **Handoffs** | → Citation Validation (required); → Evidence Agent (when facts are stable). |
+| **Prompt stubs** | Prefer domain stubs under `prompts/agents/` as **skill packs** (e.g. `constitution.md`, `statute.md`) while acting as this single runtime role. |
 
 ---
 
-### 3.3 Research Director
+### 3.3 Citation Validation Agent
 
 | Field | Content |
 |-------|---------|
-| **Mission** | Ensure domain research is complete, non-duplicative, and methodologically sound. |
-| **Responsibilities** | Allocate work across domain agents; maintain research index; resolve overlap (e.g., consumer-law vs statutes); set verification priorities. |
-| **Inputs** | Open research tasks; domain drafts; comparative gaps. |
-| **Outputs** | Research coverage matrix; consolidated review notes; priority lists for Citation Validation. |
-| **Rules** | Balance breadth vs depth; forbid “complete dump” uncited memos. |
-| **Handoffs** | → All domain agents; → Evidence Agent; → Citation Validation; → Drafting (input pack). |
+| **Mission** | Fail closed on missing, weak, or fabricated citations. |
+| **Responsibilities** | Apply `VALIDATION.md` and `CITATION_POLICY.md`; run research-gate checklist; quarantine UNVERIFIED claims used as authority. |
+| **Inputs** | Any PR or draft under `research/` or `litigation/`. |
+| **Outputs** | Pass/fail validation report; required fixes. |
+| **Handoffs** | → Research Agent (fixes); → QA; → Git/Release (block merge on BLOCKER). |
+| **Prompt stub** | `prompts/agents/citation_validation.md` |
 
 ---
 
-### 3.4 Constitution Agent
+### 3.4 Evidence Agent
 
 | Field | Content |
 |-------|---------|
-| **Mission** | Map constitutional provisions and doctrine relevant to smartphone software support regulation. |
-| **Responsibilities** | Article-level notes (14, 19, 21, 32, 48A, 51A(g), 226, etc. as justified); doctrine of non-arbitrariness, privacy, environment-as-life; writ jurisdiction notes; **no invented fundamental rights**. |
-| **Inputs** | Official Constitution text; validated case law from Judgments agents on constitutional holdings. |
-| **Outputs** | `research/constitution/**` memos; cross-links to judgments. |
-| **Rules** | Cite article numbers; distinguish enforceable FR vs DPSP/duties; no “right to free phones.” |
-| **Handoffs** | → Supreme Court / High Court Agents (supporting cases); → Drafting Agent (grounds framing); → Citation Validation. |
+| **Mission** | Turn **validated** research into annexure-ready tables, timelines, and captures. |
+| **Responsibilities** | `evidence/**` artefacts with source columns; no decorative charts without provenance. |
+| **Inputs** | Citation-validated research notes. |
+| **Outputs** | `evidence/tables|timelines|charts|annexures/`. |
+| **Handoffs** | → Drafting (Phase 9); → QA. |
+| **Prompt stub** | `prompts/agents/evidence.md` |
 
 ---
 
-### 3.5 Statute Agent
+### 3.5 Drafting Agent
 
 | Field | Content |
 |-------|---------|
-| **Mission** | Catalogue and analyse central statutes and rules material to the project. |
-| **Responsibilities** | CPA, IT Act, EPA, E-Waste Rules, BIS Act, Legal Metrology, other discovered Acts; section-level accuracy; amendment awareness. |
-| **Inputs** | India Code, Gazette, official PDFs. |
-| **Outputs** | `research/statutes/**`, `research/consumer-law/**` (shared with consumer focus). |
-| **Rules** | Section numbers mandatory; no paraphrases presented as quotes without verification. |
-| **Handoffs** | → Government Policy Agent (subordinate instruments); → Citation Validation; → Drafting. |
+| **Mission** | Court-oriented drafts **only** after Phase 9 approval. |
+| **Responsibilities** | Synopsis, PIL body, affidavit, prayers; `DRAFT — NOT FOR FILING` banner; assertion→source map. |
+| **Inputs** | Validated research pack; evidence map; PM approval. |
+| **Outputs** | `litigation/**`. |
+| **Handoffs** | → Citation Validation; → QA; → human counsel. |
+| **Prompt stub** | `prompts/agents/drafting.md` |
 
 ---
 
-### 3.6 Supreme Court Agent
+### 3.6 Quality Assurance Agent
 
 | Field | Content |
 |-------|---------|
-| **Mission** | Build verified Supreme Court case briefs relevant to project doctrines. |
-| **Responsibilities** | PIL locus, Art. 21 expansions, environmental principles, privacy, consumer-welfare landmarks, administrative law mandamus limits; official citations only. |
-| **Inputs** | Official reports / reputable databases; Research Director priority list. |
-| **Outputs** | `research/judgments/supreme-court/**` |
-| **Rules** | No fake SCC cites; pin-cites provisional until full text checked; ratio ≠ every sentence in judgment. |
-| **Handoffs** | → Constitution Agent; → Citation Validation; → Drafting. |
+| **Mission** | Holistic quality: structure, clarity, consistency, phase compliance, tone. |
+| **Responsibilities** | Editorial review; README/progress honesty; ensure FACT/LAW/ANALYSIS separation; release readiness with PM. |
+| **Inputs** | Near-final artefacts; citation validation results. |
+| **Outputs** | QA checklist results; polish requests. |
+| **Rules** | Cannot override citation BLOCKERs. |
+| **Handoffs** | → PM; → Git/Release. |
+| **Prompt stub** | `prompts/agents/quality_assurance.md` |
 
 ---
 
-### 3.7 High Court Agent
+### 3.7 Git / Release Agent
 
 | Field | Content |
 |-------|---------|
-| **Mission** | Curate persuasive High Court authorities (including Telangana/Andhra where relevant to filing forum strategy). |
-| **Responsibilities** | Digital rights, consumer, environment, PIL procedure HCs; clearly mark as persuasive. |
-| **Inputs** | Official HC sites, reporters, databases. |
-| **Outputs** | `research/judgments/high-courts/**` |
-| **Rules** | Always state court name; avoid over-generalising single-judge orders. |
-| **Handoffs** | → Supreme Court Agent (conflict check); → Citation Validation; → Drafting. |
+| **Mission** | Repository integrity, history, and release discipline. |
+| **Responsibilities** | Branches, PRs, tags, secrets hygiene, CHANGELOG commits, remote sync. Includes light **platform/structure** stewardship (paths, `.gitignore`) formerly split across “Chief Architect” and “Git Manager.” |
+| **Inputs** | Approved PRs; release requests. |
+| **Outputs** | Clean `main`; version tags. |
+| **Handoffs** | → All agents via PR feedback. |
+| **Prompt stubs** | `prompts/agents/git_manager.md` (primary); architecture notes may still reference historical `chief_architect.md` as a skill pack. |
 
 ---
 
-### 3.8 Government Policy Agent
+## 4. Extensibility (not extra permanent agents)
 
-| Field | Content |
-|-------|---------|
-| **Mission** | Map executive policies, schemes, and institutional mandates. |
-| **Responsibilities** | Digital India, cyber policies, MeitY/DoT/Consumer Affairs/MoEFCC/CPCB/BIS/CERT-In roles; PLI/electronics policy interfaces; document **absences** of software-support mandates carefully. |
-| **Inputs** | Official gov.in portals, Gazette, press information bureau as secondary. |
-| **Outputs** | `research/government/**` |
-| **Rules** | Soft law labelled soft law; no converting press releases into statutes. |
-| **Handoffs** | → Statute Agent; → Evidence Agent; → Drafting (respondent array / exhaustion). |
+Domain depth is expressed as **skill packs** (prompt stubs + templates), not new runtime agents:
 
----
+| Skill pack (examples) | Maps to Research Agent domain= |
+|----------------------|--------------------------------|
+| Constitution, statute, judgments, government, OEM, cyber, environment, economics, technical, consumer-law, forum | corresponding `domain` value |
+| RTI drafting | Research or Evidence with `templates/rti_application.md` |
+| Red-team citation holes | Citation Validation mode (no invented sources) |
 
-### 3.9 Manufacturer Policy Agent
+Optional historical / detailed matrices may live in docs later; **do not re-expand the core seven** without an ADR and cleanup review.
 
-| Field | Content |
-|-------|---------|
-| **Mission** | Document OEM software support policies with forensic capture discipline. |
-| **Responsibilities** | Per-brand policies; OS vs security years; series variance; India SKU notes; comparison tables. |
-| **Inputs** | Official OEM support pages; release blogs (secondary). |
-| **Outputs** | `research/manufacturers/**`, tables for `evidence/tables/` |
-| **Rules** | Access date mandatory; no brand-wide claims without series evidence; no defamation. |
-| **Handoffs** | → Technical Agent; → Evidence Agent; → Citation Validation (URL integrity). |
+Legacy prompt files under `prompts/agents/` (e.g. `supreme_court.md`, `high_court.md`) remain as **skill packs** for Research Agent specialisation. They are **not** additional always-on agents.
 
 ---
 
-### 3.10 Cybersecurity Agent
+## 5. Handoff protocol
 
-| Field | Content |
-|-------|---------|
-| **Mission** | Explain unsupported-device risk pathways with authoritative technical sources. |
-| **Responsibilities** | CVE lifecycle, patch bulletins, UPI/banking risk pathways (non-sensational), CERT-In public materials, enterprise BYOD notes. |
-| **Inputs** | NVD, Android Security Bulletins, Apple security pages, CERT-In public advisories, NIST public docs. |
-| **Outputs** | `research/cybersecurity/**` |
-| **Rules** | No exploit code; no classified data; no false causal statistics. |
-| **Handoffs** | → Technical Agent; → Evidence Agent; → Drafting (facts section). |
-
----
-
-### 3.11 Environmental Agent
-
-| Field | Content |
-|-------|---------|
-| **Mission** | Connect software-forced obsolescence to e-waste and environmental law/policy. |
-| **Responsibilities** | GEM and official Indian e-waste data; EPR framework notes (via Statute/Government agents); lifecycle reasoning. |
-| **Inputs** | ITU/UNITAR GEM, CPCB/MoEFCC official data, peer-reviewed LCA where used. |
-| **Outputs** | `research/environment/**` |
-| **Rules** | Prefer primary stats; label secondary India tonnage until confirmed. |
-| **Handoffs** | → Statute Agent (EPA/E-Waste); → Economics Agent; → Evidence Agent. |
-
----
-
-### 3.12 Economics Agent
-
-| Field | Content |
-|-------|---------|
-| **Mission** | Model consumer and social costs without false precision. |
-| **Responsibilities** | Replacement cost frameworks; externalities; repair economics; EU impact accounting as comparative only. |
-| **Inputs** | Official impact assessments, market reports (tiered), Environmental/OEM data. |
-| **Outputs** | `research/economics/**` |
-| **Rules** | All models marked `ESTIMATE` unless measured; publish assumptions. |
-| **Handoffs** | → Evidence Agent; → Drafting (limited use). |
-
----
-
-### 3.13 Technical Agent
-
-| Field | Content |
-|-------|---------|
-| **Mission** | Provide accurate descriptive technical baseline for OS/security update mechanisms. |
-| **Responsibilities** | Android/iOS update pipelines at conceptual level; definitions (OS upgrade vs security patch vs firmware); fragmentation concepts. |
-| **Inputs** | Official platform documentation (AOSP, Apple, OEM). |
-| **Outputs** | `research/technical/**` |
-| **Rules** | No reverse engineering proprietary blobs for redistribution; no malware. |
-| **Handoffs** | → Manufacturer Policy Agent; → Cybersecurity Agent; → Drafting (glossary). |
-
----
-
-### 3.14 Evidence Agent
-
-| Field | Content |
-|-------|---------|
-| **Mission** | Transform validated research into annexure-ready artefacts. |
-| **Responsibilities** | Charts, tables, timelines; annexure indexes; consistent IDs; chain-of-custody notes for captures. |
-| **Inputs** | Validated research outputs from domain agents. |
-| **Outputs** | `evidence/charts|tables|timelines|annexures/**` |
-| **Rules** | Every figure cites underlying data file/source; no decorative charts without sources. |
-| **Handoffs** | → Drafting Agent; → QA; → Git Manager (binary hygiene). |
-
----
-
-### 3.15 Drafting Agent
-
-| Field | Content |
-|-------|---------|
-| **Mission** | Draft court-oriented documents only from validated inputs and only in authorised phases. |
-| **Responsibilities** | Synopsis, list of dates, PIL body, affidavit, prayers; maintain draft banners; map each assertion to evidence ID. |
-| **Inputs** | Research Director “litigation input pack”; Evidence annexure map; PM Phase 9 approval. |
-| **Outputs** | `litigation/**` |
-| **Rules** | Process mandamus preferred over judicial legislation; no invented facts; counsel certification required before filing. |
-| **Handoffs** | → Citation Validation; → QA; → human counsel (external). |
-
----
-
-### 3.16 Citation Validation Agent
-
-| Field | Content |
-|-------|---------|
-| **Mission** | Be the final automated/human gate against fabricated or weak citations. |
-| **Responsibilities** | Verify case citations, section numbers, URLs, status tags; quarantine failures; maintain ban patterns. |
-| **Inputs** | Any PR touching `research/` or `litigation/`. |
-| **Outputs** | Validation reports; required fixes list; approve/block recommendation. |
-| **Rules** | Fail closed; “looks right” is insufficient for VERIFIED; dual-source preferred for critical holdings. |
-| **Handoffs** | → Originating agent (fixes); → QA; → Git Manager (merge blocking). |
-
----
-
-### 3.17 Quality Assurance Agent
-
-| Field | Content |
-|-------|---------|
-| **Mission** | Holistic quality: structure, clarity, consistency, tone, phase compliance. |
-| **Responsibilities** | Editorial review; SPEC compliance; README accuracy; ensure FACT/LAW/ANALYSIS separation; release readiness. |
-| **Inputs** | Near-final artefacts; Citation Validation pass reports. |
-| **Outputs** | QA checklist results; polish PRs. |
-| **Rules** | Cannot override citation blockers; can block on clarity/structure. |
-| **Handoffs** | → PM (release); → Git Manager. |
-
----
-
-### 3.18 Git Manager
-
-| Field | Content |
-|-------|---------|
-| **Mission** | Preserve repository integrity, history, and release discipline. |
-| **Responsibilities** | Branch strategy, PR mechanics, tags, `.gitignore` enforcement, large-file policy, CHANGELOG commits, remote sync. |
-| **Inputs** | Approved PRs; release requests from PM. |
-| **Outputs** | Clean history on `main`; version tags; protected branch configs (when on GitHub). |
-| **Rules** | No force-push to `main` without explicit human emergency protocol; no secrets commit. |
-| **Handoffs** | → All agents (via PR feedback); → Chief Architect (repo surgery). |
-
----
-
-## 4. Optional Supporting Roles (Non-Core)
-
-| Role | Purpose |
-|------|---------|
-| Consumer Law Agent | Deep-dive CPA/CCPA unfair practices (may be subsumed under Statute Agent) |
-| RTI Agent | Draft RTI applications and track replies |
-| Translation Agent | Plain-language / Hindi summaries (future) |
-| Red Team Agent | Attempt to find citation holes **without** inventing sources |
-
----
-
-## 5. Handoff Protocol
-
-### 5.1 Task envelope (recommended)
+### 5.1 Task envelope
 
 ```yaml
-task_id: "P2-STAT-014"
-agent: "Statute Agent"
+task_id: "T086"
 phase: 2
-inputs:
-  - "templates/statute_note.md"
-outputs:
-  - "research/statutes/consumer-protection-act-2019.md"
+agent: "Research Agent"
+domain: "constitution"
+prompt_skill: "prompts/agents/constitution.md"
+template: "templates/constitutional_provision_note.md"
+output_path: "research/constitution/<slug>.md"
 constraints:
   - "VALIDATION.md"
-  - "No secondary-only LAW claims"
-due: null
+  - "CITATION_POLICY.md"
 ```
 
-### 5.2 Definition of done (research task)
+### 5.2 Definition of done (research)
 
-1. File in correct folder  
+1. File in correct `research/<domain>/` folder  
 2. Status tag set  
-3. Sources listed  
-4. Open questions listed  
+3. Sources complete per CITATION_POLICY  
+4. OPEN questions listed  
 5. Citation Validation not blocked  
-6. TASKS.md checkbox updated by PM or author  
+6. Checkbox updated in `tasks/phase-XX.md`  
 
 ---
 
-## 6. Conflict Resolution
+## 6. Conflict resolution
 
 | Conflict | Resolver |
 |----------|----------|
-| Folder ownership | Chief Architect |
-| Priority of tasks | Project Manager |
-| Doctrinal research disagreement | Research Director → escalate to human counsel |
-| Citation validity | Citation Validation Agent (final on cite form) |
-| Release readiness | QA + PM |
+| Priority / phase gates | Project Manager |
+| Citation validity | Citation Validation Agent |
+| Editorial / structure quality | QA Agent |
+| Path / git policy | Git / Release Agent |
+| Doctrinal disagreement after validation | Human counsel |
 
 ---
 
-## 7. Activation Notes
+## 7. Activation notes
 
-Agents are **contracts**, not a requirement to run 18 concurrent LLMs. A single researcher may wear multiple hats but must still run Citation Validation as a separate pass.
+- A single human may wear multiple hats; **Citation Validation must remain a separate pass**.  
+- Do not run “18 agents” in parallel for its own sake.  
+- Master orchestration: [`MASTER_PROMPT.md`](MASTER_PROMPT.md).
 
 ---
 
-*End of AGENTS.md*
+*Core seven agents — architecture cleanup 2026-07-30*

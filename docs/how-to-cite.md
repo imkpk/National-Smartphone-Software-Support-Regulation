@@ -1,17 +1,9 @@
-# How to Cite (Quick Guide)
+# How to Cite
 
-Full policy: [`CITATION_POLICY.md`](../CITATION_POLICY.md) and [`VALIDATION.md`](../VALIDATION.md).
+**This page is a pointer only.**
 
-| Material | Minimum |
-|----------|---------|
-| Constitution | Article number + official text source |
-| Statute | Short title, year, section/rule + India Code/Gazette |
-| Case | Name, court, reporter/neutral citation, year |
-| Policy | Issuer, title, date, official URL, access date |
-| OEM page | Brand, URL, access datetime, series scope |
-| Statistic | Publisher, report, year (page if possible) |
+**Single source of truth:** [`../CITATION_POLICY.md`](../CITATION_POLICY.md)
 
-**Never invent citations.** If unsure, mark `OPEN` or `UNVERIFIED`.
+For integrity gates, claim labels (FACT/LAW/…), and source *tiers*, use [`../VALIDATION.md`](../VALIDATION.md).
 
----
-*Phase 1*
+Do not maintain a second copy of citation field tables here.

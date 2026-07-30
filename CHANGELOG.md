@@ -11,8 +11,57 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ### Planned
 
-- Phase 2 constitutional and statutory research memos (substantive)  
+- Phase 2 constitutional and statutory research memos (substantive) — **not started**  
 - Forum analysis memo population (still open; no pre-judgment)  
+
+---
+
+## [0.2.2] — 2026-07-30
+
+### Added — Repository Quality Gates
+
+- **`docs/DEFINITION_OF_DONE.md`** — repository-wide Definition of Done (authoritative phase-completion gate)  
+- **Definition of Done** section on every `tasks/phase-00.md` … `phase-10.md`  
+- **`QUALITY_GATES_REPORT.md`** — summary of this governance change  
+
+### Changed
+
+- `PROJECT_SPECIFICATION.md` — Quality Gates / phase completion policy (DoD)  
+- `RESEARCH_GUIDELINES.md` — references DoD; no duplicated quality lists  
+- `CONTRIBUTING.md` — PRs must satisfy applicable DoD before merge when phase-scoped  
+- `MASTER_PROMPT.md` — mandatory end-of-run **DEFINITION OF DONE** section; stop; no auto-advance  
+- `VALIDATION.md` — distinguishes document validation vs phase Definition of Done  
+
+### Not changed
+
+- No Phase 2 research  
+- No PIL drafting  
+- No repository structure redesign beyond governance docs  
+
+---
+
+## [0.2.1] — 2026-07-30
+
+### Changed — Architecture cleanup (pre–Phase 2)
+
+- Fixed `README.md` navigation and repository tree (removed duplicate `consumer-law/`; START_HERE first)  
+- Added `docs/START_HERE.md` (5-minute onboarding)  
+- Declared `VALIDATION.md` as **single source of truth** for validation  
+- Declared `CITATION_POLICY.md` as **single source of truth** for citations  
+- Thinned `RESEARCH_GUIDELINES.md` and `docs/how-to-cite.md` to pointers  
+- Updated `docs/README.md` to current Phase 1 + cleanup state  
+- Reduced active agent model to **seven core agents** in `AGENTS.md` (skill packs retained under `prompts/agents/`)  
+- Replaced monolithic task list with `TASKS.md` dashboard + `tasks/phase-00.md` … `phase-10.md`  
+- Minimal script consistency: `list_open_tasks.py` reads phase files; `check_structure.py` requires `tasks/` + START_HERE  
+- Aligned `MASTER_PROMPT.md`, `CONTRIBUTING.md`, `REPOSITORY_STRUCTURE.md` with cleanup  
+- Added `ARCHITECTURE_CLEANUP_REPORT.md`  
+
+### Not changed
+
+- No substantive legal research  
+- Templates content not rewritten  
+- `PROJECT_SPECIFICATION.md` philosophy unchanged  
+- Phase 2 not started  
 
 ---
 

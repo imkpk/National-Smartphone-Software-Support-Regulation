@@ -1,14 +1,27 @@
 # Validation Constitution
 
 **Project:** National-Smartphone-Software-Support-Regulation  
-**Authority:** Binding on all agents, contributors, and automation  
-**Severity model:** `BLOCKER` > `MAJOR` > `MINOR` > `NOTE`
+**Authority:** **Single source of truth (SoT)** for validation, integrity gates, claim classification, source tiers, status tags, and anti-hallucination rules  
+**Binding on:** all agents, contributors, and automation  
+**Severity model:** `BLOCKER` > `MAJOR` > `MINOR` > `NOTE`  
+**Related SoT:** Citation *formats and required bibliographic elements* → [`CITATION_POLICY.md`](CITATION_POLICY.md) (do not fork citation field lists elsewhere)  
+**Phase completion (not this file):** [`docs/DEFINITION_OF_DONE.md`](docs/DEFINITION_OF_DONE.md) — whether a **phase** may close and the repository may advance  
+**Operational checklists:** [`validation/`](validation/) (implement this constitution; must not contradict it)
+
+### Validation vs Definition of Done
+
+| Instrument | Verifies | Does **not** decide |
+|------------|----------|---------------------|
+| **This file (`VALIDATION.md`)** | Document quality, claim integrity, anti-hallucination, source tiers, status tags | Whether an entire phase is complete |
+| **[`docs/DEFINITION_OF_DONE.md`](docs/DEFINITION_OF_DONE.md)** | Phase completion criteria, task/changelog/navigation closure, advancement policy | Fine-grained citation field formats (see CITATION_POLICY) |
+
+Both are mandatory. A phase full of files that fail VALIDATION is incomplete. A phase that passes VALIDATION on a few notes but fails DoD (coverage, reviews, changelog, approval) is also incomplete.
 
 ---
 
 ## 1. Purpose
 
-Prevent **legal hallucinations**, **fabricated citations**, **unsourced statistics**, and **premature litigation claims**. This document is the quality constitution of the repository.
+Prevent **legal hallucinations**, **fabricated citations**, **unsourced statistics**, and **premature litigation claims**. This document is the quality constitution of the repository **for document and claim quality**.
 
 ## 2. Cardinal Rules (Non-Negotiable)
 
@@ -76,7 +89,7 @@ PROVISIONAL   — Working draft citation pending pin-cite
 
 ### 6.3 Judgments
 
-Required fields for each case note:
+Required bibliographic fields for each case note follow [`CITATION_POLICY.md`](CITATION_POLICY.md). Summary:
 
 1. Case name  
 2. Citation(s)  

@@ -1,17 +1,17 @@
 # Repository Tour
 
-1. **Start** — `README.md`, `PROJECT_SPECIFICATION.md`  
-2. **Rules** — `VALIDATION.md`, `CITATION_POLICY.md`, `RESEARCH_GUIDELINES.md`  
-3. **Plan** — `ROADMAP.md`, `TASKS.md`, `LEGAL_STRATEGY.md`  
-4. **Agents** — `AGENTS.md`, `prompts/agents/`  
-5. **Work** — `research/*` using `templates/`  
-6. **Gate** — `validation/*` checklists  
-7. **Evidence** — `evidence/*` after research validation  
-8. **Litigation** — `litigation/*` only after Phase 9  
-9. **Export** — `output/`  
-10. **History** — `CHANGELOG.md`, `logs/`  
+1. **Start** — [`START_HERE.md`](START_HERE.md)  
+2. **Home** — `README.md`, `PROJECT_SPECIFICATION.md`  
+3. **Rules** — `VALIDATION.md` (SoT), `CITATION_POLICY.md` (SoT)  
+4. **Plan** — `ROADMAP.md`, `TASKS.md` → `tasks/phase-XX.md`  
+5. **Agents** — `AGENTS.md` (seven core), skill packs in `prompts/agents/`  
+6. **Work** — `research/*` using `templates/`  
+7. **Gate** — `validation/*` checklists  
+8. **Evidence** — `evidence/*` after research validation  
+9. **Litigation** — `litigation/*` only after Phase 9  
+10. **Export / history** — `output/`, `CHANGELOG.md`, `logs/`  
 
-Forum choice (Art. 32 vs Art. 226) is analysed under `research/forum/` and is **not pre-decided** in Phase 1.
+Forum choice (Art. 32 vs Art. 226) is analysed under `research/forum/` and is **not pre-decided**.
 
 ---
-*Phase 1*
+*Architecture cleanup*
