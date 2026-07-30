@@ -13,7 +13,23 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Phase 4 WS2+ (institutions, standards, consultations, programmes, gap, audit, close) — not auto-started  
+- Phase 4 WS3+ (standards, consultations, programmes, gap, audit, close) — not auto-started  
+
+---
+
+## [0.5.2] — 2026-07-31
+
+### Added — Phase 4 Workstream 2: Government Institutions
+
+- `research/institutions/` profiles: MeitY, DoT, DCA/CCPA, MoEFCC, CPCB, BIS, CERT-In  
+- TRAI relevance; RBI/NPCI stakeholder notes; analytical RACI matrix  
+- Negative finding: no multi-year OS duty in institutional mandates reviewed  
+- INSTITUTION_* reports; `PHASE_04_INSTITUTIONS_WORKSTREAM_REPORT.md`  
+
+### Changed
+
+- TASKS / phase-04 / README for WS2 only  
+- Phase 4 **not** marked complete  
 
 ---
 
