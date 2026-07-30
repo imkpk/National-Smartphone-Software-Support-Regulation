@@ -125,6 +125,34 @@ Explicitly **out of scope** (unless later approved by Project Manager change con
 | Q3 | Peer or agent review before merge to `main` for legal claims |
 | Q4 | Litigation drafts watermarked `DRAFT — NOT FOR FILING` until final checklist |
 | Q5 | Automated structure check passes (Phase 1+) |
+| Q6 | Phase completion only when [`docs/DEFINITION_OF_DONE.md`](docs/DEFINITION_OF_DONE.md) + phase-specific DoD are satisfied |
+
+## 11A. Quality Gates (Definition of Done)
+
+### Repository-wide Definition of Done
+
+The authoritative phase-completion gate is:
+
+**[`docs/DEFINITION_OF_DONE.md`](docs/DEFINITION_OF_DONE.md)**
+
+It defines mandatory criteria for research completeness, validation, citations, documentation, navigation, task tracking, changelog, cross-references, placeholder removal, review, and completion approval.
+
+**Distinction:**
+
+| Instrument | Answers |
+|------------|---------|
+| [`VALIDATION.md`](VALIDATION.md) | Is this **document/claim** acceptable? |
+| [`CITATION_POLICY.md`](CITATION_POLICY.md) | Is this **citation** well-formed? |
+| [`docs/DEFINITION_OF_DONE.md`](docs/DEFINITION_OF_DONE.md) | Is this **phase** finished enough to advance? |
+
+### Phase completion policy
+
+1. Each `tasks/phase-XX.md` file includes a **Definition of Done** section that inherits the repository-wide DoD and adds phase-specific criteria.  
+2. A phase is **not** complete merely because files or folders exist.  
+3. **No phase may begin** until the previous phase satisfies its Definition of Done (repository-wide + phase-specific), except parallel streams expressly allowed in `ROADMAP.md` after Phase 1 is complete.  
+4. Phase 9 additionally requires written Project Manager approval in `CHANGELOG.md` before drafting.  
+5. Completing a phase must be recorded (CHANGELOG and/or `logs/`); the next phase must **not** start automatically.  
+6. Pull requests that claim phase completion must demonstrate DoD compliance.
 
 ## 12. Risk Register
 
@@ -166,4 +194,4 @@ Material changes to Scope, Non-Scope, or Quality Gates require:
 
 ---
 
-*End of Project Specification v0.1.0*
+*End of Project Specification v0.1.0 — Quality Gates (DoD) added 2026-07-30*

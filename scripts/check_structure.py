@@ -62,6 +62,7 @@ REQUIRED_DIRS = [
     "output",
     "logs",
     ".github",
+    "tasks",
 ]
 
 REQUIRED_PHASE1_FILES = [
@@ -75,6 +76,19 @@ REQUIRED_PHASE1_FILES = [
     "validation/banned-patterns.md",
     "validation/citation-schema.json",
     "scripts/check_structure.py",
+    "docs/START_HERE.md",
+    "tasks/README.md",
+    "tasks/phase-00.md",
+    "tasks/phase-01.md",
+    "tasks/phase-02.md",
+    "tasks/phase-03.md",
+    "tasks/phase-04.md",
+    "tasks/phase-05.md",
+    "tasks/phase-06.md",
+    "tasks/phase-07.md",
+    "tasks/phase-08.md",
+    "tasks/phase-09.md",
+    "tasks/phase-10.md",
 ]
 
 

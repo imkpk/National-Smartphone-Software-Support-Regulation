@@ -1,6 +1,7 @@
 # Repository Structure
 
-**Last updated:** 2026-07-30
+**Last updated:** 2026-07-30 (architecture cleanup)  
+**Note:** Prefer this file or `scripts/check_structure.py` over copying large trees into multiple docs. README holds a short summary only.
 
 ```text
 National-Smartphone-Software-Support-Regulation/
@@ -8,20 +9,27 @@ National-Smartphone-Software-Support-Regulation/
 ├── LICENSE
 ├── PROJECT_SPECIFICATION.md
 ├── ROADMAP.md
-├── TASKS.md
-├── AGENTS.md
-├── VALIDATION.md
+├── TASKS.md                      # Dashboard only
+├── tasks/
+│   ├── README.md
+│   ├── phase-00.md … phase-10.md
+├── AGENTS.md                     # Seven core agents
+├── VALIDATION.md                 # SoT — validation
+├── CITATION_POLICY.md            # SoT — citations
 ├── MASTER_PROMPT.md
-├── CITATION_POLICY.md
 ├── LEGAL_STRATEGY.md
 ├── REPOSITORY_STRUCTURE.md
 ├── RESEARCH_GUIDELINES.md
+├── ARCHITECTURE_REVIEW.md
+├── ARCHITECTURE_CLEANUP_REPORT.md
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── .gitignore
 ├── .github/
 ├── docs/
+│   ├── START_HERE.md
+│   └── …
 ├── research/
 │   ├── constitution/
 │   ├── statutes/
@@ -48,14 +56,13 @@ National-Smartphone-Software-Support-Regulation/
 │   └── drafts/
 ├── templates/
 ├── prompts/
+│   └── agents/                   # Skill packs
 ├── automation/
 ├── validation/
 ├── scripts/
 ├── output/
 └── logs/
 ```
-
-**Note:** User-requested alternate names (`judgments/`, `comparative_law/`, `ewaste/`, `drafts/`, `annexures/` at root) are implemented as semantic paths under `research/`, `evidence/`, and `litigation/` to avoid duplication. Content is linked from `output/` final bundle index.
 
 ---
 

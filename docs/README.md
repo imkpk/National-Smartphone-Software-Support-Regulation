@@ -4,25 +4,42 @@ Human-facing documentation for **National-Smartphone-Software-Support-Regulation
 
 ## Status
 
-Phase 0 foundation only. Domain guides will be added in Phase 1+.
+**Phase 1 framework complete.** Architecture cleanup applied. Substantive legal research **not** started. Filing forum **not** pre-selected.
 
-## Planned docs
+## Start here
 
-| Doc | Purpose | Phase |
-|-----|---------|-------|
-| `repository-tour.md` | Guided walkthrough of folders | 1 |
-| `how-to-cite.md` | Citation cookbook | 1 |
-| `phase-gates.md` | Exit criteria checklist | 1 |
-| `glossary.md` | Terms (OS update, security patch, EPR, etc.) | 1+ |
-| `milestones/` | Phase completion reports | ongoing |
+→ **[`START_HERE.md`](START_HERE.md)** (required onboarding path)
 
-## Authoritative root docs
+## Docs index
 
-Prefer root files for governance:
+| Doc | Purpose |
+|-----|---------|
+| [`START_HERE.md`](START_HERE.md) | 5-minute contributor path |
+| [`repository-tour.md`](repository-tour.md) | Folder walkthrough |
+| [`how-to-cite.md`](how-to-cite.md) | Pointer to citation SoT |
+| [`phase-gates.md`](phase-gates.md) | Phase exit criteria overview |
+| [`logging.md`](logging.md) | `logs/` conventions |
+| [`glossary.md`](glossary.md) | Terms scaffold |
+| [`examples.md`](examples.md) | Contribution examples |
 
-- [`../README.md`](../README.md)
-- [`../PROJECT_SPECIFICATION.md`](../PROJECT_SPECIFICATION.md)
-- [`../VALIDATION.md`](../VALIDATION.md)
-- [`../AGENTS.md`](../AGENTS.md)
-- [`../ROADMAP.md`](../ROADMAP.md)
-- [`../TASKS.md`](../TASKS.md)
+## Authoritative root documents (do not fork rules)
+
+| Document | Authority |
+|----------|-----------|
+| [`../VALIDATION.md`](../VALIDATION.md) | **SoT — validation** |
+| [`../CITATION_POLICY.md`](../CITATION_POLICY.md) | **SoT — citations** |
+| [`../TASKS.md`](../TASKS.md) | Task dashboard |
+| [`../tasks/`](../tasks/) | Phase checkboxes |
+| [`../AGENTS.md`](../AGENTS.md) | Seven core agents |
+| [`../ROADMAP.md`](../ROADMAP.md) | Phases 0–10 |
+| [`../PROJECT_SPECIFICATION.md`](../PROJECT_SPECIFICATION.md) | Spec |
+| [`../README.md`](../README.md) | Project home |
+
+## Architecture review
+
+- [`../ARCHITECTURE_REVIEW.md`](../ARCHITECTURE_REVIEW.md)  
+- Cleanup report: see repository root `ARCHITECTURE_CLEANUP_REPORT.md` after cleanup commits  
+
+---
+
+*Updated for architecture cleanup — 2026-07-30*

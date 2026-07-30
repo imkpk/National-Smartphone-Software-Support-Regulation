@@ -8,11 +8,12 @@ This project prioritises **citation integrity** over speed. Contributions that i
 
 ## 1. Before You Start
 
-1. Read [`README.md`](README.md)  
-2. Read [`VALIDATION.md`](VALIDATION.md) — **mandatory**  
-3. Read [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)  
-4. Skim [`ROADMAP.md`](ROADMAP.md) and claim tasks in [`TASKS.md`](TASKS.md)  
-5. Optionally read [`AGENTS.md`](AGENTS.md) if using agent workflows  
+1. Read [`docs/START_HERE.md`](docs/START_HERE.md)  
+2. Read [`VALIDATION.md`](VALIDATION.md) — **mandatory** (validation SoT)  
+3. Read [`CITATION_POLICY.md`](CITATION_POLICY.md) — **mandatory** for any sourced claim  
+4. Read [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)  
+5. Skim [`ROADMAP.md`](ROADMAP.md) and claim tasks via [`TASKS.md`](TASKS.md) → [`tasks/`](tasks/)  
+6. Optionally read [`AGENTS.md`](AGENTS.md) (seven core agents) if using agent workflows  
 
 ## 2. Ways to Contribute
 
@@ -30,9 +31,30 @@ This project prioritises **citation integrity** over speed. Contributions that i
 1. Fork (or branch from `main`).  
 2. Create a focused branch: `research/statutes-cpa`, `fix/typo-readme`, etc.  
 3. Make minimal, reviewable commits.  
-4. Ensure new claims are cited per VALIDATION.md.  
+4. Ensure new claims are cited per VALIDATION.md and CITATION_POLICY.md.  
 5. Open a Pull Request using the PR template.  
 6. Respond to Citation Validation / QA review comments.
+
+## 3A. Definition of Done (required for merge when applicable)
+
+Pull Requests must satisfy the **applicable Definition of Done** before they may be merged when they:
+
+- Complete a phase (or claim phase completion); or  
+- Deliver the bulk of a phase’s required artefacts; or  
+- Touch `litigation/` (Phase 9 hard gate + litigation DoD).
+
+| Gate | Document |
+|------|----------|
+| Document / claim quality | [`VALIDATION.md`](VALIDATION.md) |
+| Citation format | [`CITATION_POLICY.md`](CITATION_POLICY.md) |
+| Phase completion | [`docs/DEFINITION_OF_DONE.md`](docs/DEFINITION_OF_DONE.md) + **Definition of Done** in `tasks/phase-XX.md` |
+
+**Rules:**
+
+1. A phase is not complete merely because files exist.  
+2. Maintainers should not merge phase-completion PRs that skip DoD criteria.  
+3. Small fixes (typos, dead links) still require VALIDATION where claims are involved, but need not close an entire phase DoD.  
+4. Never invent legal authorities to “finish” a DoD checkbox.
 
 ## 4. Research Note Minimum Standard
 
