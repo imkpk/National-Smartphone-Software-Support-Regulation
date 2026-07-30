@@ -9,7 +9,8 @@
 **WS3 status:** Complete (hardware ecosystem, 2026-07-31) — [`../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md)  
 **WS4 status:** Complete (comparative analysis, 2026-07-31) — [`../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md)  
 **WS5 status:** Complete (gap analysis, 2026-07-31) — [`../PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md)  
-**Phase 5 overall:** In progress (iOS observational model T256; residual T260; residual brands remain)
+**WS6 status:** Complete (repository audit, 2026-07-31) — [`../audit/phase5/PHASE_05_AUDIT_SUMMARY.md`](../audit/phase5/PHASE_05_AUDIT_SUMMARY.md) · Gate++ **PASS WITH MINOR ISSUES**  
+**Phase 5 overall:** In progress (iOS observational model T256; residual T260; residual brands remain; not closed)
 
 > Check boxes only when complete and validation rules are satisfied.
 
@@ -166,5 +167,15 @@ Phase 5 is complete only when **all** of the following are true (in addition to 
 - Negative findings summary consolidates WS1–WS4 absences (no unified multi-year floor; residual documentation OPENs).
 - Cross-links to WS1–WS4 preserved (primary notes not rewritten).
 - Residual: T256 iOS model, T260 cross-read, residual brands, T252 PDF archive.
-- Phase 5 **not** complete; **WS6 not started**.
+- Phase 5 **not** complete; **WS6 not started** (historical WS5 note).
+
+---
+
+## Workstream 6 status (2026-07-31) — Repository Audit
+
+- Audit package under `audit/phase5/` (checklist, summary, health, consistency, cross-ref, citation, version, relevance, knowledge graph, residual issues).
+- Gate++: **PASS WITH MINOR ISSUES** — `orchestration/PHASE_05_WS6_GATE_REPORT.md`.
+- No new research; WS1–WS5 conclusions not rewritten.
+- Residuals confirmed OPEN: T238–T246, T252, T256, T260; Phase 5 completion checkbox open.
+- Phase 5 **not** complete; **WS7 not started**.
 

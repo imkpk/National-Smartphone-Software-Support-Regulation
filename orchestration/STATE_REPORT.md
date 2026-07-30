@@ -1,8 +1,8 @@
 # STATE_REPORT
 
 **Date:** 2026-07-31  
-**Main (pre-PR):** `45b5377` · **v0.6.4** (Phase 5 WS4 complete)  
-**This PR:** Phase 5 **WS5 Gap Analysis** → **v0.6.5** when merged  
+**Main (pre-PR):** `307e54d` · **v0.6.5** (Phase 5 WS5 complete)  
+**This PR:** Phase 5 **WS6 Repository Audit** → **v0.6.6** when merged  
 
 ## Phase status
 
@@ -12,7 +12,7 @@
 | 2 | Nearly complete (Art. 12/47 residual) |
 | 3 | Complete |
 | 4 | Complete (v0.6.0) |
-| 5 | **In progress** (WS1–WS4 complete; WS5 this PR) |
+| 5 | **In progress** (WS1–WS5 complete; WS6 this PR) |
 | 6–10 | Pending |
 
 ## Phase 5
@@ -23,28 +23,28 @@
 | 2 Android Ecosystem | **Complete** (v0.6.2, PR #27) |
 | 3 Hardware & Chipset Ecosystem | **Complete** (v0.6.3, PR #28) |
 | 4 Comparative Analysis | **Complete** (v0.6.4, PR #29) |
-| 5 Gap Analysis | **Complete (this PR)** |
-| 6+ | Not started |
+| 5 Gap Analysis | **Complete** (v0.6.5, PR #30) |
+| 6 Repository Audit | **Complete (this PR)** |
+| 7+ | Not started |
 
-## Knowledge graph (WS5)
+## Knowledge graph (WS6)
 
 | Node | Location |
 |------|----------|
-| Gap analysis notes | `research/phase5-gap-analysis/*.md` |
-| Domain index | `research/phase5-gap-analysis/README.md` |
+| Audit package | `audit/phase5/*` |
+| Audit index | `audit/README.md` · `audit/phase5/README.md` |
+| Gate++ | `orchestration/PHASE_05_WS6_GATE_REPORT.md` |
+| Prior research domains | `research/manufacturers/` · `android-ecosystem/` · `hardware-ecosystem/` · `comparative-analysis/` · `phase5-gap-analysis/` |
+| Prior WS reports | `PHASE_05_*_WORKSTREAM_REPORT.md` (WS1–WS5) |
 | Research index | `research/README.md` |
-| Matrices / reports | `research/phase5-gap-analysis/GAP_*` |
-| Workstream report | `PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md` |
-| Gate++ | `orchestration/PHASE_05_WS5_GATE_REPORT.md` |
-| Inputs (read-only) | `research/manufacturers/` · `research/android-ecosystem/` · `research/hardware-ecosystem/` · `research/comparative-analysis/` |
-| Prior WS reports | `PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md` · `PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md` · `PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md` · `PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md` |
 
 ## Gate++
 
-**PASS** — see `orchestration/PHASE_05_WS5_GATE_REPORT.md`
+**PASS WITH MINOR ISSUES** — see `orchestration/PHASE_05_WS6_GATE_REPORT.md`  
+**No Critical defects.** Residuals: OPEN tasks T238–T246, T252, T256, T260; thin meta RR headers.
 
 ## Next after merge + auth
 
-Further Phase 5 work only with new authorisation. **Do not auto-start WS6.**
+Further Phase 5 work only with new authorisation. **Do not auto-start WS7.** Phase 5 **not** complete.
 
 ---

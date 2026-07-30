@@ -13,7 +13,23 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Further Phase 5 workstreams after WS5 — not auto-started  
+- Further Phase 5 workstreams after WS6 — not auto-started  
+
+---
+
+## [0.6.6] — 2026-07-31
+
+### Added — Phase 5 Workstream 6: Repository Audit
+
+- `audit/phase5/` — audit checklist, summary, health, consistency, cross-ref, citation, version, relevance, knowledge-graph, residual reports  
+- Gate++: `orchestration/PHASE_05_WS6_GATE_REPORT.md` → **PASS WITH MINOR ISSUES**  
+- No new research; no rewrite of WS1–WS5 conclusions  
+
+### Changed
+
+- `PHASE_05_SPECIFICATION.md` — WS6 defined; WS1–WS5 marked complete  
+- README / TASKS / ROADMAP / research/README / STATE_REPORT for WS6  
+- Phase 5 **not** complete; WS7 **not** started  
 
 ---
 

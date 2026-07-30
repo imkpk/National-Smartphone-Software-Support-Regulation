@@ -52,7 +52,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 
 ## Phase status
 
-**Phase 4 Complete (v0.6.0).** Phase 5 **in progress**: WS1 manufacturers ([`manufacturers/`](manufacturers/)); WS2 Android ecosystem ([`android-ecosystem/`](android-ecosystem/)); WS3 hardware ecosystem ([`hardware-ecosystem/`](hardware-ecosystem/)); WS4 comparative analysis ([`comparative-analysis/`](comparative-analysis/)); WS5 gap analysis ([`phase5-gap-analysis/`](phase5-gap-analysis/)); further residual pending. Spec: [`../PHASE_05_SPECIFICATION.md`](../PHASE_05_SPECIFICATION.md). Reports: [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md) · [`../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md) · [`../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md) · [`../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_COMPARATIVE_ANALYSIS_WORKSTREAM_REPORT.md) · [`../PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md`](../PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md).
+**Phase 4 Complete (v0.6.0).** Phase 5 **in progress**: WS1–WS5 research packages complete; **WS6 repository audit** under [`../audit/phase5/`](../audit/phase5/) (v0.6.6). Domains: [`manufacturers/`](manufacturers/) · [`android-ecosystem/`](android-ecosystem/) · [`hardware-ecosystem/`](hardware-ecosystem/) · [`comparative-analysis/`](comparative-analysis/) · [`phase5-gap-analysis/`](phase5-gap-analysis/). Spec: [`../PHASE_05_SPECIFICATION.md`](../PHASE_05_SPECIFICATION.md). Reports: manufacturers · Android · hardware · comparative · gap · audit Gate++ **PASS WITH MINOR ISSUES**.
 
 ---
-*Updated Phase 5 WS5 2026-07-31*
+*Updated Phase 5 WS6 2026-07-31*
