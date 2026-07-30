@@ -13,7 +13,25 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Further Phase 5 workstreams — not auto-started  
+- Further Phase 5 workstreams after WS2 — not auto-started  
+
+---
+
+## [0.6.2] — 2026-07-31
+
+### Added — Phase 5 Workstream 2: Android Ecosystem
+
+- `research/android-ecosystem/` — 23 topic notes + negative finding (official Google/AOSP docs only)  
+- Coverage / architecture / update-responsibility / component matrices  
+- ANDROID_* source, citation, validation, cross-reference reports  
+- `PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`  
+- Gate++: `orchestration/PHASE_05_WS2_GATE_REPORT.md` → **PASS**  
+
+### Changed
+
+- `PHASE_05_SPECIFICATION.md` — WS2 defined; WS1 marked complete  
+- README / TASKS / ROADMAP / research/README / STATE_REPORT for WS2  
+- Phase 5 **not** complete; WS3 **not** started  
 
 ---
 

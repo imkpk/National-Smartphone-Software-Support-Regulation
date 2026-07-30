@@ -2,9 +2,9 @@
 
 **Open-source legal research repository on minimum smartphone software support standards in India**
 
-[![Status](https://img.shields.io/badge/status-Phase%205%20WS1%20manufacturers-blue)]()
-[![Version](https://img.shields.io/badge/version-0.6.1-blue)]()
-[![Research](https://img.shields.io/badge/research-P5%20OEM%20baseline-success)]()
+[![Status](https://img.shields.io/badge/status-Phase%205%20WS2%20Android%20ecosystem-blue)]()
+[![Version](https://img.shields.io/badge/version-0.6.2-blue)]()
+[![Research](https://img.shields.io/badge/research-P5%20Android%20ecosystem-success)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Validation](https://img.shields.io/badge/validation-VALIDATION.md%20SoT-red)](VALIDATION.md)
 [![Forum](https://img.shields.io/badge/forum-open%20(Art.32%20vs%20226)-orange)](research/forum/)
@@ -46,7 +46,7 @@ India is among the world’s largest smartphone markets. Smartphones are essenti
 
 Despite this dependence, many devices—especially high-volume budget and mid-range models—historically receive limited OS and security support relative to hardware life. That creates cybersecurity exposure, consumer information asymmetry, premature electronic waste, and regulatory asymmetry relative to jurisdictions adopting product longevity rules.
 
-As of **Phase 5 WS1 (v0.6.1)**, the repository holds constitutional/statutory notes (Phase 2), judgments and regulators/committees/comparative/gap (Phase 3), government **policy, institutions, standards/guidance, consultations, programmes**, and Phase 4 gap synthesis (Phase 4), plus **manufacturer published software/security lifecycle** notes (Phase 5 WS1). **No dedicated multi-year OS/security-update mandate was identified** for India across the statutory, judicial, regulatory, parliamentary, policy, standards, consultation, or programme materials reviewed; OEM multi-year commitments are **private policies**, not Indian law, and are **heterogeneous** across brands. The EU provides a persuasive product-regulation contrast (Phase 3). **No forum (Art. 32 vs Art. 226) is pre-selected.** Notes are neutral—not litigation advice. Reports: [`PHASE_03_COMPLETION_REPORT.md`](PHASE_03_COMPLETION_REPORT.md) · [`PHASE_04_COMPLETION_REPORT.md`](PHASE_04_COMPLETION_REPORT.md) · [`PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md).
+As of **Phase 5 WS2 (v0.6.2)**, the repository holds constitutional/statutory notes (Phase 2), judgments and regulators/committees/comparative/gap (Phase 3), government **policy, institutions, standards/guidance, consultations, programmes**, and Phase 4 gap synthesis (Phase 4), **manufacturer published software/security lifecycle** notes (Phase 5 WS1), and **Android platform / update-infrastructure** notes (Phase 5 WS2: AOSP, Mainline, security bulletins, CDD/CTS/VTS, GKI, Treble, OTA architecture). **No dedicated multi-year OS/security-update mandate was identified** for India across the statutory, judicial, regulatory, parliamentary, policy, standards, consultation, or programme materials reviewed; OEM multi-year commitments are **private policies**, not Indian law; AOSP platform documentation describes *how* updates work, **not** a universal multi-year device floor. The EU provides a persuasive product-regulation contrast (Phase 3). **No forum (Art. 32 vs Art. 226) is pre-selected.** Notes are neutral—not litigation advice. Reports: [`PHASE_03_COMPLETION_REPORT.md`](PHASE_03_COMPLETION_REPORT.md) · [`PHASE_04_COMPLETION_REPORT.md`](PHASE_04_COMPLETION_REPORT.md) · [`PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md) · [`PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md).
 
 ## Objectives
 

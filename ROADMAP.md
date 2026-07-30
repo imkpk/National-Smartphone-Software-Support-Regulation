@@ -146,7 +146,7 @@
 
 ## Phase 5 — Manufacturers & Technical Baseline
 
-**Status:** **In progress** — WS1 manufacturers package when merged (v0.6.1); further WS not auto-started  
+**Status:** **In progress** — WS1 complete (v0.6.1); WS2 Android ecosystem (v0.6.2 when merged); further WS not auto-started  
 
 **Objective:** Evidence-grade OEM policy dossier + technical lifecycle literacy.  
 
@@ -154,15 +154,16 @@
 
 **Workstreams**
 
-- Google, Samsung, Apple, Nothing, Motorola, OnePlus, Xiaomi, POCO, realme, vivo, Oppo, Honor, Sony, Nokia/HMD, ASUS, others as needed  
+- **WS1 (complete):** OEM published policies — Google, Samsung, Apple, Nothing, Motorola, OnePlus, Xiaomi, realme, vivo, Oppo, Honor, Sony, Nokia/HMD, ASUS, Lenovo  
+- **WS2 (this package):** Android ecosystem — AOSP, Mainline, Play System Updates, ASB, CDD/CTS/VTS, GMS, Treble, GKI, OTA architecture, Verified Boot, Play Integrity  
 - OS vs security update distinction  
 - Capture date protocol  
-- Technical note: Android/iOS update pipelines (descriptive, not reverse engineering)  
+- Residual: iOS observational model / further technical notes as later authorised  
 
 **Exit criteria**
 
-- Comparison tables in `evidence/tables/`  
-- Per-OEM folders with sources  
+- OEM comparison matrices under `research/manufacturers/`  
+- Android ecosystem matrices under `research/android-ecosystem/`  
 - Uncertainty log for SKU-level variance  
 
 **Depends on:** Phase 1  

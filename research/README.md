@@ -23,7 +23,8 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `exclusions/` | Not Relevant entity log (REPOSITORY_OS §6) | cross-cutting |
 | `government/` | Broader government index (legacy path) | 4 — scaffold; see `policy/`, `institutions/` |
 | `manufacturers/` | OEM software support policies | 5 — **WS1 complete** |
-| `technical/` | Technical baseline | 5 — pending |
+| `android-ecosystem/` | AOSP / Mainline / ASB / CDD / GKI / OTA architecture | 5 — **WS2 complete** |
+| `technical/` | Further technical baseline (residual) | 5 — pending |
 | `cybersecurity/` | Cyber risk pathways | 6 — pending |
 | `environment/` | E-waste / environment | 6 — pending |
 | `economics/` | Economics / lifecycle | 6 — pending |
@@ -48,7 +49,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 
 ## Phase status
 
-**Phase 4 Complete (v0.6.0).** Phase 5 **in progress**: WS1 manufacturers complete ([`manufacturers/`](manufacturers/)); technical baseline pending. Spec: [`../PHASE_05_SPECIFICATION.md`](../PHASE_05_SPECIFICATION.md). Report: [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md).
+**Phase 4 Complete (v0.6.0).** Phase 5 **in progress**: WS1 manufacturers complete ([`manufacturers/`](manufacturers/)); WS2 Android ecosystem complete ([`android-ecosystem/`](android-ecosystem/)); further technical residual pending. Spec: [`../PHASE_05_SPECIFICATION.md`](../PHASE_05_SPECIFICATION.md). Reports: [`../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md`](../PHASE_05_MANUFACTURERS_WORKSTREAM_REPORT.md) · [`../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`](../PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md).
 
 ---
-*Updated Phase 5 WS1 2026-07-31*
+*Updated Phase 5 WS2 2026-07-31*
