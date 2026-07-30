@@ -3,7 +3,7 @@
 **Project:** National-Smartphone-Software-Support-Regulation  
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
-**Progress:** 26 done · 8 open · 34 total  
+**Progress:** 34 done · 0 open · 34 total  
 
 > Check boxes only when complete and validation rules are satisfied.
 
@@ -52,14 +52,14 @@
 
 ### High Courts
 
-- [ ] **T161** Define HC inclusion criteria (relevance rubric)
-- [ ] **T162** Research Telangana HC PIL procedure practice directions (official)
-- [ ] **T163** Collect HC digital access / education device cases (verify each)
-- [ ] **T164** Collect HC e-waste / environment PILs of relevance (verify each)
-- [ ] **T165** Collect HC consumer class issues if systemic (verify each)
-- [ ] **T166** Mark all HC cases as persuasive
-- [ ] **T167** Create HC master index
-- [ ] **T168** Citation Validation pass on entire judgments folder
+- [x] **T161** Define HC inclusion criteria (relevance rubric)
+- [x] **T162** Research Telangana HC PIL procedure practice directions (official)
+- [x] **T163** Collect HC digital access / education device cases (verify each)
+- [x] **T164** Collect HC e-waste / environment PILs of relevance (verify each)
+- [x] **T165** Collect HC consumer class issues if systemic (verify each)
+- [x] **T166** Mark all HC cases as persuasive
+- [x] **T167** Create HC master index
+- [x] **T168** Citation Validation pass on entire judgments folder
 
 ---
 ## Definition of Done
@@ -86,3 +86,10 @@ esearch/judgments README lists artefacts; master index present.
 - High Court tasks T161–T168 remain **open**.
 - Phase 3 **not** complete.
 - Negative finding: no SC OEM multi-year software-support duty case identified.
+
+### Workstream 2 status (2026-07-30) — High Courts
+
+- T161–T168 marked done (HC briefs + inclusion criteria + search notes + validation).
+- Phase 3 **not** marked complete.
+- Negative finding: no HC OEM multi-year software-support duty case identified.
+- See PHASE_03_HC_WORKSTREAM_REPORT.md.
