@@ -6,7 +6,9 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 
 | Folder | Domain | Substantive phase |
 |--------|--------|-------------------|
-| `constitution/` | Constitution of India | 2 — **notes complete (workstream)** |
+| `constitution/` | Constitution of India | 2 — **complete** |
+| `statutes/` | Central statutes & rules | 2 — **complete (workstream)** |
+| `consumer-law/` | CPA interface notes | 2 — **initial notes** |
 | `statutes/` | Central statutes & rules | 2 |
 | `judgments/` | SC & HC case law | 3 |
 | `government/` | Policies & institutions | 4 |
