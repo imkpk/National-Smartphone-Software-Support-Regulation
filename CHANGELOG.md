@@ -13,7 +13,22 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Phase 4 WS5+ (programmes, gap, audit, close) — not auto-started  
+- Phase 4 WS6+ (gap, audit, close) — not auto-started  
+
+---
+
+## [0.5.6] — 2026-07-31
+
+### Added — Phase 4 Workstream 5: Government Programmes
+
+- `research/programs/` — Digital India implementation, Cyber Surakshit Bharat, PLI electronics, e-waste EPR, NeGD orientation, search log  
+- Negative finding: no multi-year OS-support government programme identified  
+- PROGRAMME_* reports and matrices; `PHASE_04_PROGRAMMES_WORKSTREAM_REPORT.md`  
+
+### Changed
+
+- TASKS / phase-04 / README / orchestration for WS5  
+- Phase 4 **not** complete; WS6 **not** started  
 
 ---
 
