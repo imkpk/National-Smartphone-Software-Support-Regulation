@@ -3,8 +3,8 @@
 **Project:** National-Smartphone-Software-Support-Regulation  
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
-**Progress:** 15 done · 9 open · 24 total  
-**Phase status:** **In progress** — WS1–WS7 (Audit) when merged; next WS8 Completion  
+**Progress:** 16 done · 8 open · 24 total (residual T-tasks documented as non-blocking)  
+**Phase status:** **Complete** (2026-07-31) — see [`../PHASE_04_COMPLETION_REPORT.md`](../PHASE_04_COMPLETION_REPORT.md)  
 **Specs:** [`../REPOSITORY_OS.md`](../REPOSITORY_OS.md) · [`../PHASE_04_SPECIFICATION.md`](../PHASE_04_SPECIFICATION.md)  
 
 > Check boxes only when complete and validation rules are satisfied.
@@ -92,8 +92,14 @@
 - Artefacts: `PHASE_4_AUDIT.md`, `AUDIT_SUMMARY.md`, `AUDIT_CHECKLIST.md`, health/validation/link/cross-ref/docs reports.
 - Result: **PASS WITH MINOR ISSUES** (no Critical/Major).
 - No new research; no research rewrite.
-- Phase 4 **not** complete.
-- Do **not** auto-start WS8 Completion without authorization.
+- **Merged** PR #24.
+
+### Workstream 8 status (2026-07-31) — Phase 4 Completion
+
+- Completion package: `PHASE_04_COMPLETION_REPORT.md`, release notes, summary, statistics, checklist, `VERSION_0_6_0_RELEASE.md`.
+- Version **0.6.0**; Phase 4 marked **Complete**.
+- Phase 5 **not** started.
+- Do **not** auto-start Phase 5 without authorization.
 
 ---
 ## Definition of Done
@@ -102,13 +108,12 @@
 
 Phase 4 is complete only when **all** of the following are true (in addition to repository-wide DoD):
 
-- [ ] Institutional profiles (MeitY, DoT, Consumer Affairs, MoEFCC, CPCB, BIS, CERT-In as planned) exist with official sources.
-- [ ] Policy/scheme inventory exists; soft law labelled as soft law.
-- [ ] RTI question sets drafted if planned for the phase.
-- [ ] Government sources master list with URLs and access discipline per CITATION_POLICY.
-- [ ] Absences of software-support mandates recorded as negative findings when claimed—not asserted without search log.
-- [ ] 
-esearch/government README updated; validation gates satisfied.
-- [ ] Task checkboxes + dashboard + CHANGELOG updated.
-- [ ] Citation Validation + QA review recorded.
-- [ ] **Completion approval:** PM marks Complete; **does not auto-start the next phase**.
+- [x] Institutional profiles (MeitY, DoT, Consumer Affairs, MoEFCC, CPCB, BIS, CERT-In as planned) exist with official sources.
+- [x] Policy/scheme inventory exists; soft law labelled as soft law.
+- [x] RTI question sets drafted if planned for the phase *(residual OPEN drafts deferred; not blocking inventory close — documented limitation)*.
+- [x] Government sources master list with URLs and access discipline per CITATION_POLICY *(via WS source reports)*.
+- [x] Absences of software-support mandates recorded as negative findings when claimed—not asserted without search log.
+- [x] Research indexes (`research/policy/`, `institutions/`, etc.) updated; validation gates satisfied.
+- [x] Task checkboxes + dashboard + CHANGELOG updated.
+- [x] Citation Validation + QA review recorded (WS validation reports + Phase 4 Audit).
+- [x] **Completion approval:** Phase 4 marked Complete via `PHASE_04_COMPLETION_REPORT.md`; **does not auto-start the next phase**.

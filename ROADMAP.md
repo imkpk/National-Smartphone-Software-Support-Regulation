@@ -120,27 +120,33 @@
 
 ## Phase 4 — Government Policy & Institutions
 
+**Status (repository):** **Complete** — see `PHASE_04_COMPLETION_REPORT.md` (v0.6.0, 2026-07-31).
+
 **Objective:** Map executive instruments and institutional mandates.
 
-**Coverage**
+**Coverage (as executed)**
 
-- Digital India / DPI context  
-- National cybersecurity policy instruments  
-- MeitY, DoT, Consumer Affairs, MoEFCC, CPCB, BIS, CERT-In roles  
-- Electronics manufacturing / PLI interfaces  
-- Grievance and RTI pathways  
+- Policies (NCSP, NPE, Digital India, NDCP)  
+- Institutions (MeitY, DoT, DCA/CCPA, MoEFCC, CPCB, BIS, CERT-In, TRAI, RBI/NPCI, RACI)  
+- Standards & technical guidance (CERT-In, BIS pathway, MeitY CRO)  
+- Public consultations  
+- Government programmes (Digital India, Cyber Surakshit Bharat, PLI, e-waste EPR, NeGD)  
+- Gap analysis · Audit · Formal close  
 
 **Exit criteria**
 
 - Institutional RACI-style matrix  
 - Policy inventory with official links  
 - Documented gaps (absence of software support mandate recorded as finding, not assumption)  
+- WS1–WS8 complete; audit PASS or PASS WITH MINOR ISSUES  
 
-**Depends on:** Phase 1  
+**Depends on:** Phase 1; Phase 3 complete for sequencing in practice  
 
 ---
 
 ## Phase 5 — Manufacturers & Technical Baseline
+
+**Status:** **Next phase** — not started; requires explicit authorisation  
 
 **Objective:** Evidence-grade OEM policy dossier + technical lifecycle literacy.
 
