@@ -11,6 +11,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `consumer-law/` | CPA interface notes | 2 — **initial notes** |
 | `judgments/` | SC & HC case law | 3 — **SC WS1 + HC WS2 complete** |
 | `regulators/` | MeitY, DoT, CERT-In, CCPA, BIS, CPCB | 3 — **WS3 complete** |
+| `committees/` | Parliamentary committees & Law Commission | 3 — **WS4 complete** |
 | `government/` | Policies & institutions (broader) | 4 — pending |
 | `manufacturers/` | OEM software support | 5 — pending |
 | `technical/` | Technical baseline | 5 — pending |

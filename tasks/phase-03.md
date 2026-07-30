@@ -102,3 +102,11 @@ esearch/judgments README lists artefacts; master index present.
 - **Defect fix:** `meity.md` and `dot.md` were empty (0 bytes) after PR #10; bodies restored and re-validated.
 - Phase 3 **not** marked complete.
 - Do **not** auto-start parliamentary/comparative/manufacturer workstreams.
+
+### Workstream 4 status (2026-07-30) — Parliamentary Committees & Law Commission
+
+- Notes under `research/committees/parliament/` (6) and `research/committees/law-commission/` (1 inventory).
+- Negative finding: no Parliament/Law Commission recommendation of multi-year OS/security-support mandate.
+- Reports: COMMITTEE_* + PHASE_03_COMMITTEE_WORKSTREAM_REPORT.md.
+- Phase 3 **not** marked complete.
+- Do **not** auto-start comparative / manufacturer / economics / gap workstreams.

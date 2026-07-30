@@ -18,6 +18,27 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ---
 
+## [0.4.4] — 2026-07-30
+
+### Added — Phase 3 Workstream 4: Parliamentary Committees & Law Commission
+
+- `research/committees/` with parliament notes (consumer protection, e-commerce rules, digital payments security, data privacy, cybercrime, e-waste LARRDIS)  
+- Law Commission search inventory  
+- Negative finding: no Parliament/Law Commission multi-year OS/security-support recommendation  
+- COMMITTEE_* reports; `PHASE_03_COMMITTEE_WORKSTREAM_REPORT.md`  
+
+### Changed
+
+- TASKS / phase-03 / README progress for WS4 only  
+- Phase 3 **not** marked complete  
+
+### Explicitly not done
+
+- Comparative jurisdictions / OEM / economics / litigation  
+- Formal Phase 3 close  
+
+---
+
 ## [0.4.3] — 2026-07-30
 
 ### Fixed — Phase 3 Workstream 3: MeitY / DoT note bodies
