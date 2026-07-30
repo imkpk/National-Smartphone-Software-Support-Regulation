@@ -32,7 +32,7 @@ Descriptive research. **No advocacy. No litigation. No legislative drafting.**
 |----|------|-------------|-------------------------------------|
 | 1 | Government Policies | `research/policy/` | Complete (PR #17) |
 | 2 | Government Institutions | `research/institutions/` | Complete (PR #18) |
-| 3 | Standards & Technical Guidance | `research/standards/` | Pending |
+| 3 | Standards & Technical Guidance | `research/standards/` | Complete when WS3 PR merges |
 | 4 | Public Consultations | `research/consultations/` | Pending |
 | 5 | Government Programmes | `research/programs/` | Pending |
 | 6 | Gap Analysis | `research/phase4-gap-analysis/` | Pending |

@@ -5,7 +5,7 @@
 **Rules:** [`VALIDATION.md`](VALIDATION.md) · [`CITATION_POLICY.md`](CITATION_POLICY.md)
 
 > Check a box in the phase file only when the work is complete and validation rules are satisfied.  
-> **Phase 3 Complete.** Phase 4 **in progress** (WS1 Policies + WS2 Institutions on main). Next: **WS3 Standards** after merge of OS install (if pending) + authorization. See `REPOSITORY_OS.md` + `PHASE_04_SPECIFICATION.md`.
+> **Phase 3 Complete.** Phase 4 **in progress** (WS1–WS3 when 0.5.4 merges). Next after merge: **WS4 Consultations** (authorisation required). See `REPOSITORY_OS.md` + `PHASE_04_SPECIFICATION.md`.
 
 ---
 
@@ -29,7 +29,7 @@
 | 1 | [`tasks/phase-01.md`](tasks/phase-01.md) | Complete (framework) | 55 | 0 | 55 |
 | 2 | [`tasks/phase-02.md`](tasks/phase-02.md) | **Nearly complete** (statutes done; Art. 12/47 residual) | 47 | 2 | 49 |
 | 3 | [`tasks/phase-03.md`](tasks/phase-03.md) | **Complete** | 34 | 0 | 34 |
-| 4 | [`tasks/phase-04.md`](tasks/phase-04.md) | **In progress** (WS1–WS2) | 15 | 9 | 24 |
+| 4 | [`tasks/phase-04.md`](tasks/phase-04.md) | **In progress** (WS1–WS3) | 15 | 9 | 24 |
 | 5 | [`tasks/phase-05.md`](tasks/phase-05.md) | Pending | 0 | 68 | 68 |
 | 6 | [`tasks/phase-06.md`](tasks/phase-06.md) | Pending | 0 | 24 | 24 |
 | 7 | [`tasks/phase-07.md`](tasks/phase-07.md) | Pending | 0 | 32 | 32 |
@@ -44,7 +44,7 @@
 
 1. Do **not** start Phase 9 without PM approval in `CHANGELOG.md`.  
 2. **Phase 3 Complete** — see `PHASE_03_COMPLETION_REPORT.md`.  
-3. **Phase 4 WS1–WS2 done** on main. Next (when authorised): **WS3 Standards** (`research/standards/`) — **not auto-started**.  
+3. **Phase 4 WS1–WS3** — policies, institutions, standards. Next (when authorised): **WS4 Consultations** — **not auto-started**.  
 4. Phase 2 residual: Art. 12 optional / Art. 47 remove-from-scope.  
 5. Forum remains **open**.  
 6. List open tasks:

@@ -13,7 +13,23 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Phase 4 WS3+ (standards, consultations, programmes, gap, audit, close) — not auto-started  
+- Phase 4 WS4+ (consultations, programmes, gap, audit, close) — not auto-started  
+
+---
+
+## [0.5.4] — 2026-07-31
+
+### Added — Phase 4 Workstream 3: Standards & Technical Guidance
+
+- `research/standards/` — CERT-In Directions/guidelines notes; BIS multi-year OS search; MeitY CRO orientation  
+- Negative finding: no multi-year OS product Indian Standard identified  
+- STANDARDS_* reports, analytical matrices, workstream report  
+- Repository Relevance on all new notes  
+
+### Changed
+
+- TASKS / phase-04 / README / orchestration STATE for WS3  
+- Phase 4 **not** complete; WS4 **not** started  
 
 ---
 
