@@ -4,7 +4,7 @@
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
 **Progress:** 15 done · 9 open · 24 total  
-**Phase status:** **In progress** — WS1–WS4 (Consultations) when merged; next WS5 Programmes  
+**Phase status:** **In progress** — WS1–WS5 (Programmes) when merged; next WS6 Gap Analysis  
 **Specs:** [`../REPOSITORY_OS.md`](../REPOSITORY_OS.md) · [`../PHASE_04_SPECIFICATION.md`](../PHASE_04_SPECIFICATION.md)  
 
 > Check boxes only when complete and validation rules are satisfied.
@@ -31,7 +31,7 @@
 
 - [x] **T179** Catalogue Digital India official materials relevant to mobile end-points
 - [x] **T180** Catalogue National Cyber Security Policy 2013 and successors check
-- [ ] **T181** Catalogue electronics manufacturing / PLI scheme interfaces *(residual — NPE 2019 covered; PLI operational guidelines deferred)*
+- [x] **T181** Catalogue electronics manufacturing / PLI scheme interfaces *(WS5 programme note; operational PDF pins residual OPEN)*
 - [ ] **T182** Catalogue any MeitY mobile security guidelines (if any) *(residual — not identified in WS1; remains OPEN)*
 - [ ] **T183** Catalogue consumer awareness digital payment advisories (RBI samples) *(deferred — adjacent domain)*
 - [x] **T184** Search for draft consultation papers on right to repair in India *(policy search log; deep consultation inventory → WS4)*
@@ -71,8 +71,15 @@
 - Notes under `research/consultations/` (MeitY DPDP draft rules; AI governance guidelines; BIS draft-comment process; search log).
 - Negative finding: no official multi-year OS-support consultation identified.
 - Reports: CONSULTATION_* + PHASE_04_CONSULTATIONS_WORKSTREAM_REPORT.md.
+- **Merged** PR #21.
+
+### Workstream 5 status (2026-07-31) — Government Programmes
+
+- Notes under `research/programs/` (Digital India, Cyber Surakshit Bharat, PLI electronics, e-waste EPR, NeGD, search log).
+- Negative finding: no multi-year OS-support government programme identified.
+- Reports: PROGRAMME_* + PHASE_04_PROGRAMMES_WORKSTREAM_REPORT.md.
 - Phase 4 **not** complete.
-- Do **not** auto-start WS5 programmes without authorization.
+- Do **not** auto-start WS6 gap analysis without authorization.
 
 ---
 ## Definition of Done
