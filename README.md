@@ -2,8 +2,8 @@
 
 **Open-source legal research repository on minimum smartphone software support standards in India**
 
-[![Status](https://img.shields.io/badge/status-Phase%203%20WS1%E2%80%93WS5%20done-blue)]()
-[![Research](https://img.shields.io/badge/research-judgments%20%2B%20regulators%20%2B%20committees%20%2B%20comparative%20done-success)]()
+[![Status](https://img.shields.io/badge/status-Phase%203%20WS1%E2%80%93WS6%20done-blue)]()
+[![Research](https://img.shields.io/badge/research-through%20gap%20analysis%20done-success)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Validation](https://img.shields.io/badge/validation-VALIDATION.md%20SoT-red)](VALIDATION.md)
 [![Forum](https://img.shields.io/badge/forum-open%20(Art.32%20vs%20226)-orange)](research/forum/)

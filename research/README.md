@@ -13,6 +13,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `regulators/` | MeitY, DoT, CERT-In, CCPA, BIS, CPCB | 3 — **WS3 complete** |
 | `committees/` | Parliamentary committees & Law Commission | 3 — **WS4 complete** |
 | `international/` | Comparative jurisdictions (persuasive only) | 3 — **WS5 complete** |
+| `gap-analysis/` | Cross-layer gap synthesis | 3 — **WS6 complete** |
 | `government/` | Policies & institutions (broader) | 4 — pending |
 | `manufacturers/` | OEM software support | 5 — pending |
 | `technical/` | Technical baseline | 5 — pending |
