@@ -93,3 +93,12 @@ esearch/judgments README lists artefacts; master index present.
 - Phase 3 **not** marked complete.
 - Negative finding: no HC OEM multi-year software-support duty case identified.
 - See PHASE_03_HC_WORKSTREAM_REPORT.md.
+
+### Workstream 3 status (2026-07-30) — Regulatory Authorities
+
+- Authority notes: MeitY, DoT, CERT-In, CCPA, BIS, CPCB under `research/regulators/`.
+- Negative finding: no regulatory multi-year OS/security-support mandate identified.
+- Reports: REGULATOR_* + PHASE_03_REGULATOR_WORKSTREAM_REPORT.md.
+- **Defect fix:** `meity.md` and `dot.md` were empty (0 bytes) after PR #10; bodies restored and re-validated.
+- Phase 3 **not** marked complete.
+- Do **not** auto-start parliamentary/comparative/manufacturer workstreams.

@@ -81,7 +81,11 @@ Per stop condition, **not** begun:
 
 ---
 
-## 8. Stop
+## 8. Post-merge defect fix (same workstream)
+
+After PR #10 merge, `meity.md` and `dot.md` were discovered at **0 bytes** (write defect during original authoring). Bodies restored 2026-07-30; validation re-run. Content substance of negative finding and coverage matrix **unchanged**.
+
+## 9. Stop
 
 **Workstream 3 complete. Stop.**  
 
