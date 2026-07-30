@@ -12,9 +12,30 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 ### Planned
 
 - Formal Phase 2 close (Art. 12 optional / Art. 47 remove)  
-- Phase 3 audit → formal close  
+- Phase 3 formal close (after authorization; remediate minor audit issues as needed)  
 - Forum analysis memo — still open  
 - Phase 4+ OEM / evidence — not started  
+
+---
+
+## [0.4.7] — 2026-07-30
+
+### Added — Phase 3 Audit
+
+- `PHASE_3_AUDIT.md` — integrity audit of WS1–WS6  
+- `AUDIT_CHECKLIST.md`, `REPOSITORY_CONSISTENCY_REPORT.md`, `AUDIT_SUMMARY.md`  
+- Result: **PASS WITH MINOR ISSUES** (no Critical/Major)  
+
+### Changed
+
+- TASKS / phase-03 / README reflect audit complete  
+- Phase 3 **not** marked complete  
+
+### Explicitly not done
+
+- Phase 3 Completion Report  
+- Phase 4  
+- Silent rewrites of research workstreams  
 
 ---
 
