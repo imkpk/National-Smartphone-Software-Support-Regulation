@@ -4,7 +4,7 @@
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
 **Progress:** 15 done · 9 open · 24 total  
-**Phase status:** **In progress** — WS1–WS6 (Gap) when merged; next WS7 Audit  
+**Phase status:** **In progress** — WS1–WS7 (Audit) when merged; next WS8 Completion  
 **Specs:** [`../REPOSITORY_OS.md`](../REPOSITORY_OS.md) · [`../PHASE_04_SPECIFICATION.md`](../PHASE_04_SPECIFICATION.md)  
 
 > Check boxes only when complete and validation rules are satisfied.
@@ -85,8 +85,15 @@
 - Synthesis under `research/phase4-gap-analysis/` (WS1–WS5 only; no new research; no recommendations).
 - Integrated finding: no multi-year OS floor identified across Phase 4 layers.
 - Reports: GAP_* + PHASE_04_GAP_ANALYSIS_WORKSTREAM_REPORT.md.
+- **Merged** PR #23.
+
+### Workstream 7 status (2026-07-31) — Repository Audit
+
+- Artefacts: `PHASE_4_AUDIT.md`, `AUDIT_SUMMARY.md`, `AUDIT_CHECKLIST.md`, health/validation/link/cross-ref/docs reports.
+- Result: **PASS WITH MINOR ISSUES** (no Critical/Major).
+- No new research; no research rewrite.
 - Phase 4 **not** complete.
-- Do **not** auto-start WS7 Audit without authorization.
+- Do **not** auto-start WS8 Completion without authorization.
 
 ---
 ## Definition of Done
