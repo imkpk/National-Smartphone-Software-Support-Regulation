@@ -13,7 +13,25 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Further Phase 5 workstreams after WS2 — not auto-started  
+- Further Phase 5 workstreams after WS3 — not auto-started  
+
+---
+
+## [0.6.3] — 2026-07-31
+
+### Added — Phase 5 Workstream 3: Hardware & Chipset Ecosystem
+
+- `research/hardware-ecosystem/` — kernel/firmware/chipset notes + negative finding  
+- Hardware architecture · chipset support · kernel lifecycle · firmware responsibility matrices  
+- HARDWARE_* source, citation, validation, cross-reference reports  
+- `PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`  
+- Gate++: `orchestration/PHASE_05_WS3_GATE_REPORT.md` → **PASS**  
+
+### Changed
+
+- `PHASE_05_SPECIFICATION.md` — WS3 defined; WS1–WS2 marked complete  
+- README / TASKS / ROADMAP / research/README / STATE_REPORT for WS3  
+- Phase 5 **not** complete; WS4 **not** started  
 
 ---
 

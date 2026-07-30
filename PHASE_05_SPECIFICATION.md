@@ -9,7 +9,7 @@
 
 ## 1. Objectives
 
-Document **published manufacturer software/security update lifecycle commitments** and related **technical baseline** evidence (Android platform ecosystem, etc.) for smartphones relevant to the India research repository.
+Document **published manufacturer software/security update lifecycle commitments** and related **technical baseline** evidence (Android platform ecosystem, hardware/chipset stack, etc.) for smartphones relevant to the India research repository.
 
 **Descriptive only.** No recommendations, legal conclusions, or policy drafting.
 
@@ -30,60 +30,63 @@ Document **published manufacturer software/security update lifecycle commitments
 | WS | Title | Path | Status |
 |----|-------|------|--------|
 | 1 | Manufacturers & Technical Baseline (OEM policies) | `research/manufacturers/` | **Complete** (v0.6.1, PR #26) |
-| 2 | Android Ecosystem | `research/android-ecosystem/` | **This workstream** (v0.6.2) |
-| 3+ | Further technical baseline (as later specified) | TBD | Not started |
+| 2 | Android Ecosystem | `research/android-ecosystem/` | **Complete** (v0.6.2, PR #27) |
+| 3 | Hardware & Chipset Ecosystem | `research/hardware-ecosystem/` | **This workstream** (v0.6.3) |
+| 4+ | Further technical baseline (as later specified) | TBD | Not started |
 
 ---
 
 ## 4. WS1 scope (complete)
 
-Official manufacturer documentation for listed OEMs (Google · Samsung · Apple · Nothing · Motorola · OnePlus · Xiaomi · OPPO · Vivo · Realme · HMD/Nokia · Sony · Honor · ASUS · Lenovo).
+Official manufacturer documentation for listed OEMs.
 
 ---
 
-## 5. WS2 scope
+## 5. WS2 scope (complete)
 
-Official **Google / AOSP** Android documentation only:
-
-- AOSP architecture  
-- Android Enterprise / Enterprise Recommended  
-- Project Mainline · Play System Updates  
-- Security Bulletins · monthly cadence · security patch levels  
-- CDD · CTS · VTS · GMS  
-- Treble · GKI · vendor interface  
-- OTA / upgrade process · release cycle · update distribution  
-- Update responsibilities · Google vs OEM roles  
-- Verified Boot · rollback protection · Play Integrity  
-
-Exclude blogs, forums, news, Wikipedia, community docs as sole authority.
+Official Google / AOSP Android platform & update infrastructure documentation.
 
 ---
 
-## 6. Expected WS2 outputs
+## 6. WS3 scope
 
-- `research/android-ecosystem/` notes  
-- Coverage / architecture / responsibility / component matrices  
+Official documentation covering hardware/chipset stack enabling updates:
+
+- Linux Kernel LTS · Android Common Kernel · GKI · KMI  
+- Vendor boot · BSP / vendor software · firmware lifecycle  
+- Bootloader · Secure Boot · Verified Boot · TEE  
+- Qualcomm · MediaTek · Google Tensor · Samsung Exynos · UNISOC  
+- Vendor security patches · kernel maintenance  
+
+Exclude blogs, forums, Wikipedia, news, community docs as sole authority.
+
+---
+
+## 7. Expected WS3 outputs
+
+- `research/hardware-ecosystem/` notes  
+- Coverage / architecture / chipset / kernel lifecycle / firmware responsibility matrices  
 - Source / citation / validation / cross-reference reports  
 - Negative findings  
-- `PHASE_05_ANDROID_ECOSYSTEM_WORKSTREAM_REPORT.md`  
+- `PHASE_05_HARDWARE_ECOSYSTEM_WORKSTREAM_REPORT.md`  
 - Documentation updates  
 
 ---
 
-## 7. Exclusions
+## 8. Exclusions
 
 - New Indian government research (Phase 4 closed)  
-- Re-writing OEM notes (WS1 closed)  
-- Litigation / recommendations  
+- Re-writing WS1 OEM notes or WS2 Android notes  
+- Litigation / recommendations / vendor rankings  
 - Multiple workstreams per PR  
-- Auto-start of WS3  
+- Auto-start of WS4  
 
 ---
 
-## 8. Completion of Phase 5
+## 9. Completion of Phase 5
 
-Phase 5 completes only after all planned Phase 5 workstreams + audit + close (later). **WS1 + WS2 alone do not close Phase 5.**
+Phase 5 completes only after all planned Phase 5 workstreams + audit + close (later). **WS1–WS3 alone do not close Phase 5.**
 
 ---
 
-*Phase 5 specification — updated WS2*
+*Phase 5 specification — updated WS3*
