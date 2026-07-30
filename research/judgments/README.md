@@ -2,7 +2,8 @@
 
 **Phase:** 3  
 **Workstream 1:** Supreme Court — **complete (research digests)**  
-**Workstream 2+:** High Courts — **not started**
+**Workstream 2:** High Courts — **complete (research digests; quality over quantity)**  
+**Phase 3 overall:** **Not complete** (further streams / formal close pending)
 
 ## Supreme Court (Workstream 1)
 
@@ -25,6 +26,16 @@ Folder: [`supreme-court/`](supreme-court/) — **22** judgment briefs.
 - No litigation advice.  
 - No claim of SC-mandated OEM update years (see negative finding).
 
-## High Courts
+## High Courts (Workstream 2)
 
-Not part of Workstream 1. See `tasks/phase-03.md` T161–T168.
+Folder: [`high-courts/`](high-courts/) — **2** judgment briefs + search/procedure notes.
+
+| Report | Path |
+|--------|------|
+| Coverage matrix | [HIGH_COURT_COVERAGE_MATRIX.md](HIGH_COURT_COVERAGE_MATRIX.md) |
+| Source report | [HIGH_COURT_SOURCE_REPORT.md](HIGH_COURT_SOURCE_REPORT.md) |
+| Citation report | [HIGH_COURT_CITATION_REPORT.md](HIGH_COURT_CITATION_REPORT.md) |
+| Validation report | [HIGH_COURT_VALIDATION_REPORT.md](HIGH_COURT_VALIDATION_REPORT.md) |
+| Workstream report | [`../../PHASE_03_HC_WORKSTREAM_REPORT.md`](../../PHASE_03_HC_WORKSTREAM_REPORT.md) |
+
+All HC authority is **persuasive only**.

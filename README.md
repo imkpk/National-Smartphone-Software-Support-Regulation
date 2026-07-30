@@ -2,8 +2,8 @@
 
 **Open-source legal research repository on minimum smartphone software support standards in India**
 
-[![Status](https://img.shields.io/badge/status-Phase%203%20SC%20WS1%20done-blue)]()
-[![Research](https://img.shields.io/badge/research-SC%20judgments%20WS1%20done-success)]()
+[![Status](https://img.shields.io/badge/status-Phase%203%20SC%2BHC%20WS%20done-blue)]()
+[![Research](https://img.shields.io/badge/research-judgments%20WS1%2BWS2%20done-success)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Validation](https://img.shields.io/badge/validation-VALIDATION.md%20SoT-red)](VALIDATION.md)
 [![Forum](https://img.shields.io/badge/forum-open%20(Art.32%20vs%20226)-orange)](research/forum/)
@@ -122,7 +122,7 @@ This repository is for **research, education, and public-interest preparation**.
 | 0 | Repository foundation | **Complete** |
 | 1 | Research infrastructure | **Complete (framework)** |
 | 2 | Constitutional & statutory map | **Nearly complete** — constitution + statutes **done**; Art. 12/47 residual |
-| 3 | Judgments corpus | **In progress** — Supreme Court WS1 **done**; High Courts **open** |
+| 3 | Judgments corpus | **In progress** — SC WS1 + HC WS2 **done**; formal Phase 3 close open |
 | 4–8 | Policy, OEM, cyber/env/econ, comparative, evidence | Pending |
 | 9 | Litigation drafting | Pending (hard gate) |
 | 10 | Hardening & release | Pending |
@@ -140,11 +140,12 @@ See [`ROADMAP.md`](ROADMAP.md) and [`TASKS.md`](TASKS.md).
 - [x] Forum path reserved — **decision not made**  
 - [ ] Residual Phase 2: Art. 12 optional / Art. 47 remove-from-scope (admin close)  
 - [x] **Phase 3 Workstream 1** — Supreme Court judgments ([`research/judgments/supreme-court/`](research/judgments/supreme-court/), [`PHASE_03_SC_WORKSTREAM_REPORT.md`](PHASE_03_SC_WORKSTREAM_REPORT.md))  
-- [ ] Phase 3 High Court workstream  
+- [x] **Phase 3 Workstream 2** — High Court judgments ([`research/judgments/high-courts/`](research/judgments/high-courts/), [`PHASE_03_HC_WORKSTREAM_REPORT.md`](PHASE_03_HC_WORKSTREAM_REPORT.md))  
+- [ ] Phase 3 formal close / further judgment hygiene  
 - [ ] Phase 4+ policy / OEM / cyber / comparative / evidence  
 - [ ] PIL drafting (Phase 9 only)  
 
-**Task counts:** see [`TASKS.md`](TASKS.md). **Phase 3 not fully complete.**
+**Task counts:** see [`TASKS.md`](TASKS.md). **Phase 3 not fully complete** (WS1+WS2 done only).
 
 ### Tooling
 
@@ -156,4 +157,4 @@ python scripts/new_research_note.py --domain statutes --slug my-note --title "Ti
 
 ---
 
-*Phase 3 Supreme Court Workstream 1 complete on `main`. High Courts open. Phase 3 not fully complete. Forum open. No PIL drafting.*
+*Phase 3 SC + HC workstreams complete on `main`. Phase 3 formal close open. Forum open. No PIL drafting.*

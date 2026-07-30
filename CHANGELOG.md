@@ -12,8 +12,30 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 ### Planned
 
 - Formal Phase 2 close (Art. 12 optional / Art. 47 remove per scope verification)  
-- Phase 3 High Court workstream  
+- Formal Phase 3 close (after pin-cite hygiene if required)  
 - Forum analysis memo — still open  
+- Phase 4+ policy / OEM / comparative — not started  
+
+---
+
+## [0.4.1] — 2026-07-30
+
+### Added — Phase 3 Workstream 2: High Court Judgments
+
+- HC briefs: *Faheema Shirin* (Kerala); *Karmanya Singh Sareen* (Delhi)  
+- Inclusion criteria; Telangana PIL procedure note; e-waste & consumer systemic search notes  
+- Negative finding: no HC OEM multi-year software-support duty  
+- HIGH_COURT_* reports; `PHASE_03_HC_WORKSTREAM_REPORT.md`  
+
+### Changed
+
+- `tasks/phase-03.md` T161–T168 done; Phase 3 still not marked fully complete  
+- TASKS / README progress for WS2  
+
+### Explicitly not done
+
+- Regulator / committee / comparative / gap analysis  
+- Litigation drafting  
 
 ---
 
