@@ -14,15 +14,15 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `committees/` | Parliamentary committees & Law Commission | 3 — **complete** (WS4) |
 | `international/` | Comparative jurisdictions (persuasive only) | 3 — **complete** (WS5) |
 | `gap-analysis/` | Cross-layer gap synthesis | 3 — **complete** (WS6) |
-| `policy/` | Government policies / programmes (framing) | 4 — **WS1 complete** |
-| `institutions/` | Government institutions + RACI | 4 — **WS2 complete** |
-| `standards/` | Standards & technical guidance | 4 — **WS3 complete** |
-| `consultations/` | Public consultations / drafts | 4 — **WS4 complete** |
-| `programs/` | Government programmes | 4 — **WS5 complete** |
-| `phase4-gap-analysis/` | Phase 4 gap synthesis | 4 — **WS6 complete** |
+| `policy/` | Government policies / programmes (framing) | 4 — **complete** |
+| `institutions/` | Government institutions + RACI | 4 — **complete** |
+| `standards/` | Standards & technical guidance | 4 — **complete** |
+| `consultations/` | Public consultations / drafts | 4 — **complete** |
+| `programs/` | Government programmes | 4 — **complete** |
+| `phase4-gap-analysis/` | Phase 4 gap synthesis | 4 — **complete** |
 | `exclusions/` | Not Relevant entity log (REPOSITORY_OS §6) | cross-cutting |
 | `government/` | Broader government index (legacy path) | 4 — scaffold; see `policy/`, `institutions/` |
-| `manufacturers/` | OEM software support | 5 — pending |
+| `manufacturers/` | OEM software support | 5 — **pending** |
 | `technical/` | Technical baseline | 5 — pending |
 | `cybersecurity/` | Cyber risk pathways | 6 — pending |
 | `environment/` | E-waste / environment | 6 — pending |
@@ -48,7 +48,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 
 ## Phase status
 
-**Phase 3 Complete.** Phase 4: [`policy/`](policy/) · [`institutions/`](institutions/) · [`standards/`](standards/) · [`consultations/`](consultations/) · [`programs/`](programs/) · [`phase4-gap-analysis/`](phase4-gap-analysis/). Later WS require authorization after each merge.
+**Phase 3 Complete. Phase 4 Complete (v0.6.0).** See [`../PHASE_04_COMPLETION_REPORT.md`](../PHASE_04_COMPLETION_REPORT.md). Phase 5 requires new authorization.
 
 ---
 *Updated Phase 3 close 2026-07-30*

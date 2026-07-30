@@ -1,9 +1,9 @@
 # Phase 4 Specification — Government Policy & Institutions
 
 **Phase:** 4  
-**Status:** In progress  
+**Status:** **Complete** (v0.6.0)  
 **OS:** Bound by [`REPOSITORY_OS.md`](REPOSITORY_OS.md)  
-**Version note:** Phase 4 research releases under `0.5.x`  
+**Version note:** Phase 4 closed at **0.6.0**; research workstreams shipped under `0.5.x`  
 
 ---
 
@@ -30,14 +30,14 @@ Descriptive research. **No advocacy. No litigation. No legislative drafting.**
 
 | WS | Name | Output path | Status (maintain via orchestration) |
 |----|------|-------------|-------------------------------------|
-| 1 | Government Policies | `research/policy/` | Complete (PR #17) |
-| 2 | Government Institutions | `research/institutions/` | Complete (PR #18) |
-| 3 | Standards & Technical Guidance | `research/standards/` | Complete when WS3 PR merges |
-| 4 | Public Consultations | `research/consultations/` | Complete when WS4 PR merges |
-| 5 | Government Programmes | `research/programs/` | Complete when WS5 PR merges |
-| 6 | Gap Analysis | `research/phase4-gap-analysis/` | Complete when WS6 PR merges |
-| 7 | Phase 4 Audit | `PHASE_4_AUDIT.md` + related | Complete when audit PR merges |
-| 8 | Formal Completion | `PHASE_04_COMPLETION_REPORT.md` + close package | Pending |
+| 1 | Government Policies | `research/policy/` | **Complete** (PR #17) |
+| 2 | Government Institutions | `research/institutions/` | **Complete** (PR #18) |
+| 3 | Standards & Technical Guidance | `research/standards/` | **Complete** (PR #20) |
+| 4 | Public Consultations | `research/consultations/` | **Complete** (PR #21) |
+| 5 | Government Programmes | `research/programs/` | **Complete** (PR #22) |
+| 6 | Gap Analysis | `research/phase4-gap-analysis/` | **Complete** (PR #23) |
+| 7 | Phase 4 Audit | `PHASE_4_AUDIT.md` + related | **Complete** (PR #24) |
+| 8 | Formal Completion | `PHASE_04_COMPLETION_REPORT.md` + close package | **Complete** (PR #25) |
 
 ---
 
