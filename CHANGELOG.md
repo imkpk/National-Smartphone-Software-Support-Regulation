@@ -11,10 +11,30 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ### Planned
 
-- Formal Phase 2 close (Art. 12 optional / Art. 47 remove per scope verification)  
-- Formal Phase 3 close (after pin-cite hygiene if required)  
+- Formal Phase 2 close (Art. 12 optional / Art. 47 remove)  
+- Formal Phase 3 close  
 - Forum analysis memo — still open  
-- Phase 4+ policy / OEM / comparative — not started  
+- Phase 4+ OEM / comparative / evidence — not started  
+
+---
+
+## [0.4.2] — 2026-07-30
+
+### Added — Phase 3 Workstream 3: Regulatory Authorities
+
+- Authority notes: MeitY, DoT, CERT-In, CCPA, BIS, CPCB under `research/regulators/`  
+- Negative finding: no regulatory multi-year OS/security-support mandate  
+- REGULATOR_* reports; `PHASE_03_REGULATOR_WORKSTREAM_REPORT.md`  
+
+### Changed
+
+- TASKS / phase-03 / README progress for WS3 only  
+- Phase 3 **not** marked complete  
+
+### Explicitly not done
+
+- Parliamentary / Law Commission / comparative / OEM / economics  
+- Litigation  
 
 ---
 
