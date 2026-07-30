@@ -5,7 +5,7 @@
 **Rules:** [`VALIDATION.md`](VALIDATION.md) · [`CITATION_POLICY.md`](CITATION_POLICY.md)
 
 > Check a box in the phase file only when the work is complete and validation rules are satisfied.  
-> **Substantive research (Phase 2+) has not started.**
+> **Phase 2 constitution workstream complete; statutes still open.** Full Phase 2 not closed. Phase 3 not started.
 
 ---
 

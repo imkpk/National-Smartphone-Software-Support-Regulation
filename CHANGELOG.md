@@ -18,6 +18,15 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ---
 
+## [0.3.1] — 2026-07-30
+
+### Changed
+
+- `README.md` — badges, roadmap summary, and **Current progress** updated for Phase 2 constitution workstream (statutes still pending; Phase 3 not started)  
+- `TASKS.md` — dashboard banner aligned with constitution-complete / statutes-outstanding status  
+
+---
+
 ## [0.3.0] — 2026-07-30
 
 ### Added — Phase 2: Constitution Research (workstream)
