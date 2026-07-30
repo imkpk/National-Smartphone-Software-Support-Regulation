@@ -14,7 +14,8 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 | `committees/` | Parliamentary committees & Law Commission | 3 — **complete** (WS4) |
 | `international/` | Comparative jurisdictions (persuasive only) | 3 — **complete** (WS5) |
 | `gap-analysis/` | Cross-layer gap synthesis | 3 — **complete** (WS6) |
-| `government/` | Policies & institutions (broader) | 4 — **pending** (not started) |
+| `policy/` | Government policies / programmes (framing) | 4 — **WS1 complete** |
+| `government/` | Broader government index (legacy path) | 4 — scaffold; see `policy/` |
 | `manufacturers/` | OEM software support | 5 — pending |
 | `technical/` | Technical baseline | 5 — pending |
 | `cybersecurity/` | Cyber risk pathways | 6 — pending |
@@ -41,7 +42,7 @@ Central research workspace for **National-Smartphone-Software-Support-Regulation
 
 ## Phase status
 
-**Phase 3 Complete (v0.5.0).** See [`../PHASE_03_COMPLETION_REPORT.md`](../PHASE_03_COMPLETION_REPORT.md). Phase 4 requires new authorization.
+**Phase 3 Complete (v0.5.0).** Phase 4 **WS1 (Government Policies)** under [`policy/`](policy/). Later Phase 4 workstreams require new authorization after each merge.
 
 ---
 *Updated Phase 3 close 2026-07-30*
