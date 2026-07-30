@@ -18,6 +18,20 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ---
 
+## [0.4.3] — 2026-07-30
+
+### Fixed — Phase 3 Workstream 3: MeitY / DoT note bodies
+
+- Restored full content of `research/regulators/meity.md` and `research/regulators/dot.md` (were 0 bytes after PR #10 merge due to write defect)  
+- Re-validated authority notes non-empty; REGULATOR_VALIDATION_REPORT updated  
+
+### Unchanged
+
+- Negative finding and other four authority notes remain as in 0.4.2  
+- Phase 3 **not** marked complete  
+
+---
+
 ## [0.4.2] — 2026-07-30
 
 ### Added — Phase 3 Workstream 3: Regulatory Authorities
