@@ -29,10 +29,10 @@
 
 - [x] All Phase 0 files present  
 - [x] Empty research/evidence/litigation trees with `.gitkeep`  
-- [ ] `git init` + initial commit (operator action)  
-- [ ] Remote GitHub repository created and linked  
+- [x] `git init` + initial commit  
+- [x] Remote GitHub repository created and linked  
 
-**Status:** Active (this release)
+**Status:** Complete
 
 ---
 
@@ -48,14 +48,20 @@
 4. Validation checklists and script stubs  
 5. Logging conventions under `logs/`  
 6. Issue templates and PR template in `.github/`  
+7. Master orchestration prompt ready for supervised Phase 2+ runs  
+8. Supporting governance: citation policy, legal strategy (forum open), research guidelines  
 
 **Exit criteria**
 
-- Templates usable without tribal knowledge  
-- `scripts/check_structure.py` (or equivalent) passes  
-- Contribution path documented with examples  
+- [x] Templates usable without tribal knowledge  
+- [x] `scripts/check_structure.py` (or equivalent) passes  
+- [x] Contribution path documented with examples  
+- [x] Domain indexes under `research/*`  
+- [x] Validation gate checklists present  
+- [x] Agent prompt stubs under `prompts/agents/`  
 
 **Depends on:** Phase 0  
+**Status:** Complete (framework only — no substantive legal research)  
 
 ---
 
