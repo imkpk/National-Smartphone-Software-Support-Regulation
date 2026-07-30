@@ -11,8 +11,36 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 ### Planned
 
-- Phase 2 constitutional and statutory research memos (substantive) — **not started**  
-- Forum analysis memo population (still open; no pre-judgment)  
+- Phase 2 **statutes** inventory and consumer-law notes (outstanding)  
+- Full Phase 2 close only after statutes DoD  
+- Forum analysis memo (Art. 32 vs 226) — still open  
+- Phase 3 judgments corpus — **not started** (do not auto-start)  
+
+---
+
+## [0.3.0] — 2026-07-30
+
+### Added — Phase 2: Constitution Research (workstream)
+
+Constitutional provision notes (neutral mapping; no litigation advice):
+
+- Articles **14, 19(1)(a), 19(1)(g), 21, 21A, 38, 39, 48A, 51A(g), 32, 226** under `research/constitution/`
+- `coverage-matrix.md`, `fr-dpsp-map.md`, open-questions catalogue, judgment-queue cross-links
+- Source / citation / validation agent reports (`_source_quality_report.md`, `_citation_report.md`, `_validation_report.md`)
+- PM execution plan; `PHASE_02_COMPLETION_REPORT.md` (constitution workstream; full Phase 2 not closed)
+
+### Changed
+
+- `research/constitution/README.md` — artefact index  
+- `tasks/phase-02.md` — constitution tasks checked; statutes remain open  
+- `TASKS.md` — Phase 2 status In progress  
+
+### Explicitly not done
+
+- No statutory research (CPA, IT Act, EPA, etc.)  
+- No Phase 3 case-law digests  
+- No litigation documents  
+- No auto-start of Phase 3  
 
 ---
 

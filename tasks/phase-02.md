@@ -2,8 +2,9 @@
 
 **Project:** National-Smartphone-Software-Support-Regulation  
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
-**Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
-**Progress:** 0 done · 49 open · 49 total  
+**Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
+**Progress:** 16 done · 33 open · 49 total  
+**Workstream status:** Constitution complete; statutes outstanding (full Phase 2 not closed).  
 
 > Check boxes only when complete and validation rules are satisfied.
 
@@ -14,24 +15,24 @@
 
 ### Constitution
 
-- [ ] **T086** Research Article 14 — equality and non-arbitrariness (framework note only when phase starts)
-- [ ] **T087** Research Article 19(1)(a) — speech/expression digital medium angles
-- [ ] **T088** Research Article 19(1)(g) — trade/business interface (limits)
-- [ ] **T089** Research Article 21 — life, dignity baseline
-- [ ] **T090** Research Article 21 — privacy doctrine interface (post-Puttaswamy framing task)
-- [ ] **T091** Research Article 32 — Supreme Court remedies pathway
-- [ ] **T092** Research Article 39 (selected DPSPs) if relevant to consumer welfare framing
+- [x] **T086** Research Article 14 — equality and non-arbitrariness (framework note only when phase starts)
+- [x] **T087** Research Article 19(1)(a) — speech/expression digital medium angles
+- [x] **T088** Research Article 19(1)(g) — trade/business interface (limits)
+- [x] **T089** Research Article 21 — life, dignity baseline
+- [x] **T090** Research Article 21 — privacy doctrine interface (post-Puttaswamy framing task)
+- [x] **T091** Research Article 32 — Supreme Court remedies pathway
+- [x] **T092** Research Article 39 (selected DPSPs) if relevant to consumer welfare framing
 - [ ] **T093** Research Article 47 public health DPSP interface (if used cautiously)
-- [ ] **T094** Research Article 48A — environment DPSP
-- [ ] **T095** Research Article 51A(g) — fundamental duty environment
-- [ ] **T096** Research Article 226 — High Court writ jurisdiction
-- [ ] **T097** Research Article 226(2) — territorial cause of action
+- [x] **T094** Research Article 48A — environment DPSP
+- [x] **T095** Research Article 51A(g) — fundamental duty environment
+- [x] **T096** Research Article 226 — High Court writ jurisdiction
+- [x] **T097** Research Article 226(2) — territorial cause of action
 - [ ] **T098** Research Article 12 — State definition relevance
-- [ ] **T099** Map FR vs DPSP enforceability for pleadings strategy
-- [ ] **T100** Build constitution coverage matrix table
-- [ ] **T101** List OPEN questions on digital end-point as Art 21 interest
-- [ ] **T102** Cross-link constitution notes to judgment queue
-- [ ] **T103** QA pass on constitution folder structure
+- [x] **T099** Map FR vs DPSP enforceability for pleadings strategy
+- [x] **T100** Build constitution coverage matrix table
+- [x] **T101** List OPEN questions on digital end-point as Art 21 interest
+- [x] **T102** Cross-link constitution notes to judgment queue
+- [x] **T103** QA pass on constitution folder structure
 
 ### Statutes & rules inventory
 
@@ -93,3 +94,14 @@ esearch/statutes (and consumer-law if used) READMEs list artefacts.
 - [ ] **Completion approval:** PM marks phase Complete; **does not auto-start Phase 3**.
 
 **Advancement:** Phase 3 may begin only after this DoD is satisfied (unless ROADMAP explicitly allows documented parallel streams after Phase 1).
+
+### Constitution workstream status (2026-07-30)
+
+- Assigned Article notes completed (see 
+esearch/constitution/).
+- Tasks T086–T092, T094–T097, T099–T103 checked.
+- T093 (Art. 47) and T098 (Art. 12) remain open.
+- Statutes T104–T134 remain open — **not claimed complete**.
+- Full Phase 2 DoD **not** satisfied until statutes workstream finishes.
+- Do **not** auto-start Phase 3.
+
