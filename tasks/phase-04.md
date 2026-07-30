@@ -3,7 +3,8 @@
 **Project:** National-Smartphone-Software-Support-Regulation  
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
-**Progress:** 0 done · 24 open · 24 total  
+**Progress:** 5 done · 19 open · 24 total (WS1 policy batch; residual tasks remain)  
+**Phase status:** **In progress** — Workstream 1 (Government Policies) complete when merged  
 
 > Check boxes only when complete and validation rules are satisfied.
 
@@ -27,20 +28,28 @@
 
 ### Policies & schemes
 
-- [ ] **T179** Catalogue Digital India official materials relevant to mobile end-points
-- [ ] **T180** Catalogue National Cyber Security Policy 2013 and successors check
-- [ ] **T181** Catalogue electronics manufacturing / PLI scheme interfaces
-- [ ] **T182** Catalogue any MeitY mobile security guidelines (if any)
-- [ ] **T183** Catalogue consumer awareness digital payment advisories (RBI samples)
-- [ ] **T184** Search for draft consultation papers on right to repair in India
-- [ ] **T185** Search for parliamentary questions on smartphone updates/e-waste
+- [x] **T179** Catalogue Digital India official materials relevant to mobile end-points
+- [x] **T180** Catalogue National Cyber Security Policy 2013 and successors check
+- [ ] **T181** Catalogue electronics manufacturing / PLI scheme interfaces *(residual — NPE 2019 covered; PLI operational guidelines deferred)*
+- [ ] **T182** Catalogue any MeitY mobile security guidelines (if any) *(residual — not identified in WS1; remains OPEN)*
+- [ ] **T183** Catalogue consumer awareness digital payment advisories (RBI samples) *(deferred — adjacent domain)*
+- [x] **T184** Search for draft consultation papers on right to repair in India *(policy search log; deep consultation inventory → WS4)*
+- [ ] **T185** Search for parliamentary questions on smartphone updates/e-waste *(Phase 3 committees covered reports; PQ catalogue residual)*
 - [ ] **T186** Document grievance portals CPGRAMS metadata fields
 - [ ] **T187** Draft RTI question set for MeitY on software support standards
 - [ ] **T188** Draft RTI question set for BIS
 - [ ] **T189** Draft RTI question set for CPCB mobile e-waste share
 - [ ] **T190** Draft RTI question set for Consumer Affairs/CCPA
-- [ ] **T191** Create government sources master list with URLs
-- [ ] **T192** Policy Agent validation pass
+- [x] **T191** Create government sources master list with URLs *(policy sources in POLICY_SOURCE_REPORT + notes; full master list residual)*
+- [x] **T192** Policy Agent validation pass *(POLICY_VALIDATION_REPORT.md)*
+
+### Workstream 1 status (2026-07-30) — Government Policies
+
+- Notes under `research/policy/` (NCSP 2013, NPE 2019, Digital India, NDCP 2018, repair/longevity search).
+- Negative finding: no multi-year OS/security-support duty in policies reviewed.
+- Reports: POLICY_* + PHASE_04_POLICY_WORKSTREAM_REPORT.md.
+- Phase 4 **not** complete.
+- Do **not** auto-start WS2 institutions without authorization.
 
 ---
 ## Definition of Done

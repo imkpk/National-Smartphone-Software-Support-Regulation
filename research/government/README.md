@@ -1,29 +1,13 @@
-# Government Policy
+# Government Policy (legacy domain path)
 
-**Domain path:** `research/government/`  
-**Phase for substantive content:** 2+ (this README is Phase 1 scaffolding)  
-**Status:** Index only — no substantive research yet
+**Status:** Scaffold index. **Phase 4 WS1 policy research lives in** [`../policy/`](../policy/).
 
-## Purpose
-
-MeitY, DoT, Consumer Affairs, MoEFCC, CPCB, BIS, CERT-In and related soft law.
+Institutional profiles (Phase 4 WS2) will use `research/institutions/` when authorised.
 
 ## Rules
 
-- Bind to root [`VALIDATION.md`](../../VALIDATION.md) and [`CITATION_POLICY.md`](../../CITATION_POLICY.md).
-- Use templates from [`templates/`](../../templates/).
-- Label claims: FACT | LAW | ANALYSIS | NORM | OPEN.
-- Prefer primary / official sources.
-
-## Contents
-
-| File | Status |
-|------|--------|
-| *(none yet)* | — |
-
-## Related agents
-
-See [`AGENTS.md`](../../AGENTS.md).
+- Official sources only.  
+- Bind to root [`VALIDATION.md`](../../VALIDATION.md).  
 
 ---
-*Phase 1 domain index*
+*Updated Phase 4 WS1 — 2026-07-30*

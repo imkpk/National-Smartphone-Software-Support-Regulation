@@ -13,7 +13,28 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Phase 4+ (requires new authorization) — not started  
+- Phase 4 WS2+ (institutions, standards, consultations, programmes, gap, audit, close) — not auto-started  
+
+---
+
+## [0.5.1] — 2026-07-30
+
+### Added — Phase 4 Workstream 1: Government Policies
+
+- `research/policy/` notes: NCSP 2013, NPE 2019, Digital India, NDCP 2018, right-to-repair/longevity search  
+- Negative finding: no multi-year OS/security-support duty in policies reviewed  
+- POLICY_* reports; `PHASE_04_POLICY_WORKSTREAM_REPORT.md`  
+- Orchestration: `PHASE_04_STATE_REPORT.md`, `PHASE_04_WS1_WORKSTREAM_PLAN.md`  
+
+### Changed
+
+- TASKS / phase-04 / README progress for WS1 only  
+- Phase 4 **not** marked complete  
+
+### Explicitly not done
+
+- Institutions / standards / consultations / programmes / Phase 4 gap / audit / close  
+- Phase 5+  
 
 ---
 
