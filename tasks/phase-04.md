@@ -4,7 +4,8 @@
 **Parent dashboard:** [../TASKS.md](../TASKS.md)  
 **Rules:** [../VALIDATION.md](../VALIDATION.md) · [../CITATION_POLICY.md](../CITATION_POLICY.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md) · [../docs/DEFINITION_OF_DONE.md](../docs/DEFINITION_OF_DONE.md)  
 **Progress:** 15 done · 9 open · 24 total  
-**Phase status:** **In progress** — WS1 Policies + WS2 Institutions (when merged)  
+**Phase status:** **In progress** — WS1 Policies + WS2 Institutions **complete on main**; next WS3 Standards  
+**Specs:** [`../REPOSITORY_OS.md`](../REPOSITORY_OS.md) · [`../PHASE_04_SPECIFICATION.md`](../PHASE_04_SPECIFICATION.md)  
 
 > Check boxes only when complete and validation rules are satisfied.
 

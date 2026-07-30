@@ -4,7 +4,7 @@ Human-facing documentation for **National-Smartphone-Software-Support-Regulation
 
 ## Status
 
-**Phase 1 framework complete.** Architecture cleanup applied. Substantive legal research **not** started. Filing forum **not** pre-selected.
+**Phase 3 complete; Phase 4 in progress.** Filing forum **not** pre-selected.
 
 ## Start here
 
@@ -14,7 +14,7 @@ Human-facing documentation for **National-Smartphone-Software-Support-Regulation
 
 | Doc | Purpose |
 |-----|---------|
-| [`START_HERE.md`](START_HERE.md) | 5-minute contributor path |
+| [`START_HERE.md`](START_HERE.md) | Contributor path |
 | [`repository-tour.md`](repository-tour.md) | Folder walkthrough |
 | [`how-to-cite.md`](how-to-cite.md) | Pointer to citation SoT |
 | [`phase-gates.md`](phase-gates.md) | Phase exit criteria overview |
@@ -28,6 +28,8 @@ Human-facing documentation for **National-Smartphone-Software-Support-Regulation
 |----------|-----------|
 | [`../VALIDATION.md`](../VALIDATION.md) | **SoT — validation** |
 | [`../CITATION_POLICY.md`](../CITATION_POLICY.md) | **SoT — citations** |
+| [`../REPOSITORY_OS.md`](../REPOSITORY_OS.md) | **Permanent orchestrator OS** |
+| [`../PHASE_04_SPECIFICATION.md`](../PHASE_04_SPECIFICATION.md) | Phase 4 workstreams only |
 | [`../TASKS.md`](../TASKS.md) | Task dashboard |
 | [`../tasks/`](../tasks/) | Phase checkboxes |
 | [`../AGENTS.md`](../AGENTS.md) | Seven core agents |
