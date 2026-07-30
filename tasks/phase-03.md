@@ -120,3 +120,13 @@ esearch/judgments README lists artefacts; master index present.
 - Orchestration: `orchestration/STATE_REPORT.md`, `WORKSTREAM_PLAN.md`, `GATE_REPORT.md`.
 - Phase 3 **not** marked complete.
 - Do **not** auto-start WS6 gap analysis / audit / Phase 4.
+
+### Workstream 6 status (2026-07-30) — Gap Analysis
+
+- Synthesis under `research/gap-analysis/` (all layers + overall + matrices).
+- Descriptive only: no recommendations, no litigation, no new legal research.
+- Indian layers: multi-year OS/security-support mandate **not identified** (consistent with prior negative findings).
+- Comparative: EU instrument exists (persuasive only).
+- Reports: GAP_ANALYSIS_* + PHASE_03_GAP_ANALYSIS_REPORT.md.
+- Phase 3 **not** marked complete.
+- Do **not** auto-start Phase 3 Audit / Completion Report / Phase 4.

@@ -12,9 +12,30 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 ### Planned
 
 - Formal Phase 2 close (Art. 12 optional / Art. 47 remove)  
-- Phase 3 WS6 gap analysis → audit → formal close  
+- Phase 3 audit → formal close  
 - Forum analysis memo — still open  
 - Phase 4+ OEM / evidence — not started  
+
+---
+
+## [0.4.6] — 2026-07-30
+
+### Added — Phase 3 Workstream 6: Gap Analysis
+
+- `research/gap-analysis/` layer analyses (constitutional, statutory, consumer-law, judicial, regulatory, committee, comparative, cross-cutting, overall)  
+- GAP_ANALYSIS coverage / source / validation reports  
+- `PHASE_03_GAP_ANALYSIS_REPORT.md`  
+- Synthesis only: no new legal research; no recommendations; no litigation  
+
+### Changed
+
+- TASKS / phase-03 / README progress for WS6 only  
+- Phase 3 **not** marked complete  
+
+### Explicitly not done
+
+- Phase 3 Audit / Completion Report  
+- Phase 4+ / OEM / economics / litigation  
 
 ---
 
