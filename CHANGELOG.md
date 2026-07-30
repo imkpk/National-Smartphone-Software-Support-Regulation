@@ -13,7 +13,26 @@ Versioning aims to follow [Semantic Versioning](https://semver.org/) for release
 
 - Formal Phase 2 residual (Art. 12 optional / Art. 47)  
 - Forum analysis memo — still open  
-- Further Phase 5 workstreams after WS4 — not auto-started  
+- Further Phase 5 workstreams after WS5 — not auto-started  
+
+---
+
+## [0.6.5] — 2026-07-31
+
+### Added — Phase 5 Workstream 5: Gap Analysis
+
+- `research/phase5-gap-analysis/` — descriptive gap notes (WS1–WS4 evidence only; **no new research**)  
+- Gap / evidence / coverage / responsibility / documentation / lifecycle / dependency matrices  
+- GAP_* source, citation, validation, consistency, cross-reference, coverage, negative-findings reports  
+- Negative findings summary consolidating WS1–WS4 absences  
+- `PHASE_05_GAP_ANALYSIS_WORKSTREAM_REPORT.md`  
+- Gate++: `orchestration/PHASE_05_WS5_GATE_REPORT.md` → **PASS**  
+
+### Changed
+
+- `PHASE_05_SPECIFICATION.md` — WS5 defined; WS1–WS4 marked complete  
+- README / TASKS / ROADMAP / research/README / STATE_REPORT for WS5  
+- Phase 5 **not** complete; WS6 **not** started  
 
 ---
 
